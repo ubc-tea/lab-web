@@ -40,6 +40,11 @@ export default function Research(props) {
       "Existing data assessment methods commonly require knowing the labels in advance, which are not feasible to achieve the goal of `knowing which data is valuable beofre training.'To this end, we formulate and propose a novel and efficient data assessment strategy, EXponentiAl Marginal sINgular valuE (EXAMINE) score, to rank the quality of unlabeled medical image data based on their useful latent representations extracted via SSL networks. Our method is designbed with proper theoritical gaurantee.",
       imgurl: require("../../assets/Research/examine.png"),
     },
+        {
+      title: "Explaining AI Models with Uncertainty",
+      description: "We propose DistDeepSHAP, a post-hoc feature importance estimation method under uncertainty evaluation for deep learning models.First, it can obtain uncertainty estimates for the provided feature importance scores. Second, it can better utilize the empirical distribution and has the potential for better feature importance scores estimation from the generated percentile saliency maps. Last but not least, it can compare with arbitrary subgroup references and interpret subgroup salient features, which is crucial for medical image study.",
+      imgurl: require("../../assets/Research/distdeepshap.png"),
+    },
   ];
 
   const renderProjects = () => {
