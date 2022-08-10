@@ -43,7 +43,7 @@ export default function Profile() {
                <span className="profile-role-tagline">
                 Welcome to the Trusted and Efficient AI (TEA) lab at UBC! <br /> <br />
                 
-                 Our research aims to improve the explainability, fairness, privacy, and efficiency of AI models. We are developing machine learning algorithms and systems based on those principles and aspirations, then translating them into realworld applications, such as healthcare fields.  </span>
+                 Our research aims to improve the explainability, fairness, privacy, and efficiency of AI models. We are developing machine learning algorithms and systems based on those principles and aspirations, then translating them into realworld applications, such as healthcare field.  </span>
             </span>
           </div>
         </div>
