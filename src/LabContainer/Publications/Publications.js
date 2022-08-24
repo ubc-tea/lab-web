@@ -16,14 +16,14 @@ export default function Publications(props) {
     {
       title:
         "GATE: Graph CCA for Temporal SElf-supervised Learning for Label-efficient fMRI Analysis",
-      author: "Peng, L., Nan, W., Xu, J., Zhu, X., & Li, X. ,",
-      journal: "IEEE Transaction on Medical Imaging",
+      author: "Peng, L., Nan, W., Xu, J., Zhu, X., & Li, X.",
+      journal: "IEEE Transaction on Medical Imaging 2022",
       link: "https://arxiv.org/pdf/2203.09034.pdf",
     },
       {
       title:
         "Class Impression for Data-free Incremental Learning",
-      author: "Ayromlou, S., Abolmaesumi, P., Tsang, T., & Li, X. ,",
+      author: "Ayromlou, S., Abolmaesumi, P., Tsang, T., & Li, X.",
       journal: "MICCAI 2022",
       link: "https://arxiv.org/pdf/2207.00005.pdf",
     },
@@ -37,7 +37,7 @@ export default function Publications(props) {
     {
       title:
         "FedNI  Federated Graph Learning with Network Inpainting for Population Based Disease Prediction",
-      author: "Peng, L., Wang, N., Dvornek, N., Zhu, X., & Li, X.,",
+      author: "Peng, L., Wang, N., Dvornek, N., Zhu, X., & Li, X.",
       journal: "IEEE Transaction on Medical Imaging 2022",
       link: "https://arxiv.org/pdf/2112.10166.pdf",
     },
