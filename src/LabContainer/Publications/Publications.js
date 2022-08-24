@@ -44,7 +44,7 @@ export default function Publications(props) {
         {
       title:
         "Unsupervised Federated Learning is Possible: A Case of Class-Conditional-Sharing Clients",
-      author: "Lu, N., Wang, Z., Li, X., Niu, G., Dou, Q., & Sugiyama, M.,",
+      author: "Lu, N., Wang, Z., Li, X., Niu, G., Dou, Q., & Sugiyama, M.",
       journal: "ICLR 2022",
       link: "https://openreview.net/pdf?id=WHA8009laxu",
     },
