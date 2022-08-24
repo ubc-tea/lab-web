@@ -13,6 +13,13 @@ export default function Publications(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const publications = [
+    {
+      title:
+        "GATE: Graph CCA for Temporal SElf-supervised Learning for Label-efficient fMRI Analysis",
+      author: "Peng, L., Nan, W., Xu, J., Zhu, X., & Li, X. ,",
+      journal: "IEEE Transaction on Medical Imaging",
+      link: "https://arxiv.org/pdf/2203.09034.pdf",
+    },
       {
       title:
         "Class Impression for Data-free Incremental Learning",
