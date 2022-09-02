@@ -2,7 +2,7 @@
   position: absolute;
   background-color: #f3f4f6;
   width: 100%;
-  margin-top: -1.5%;
+  margin-top: -1%;
   margin-bottom: 1%;
 }
 
@@ -28,7 +28,7 @@
   width: 800%;
   background-image: url('../../../assets/Home/logo_transparent_background.png');
   background-repeat: no-repeat;
-  background-size: 100% 50%;
+  background-size: 50% 50%;
   background-position: left;
 }
 
