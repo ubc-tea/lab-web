@@ -5,6 +5,7 @@
   justify-content: center;
   height: 10%;
   min-height: fit-content;
+  margin-top: 100px;
 }
 
 .profile-parent {
@@ -42,7 +43,7 @@
   display: block;
   font-size: 18px;
   float: left; 
-  margin-right: 100px;
+  /* margin-right: 100px; */
   font-family: Poppins SemiBold;
   width: 600px;
   height: 300px; 
@@ -75,5 +76,9 @@
 
   .profile-details-role .PRIMARY-TEXT {
     font-size: 12px;
+  }
+
+  .profile-role-tagline{
+    margin-left: 50px;
   }
 }

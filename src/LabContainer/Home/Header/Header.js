@@ -64,7 +64,8 @@ export default function Header() {
           >
             <FontAwesomeIcon className="header-hamburger-bars" icon={faBars} />
           </div>
-          <div className="header-logo"></div>
+          <img src={require("../../../assets/Home/logo_transparent_background.png")} className ="header-logo"></img>
+          {/* <div className="header-logo"></div> */}
           <div
             className={
               showHeaderOptions

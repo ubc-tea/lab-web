@@ -115,7 +115,7 @@ export default function People(props) {
 
   const renderPeople = () => {
     return (
-      <ul>
+      <div class="gallery-container">
         {people.map((data) => (
           <div class="responsive">
           <div class="gallery">
@@ -127,7 +127,7 @@ export default function People(props) {
           </div>
         </div>
         ))}
-      </ul>
+      </div>
     );
   };
 

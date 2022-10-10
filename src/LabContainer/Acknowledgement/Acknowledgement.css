@@ -1,7 +1,6 @@
-/* .ack-parent {
-    display: flex;
-    flex-direction: row;
-} */
+.ack-parent {
+    align-content: center;
+}
 
 .ack-title {
     font-family: Poppins Bold;
@@ -11,11 +10,14 @@
     margin: 5px 0 5px 0;
 }
 
-.row {
+.items {
+    margin: 50px;
+}
+
+.ack-container {
     display: flex;
-  }
-  
- .column {
-    flex: 1%;
-    padding: 10px;
-  }
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
