@@ -24,12 +24,9 @@
 
 .header-logo {
   display: flex;
-  height: 200%;
-  width: 800%;
-  background-image: url('../../../assets/Home/logo_transparent_background.png');
-  background-repeat: no-repeat;
-  background-size: 50% 50%;
-  background-position: left;
+  width: 170px; 
+  height: 76px;
+  margin-right: 20px;
 }
 
 .header-option {
@@ -61,12 +58,19 @@
 @media only screen and (max-width: 970px) {
   .header-hamburger {
     display: block;
+    margin-left: 50px;
   }
   .header-parent {
     width: 100%;
-    padding: 0 40%;
-    position: relative;
   }
+
+  .header-logo {
+    display: block;
+    margin: 0 auto;
+    width: 170px; 
+    height: 76px;
+  }
+
   .header-options {
     display: flex;
     flex-direction: column;
