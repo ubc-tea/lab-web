@@ -1,39 +1,43 @@
 self.__precacheManifest = [
   {
-    "revision": "95ae9105f095bb209317",
-    "url": "/static/css/main.981c2af7.chunk.css"
+    "revision": "d81b39c52f2f321e0c24",
+    "url": "/static/css/main.53db4bc3.chunk.css"
   },
   {
-    "revision": "95ae9105f095bb209317",
-    "url": "/static/js/main.95ae9105.chunk.js"
+    "revision": "d81b39c52f2f321e0c24",
+    "url": "/static/js/main.d81b39c5.chunk.js"
   },
   {
     "revision": "6d1c687f73f1a0446a07",
     "url": "/static/js/1.6d1c687f.chunk.js"
   },
   {
-    "revision": "6c49fd61762b36ce2e81",
-    "url": "/static/js/2.6c49fd61.chunk.js"
+    "revision": "63e6415152342601bd96",
+    "url": "/static/js/2.63e64151.chunk.js"
   },
   {
     "revision": "9d519b82a488b3016fee",
     "url": "/static/js/runtime~main.9d519b82.js"
   },
   {
-    "revision": "f61a4eb27371b7453bf5b12ab3648b9e",
-    "url": "/static/media/Poppins-Medium.f61a4eb2.ttf"
-  },
-  {
     "revision": "4cdacb8f89d588d69e8570edcbe49507",
     "url": "/static/media/Poppins-SemiBold.4cdacb8f.ttf"
   },
   {
-    "revision": "a3e0b5f427803a187c1b62c5919196aa",
-    "url": "/static/media/Poppins-Bold.a3e0b5f4.ttf"
+    "revision": "f6ea751e936ade6edcd03a26b8153b4a",
+    "url": "/static/media/Poppins-Light.f6ea751e.ttf"
+  },
+  {
+    "revision": "f61a4eb27371b7453bf5b12ab3648b9e",
+    "url": "/static/media/Poppins-Medium.f61a4eb2.ttf"
   },
   {
     "revision": "8b6af8e5e8324edfd77af8b3b35d7f9c",
     "url": "/static/media/Poppins-Regular.8b6af8e5.ttf"
+  },
+  {
+    "revision": "a3e0b5f427803a187c1b62c5919196aa",
+    "url": "/static/media/Poppins-Bold.a3e0b5f4.ttf"
   },
   {
     "revision": "544fa4f2678a8285eb88b8dfe503c90c",
@@ -42,10 +46,6 @@ self.__precacheManifest = [
   {
     "revision": "25cd0f688f815bc4f6ac2b71eb6278ba",
     "url": "/static/media/Poppins-Thin.25cd0f68.ttf"
-  },
-  {
-    "revision": "f6ea751e936ade6edcd03a26b8153b4a",
-    "url": "/static/media/Poppins-Light.f6ea751e.ttf"
   },
   {
     "revision": "b4e66b8f9de99890eed167c0bf472349",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/static/media/logo_transparent_background.2f1a17a3.png"
   },
   {
-    "revision": "4e4895572866f0794ea000a7677f85ff",
+    "revision": "dd6e1d44ec7d7708ec1564853257d091",
     "url": "/index.html"
   }
 ];
