@@ -1,31 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "4cd5e1ef101c91b4b804",
-    "url": "/static/css/main.fe41aac7.chunk.css"
+    "revision": "95ae9105f095bb209317",
+    "url": "/static/css/main.981c2af7.chunk.css"
   },
   {
-    "revision": "4cd5e1ef101c91b4b804",
-    "url": "/static/js/main.4cd5e1ef.chunk.js"
+    "revision": "95ae9105f095bb209317",
+    "url": "/static/js/main.95ae9105.chunk.js"
   },
   {
-    "revision": "128fd6128b9459c5ab86",
-    "url": "/static/js/1.128fd612.chunk.js"
+    "revision": "6d1c687f73f1a0446a07",
+    "url": "/static/js/1.6d1c687f.chunk.js"
   },
   {
-    "revision": "2019ad65b996c73acc7b",
-    "url": "/static/js/2.2019ad65.chunk.js"
+    "revision": "6c49fd61762b36ce2e81",
+    "url": "/static/js/2.6c49fd61.chunk.js"
   },
   {
-    "revision": "6a0e26500f60df0c05c0",
-    "url": "/static/js/runtime~main.6a0e2650.js"
+    "revision": "9d519b82a488b3016fee",
+    "url": "/static/js/runtime~main.9d519b82.js"
   },
   {
     "revision": "f61a4eb27371b7453bf5b12ab3648b9e",
     "url": "/static/media/Poppins-Medium.f61a4eb2.ttf"
-  },
-  {
-    "revision": "8b6af8e5e8324edfd77af8b3b35d7f9c",
-    "url": "/static/media/Poppins-Regular.8b6af8e5.ttf"
   },
   {
     "revision": "4cdacb8f89d588d69e8570edcbe49507",
@@ -34,6 +30,10 @@ self.__precacheManifest = [
   {
     "revision": "a3e0b5f427803a187c1b62c5919196aa",
     "url": "/static/media/Poppins-Bold.a3e0b5f4.ttf"
+  },
+  {
+    "revision": "8b6af8e5e8324edfd77af8b3b35d7f9c",
+    "url": "/static/media/Poppins-Regular.8b6af8e5.ttf"
   },
   {
     "revision": "544fa4f2678a8285eb88b8dfe503c90c",
@@ -62,6 +62,14 @@ self.__precacheManifest = [
   {
     "revision": "6c797f8b11cc0386ddef3c6f0134b630",
     "url": "/static/media/pokemon11.6c797f8b.png"
+  },
+  {
+    "revision": "a3adf0ac7711f30094880d0353508c9d",
+    "url": "/static/media/pokemon13.a3adf0ac.png"
+  },
+  {
+    "revision": "d1ad450253e262b3ac0b2be764b9723f",
+    "url": "/static/media/pokemon14.d1ad4502.jpg"
   },
   {
     "revision": "98c402fbc4e76460282966610d4a9d74",
@@ -116,7 +124,7 @@ self.__precacheManifest = [
     "url": "/static/media/logo_transparent_background.2f1a17a3.png"
   },
   {
-    "revision": "c990f58391fcf6cee5aba958734d44bf",
+    "revision": "4e4895572866f0794ea000a7677f85ff",
     "url": "/index.html"
   }
 ];
