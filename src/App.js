@@ -8,7 +8,7 @@ function App() {
   const [top, setTop] = useState(10);
   return (
     <div className="App">
-      <Affix className="app-heading" offsetTop={top}>
+      <Affix className="app-heading">
           <Header></Header>
         </Affix>
       <LabContainer />
