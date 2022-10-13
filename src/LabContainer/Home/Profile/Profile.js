@@ -6,7 +6,9 @@ export default function Profile() {
   return (
     <div className="profile-container">
       <div className="profile-parent">
-        <div className="profile-picture"></div>
+        <div>
+        <img src={require("../../../assets/Home/xiaoxiao.jpg")} className ="profile-picture"></img>
+        </div>
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">

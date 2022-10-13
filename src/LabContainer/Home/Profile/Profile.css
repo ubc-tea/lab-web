@@ -60,15 +60,12 @@
   height: 300px;
   width: 300px;
   margin: 0 100px 0 0px;
-  background-image: url("../../../assets/Home/xiaoxiao.jpg");
   background-size: cover;
 }
 
 /* For ipad pro*/
 @media screen and (max-width: 1110px) {
-  .profile-picture {
-    margin: 0 0px 80px;
-  }
+ 
 
   .profile-details-name {
     font-size: 20px;
@@ -78,7 +75,26 @@
     font-size: 12px;
   }
 
-  .profile-role-tagline{
-    margin-left: 50px;
+}
+
+@media screen and (max-width: 970px) {
+
+  .profile-parent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
   }
+  .profile-picture {
+    height: auto;
+    width: 100%;
+  }
+
+  .profile-role-tagline {
+    /* Formal Description */
+    display: block;
+    float: left;
+    width: 100%;
+  }
+
 }
