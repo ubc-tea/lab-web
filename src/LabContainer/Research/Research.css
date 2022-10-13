@@ -46,3 +46,21 @@
   border-bottom: 1px solid rgb(229, 229, 229);
   background: none repeat scroll 0% 0% rgb(252, 252, 252);
 }
+
+@media screen and (max-width: 970px) {
+  .project-title {
+    padding-top: 15px;
+    margin-left: 10px;
+  }
+
+  .project-image {
+    width: 100%;
+    margin: 20px 0 20px 10px;
+  }
+
+  .project-details {
+    width: 100%;
+    padding: 20px;
+  }
+
+}
