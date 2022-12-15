@@ -1,51 +1,51 @@
 self.__precacheManifest = [
   {
-    "revision": "966cf9c843ad8c68267c",
-    "url": "/static/css/main.d024aaa3.chunk.css"
+    "revision": "06968434968b87d0c9a1",
+    "url": "/static/css/main.005120a6.chunk.css"
   },
   {
-    "revision": "966cf9c843ad8c68267c",
-    "url": "/static/js/main.966cf9c8.chunk.js"
+    "revision": "06968434968b87d0c9a1",
+    "url": "/static/js/main.06968434.chunk.js"
   },
   {
-    "revision": "6d1c687f73f1a0446a07",
-    "url": "/static/js/1.6d1c687f.chunk.js"
+    "revision": "2bc649a667ccbd873989",
+    "url": "/static/js/1.2bc649a6.chunk.js"
   },
   {
-    "revision": "6c49fd61762b36ce2e81",
-    "url": "/static/js/2.6c49fd61.chunk.js"
+    "revision": "2d0a1bec7e6d5c04a663",
+    "url": "/static/js/2.2d0a1bec.chunk.js"
   },
   {
-    "revision": "9d519b82a488b3016fee",
-    "url": "/static/js/runtime~main.9d519b82.js"
+    "revision": "ea945247b11b919aeca4",
+    "url": "/static/js/runtime~main.ea945247.js"
   },
   {
-    "revision": "8b6af8e5e8324edfd77af8b3b35d7f9c",
-    "url": "/static/media/Poppins-Regular.8b6af8e5.ttf"
+    "revision": "f61a4eb27371b7453bf5b12ab3648b9e",
+    "url": "/static/media/Poppins-Medium.f61a4eb2.ttf"
   },
   {
     "revision": "4cdacb8f89d588d69e8570edcbe49507",
     "url": "/static/media/Poppins-SemiBold.4cdacb8f.ttf"
   },
   {
-    "revision": "544fa4f2678a8285eb88b8dfe503c90c",
-    "url": "/static/media/Poppins-ExtraBold.544fa4f2.ttf"
+    "revision": "a3e0b5f427803a187c1b62c5919196aa",
+    "url": "/static/media/Poppins-Bold.a3e0b5f4.ttf"
   },
   {
-    "revision": "25cd0f688f815bc4f6ac2b71eb6278ba",
-    "url": "/static/media/Poppins-Thin.25cd0f68.ttf"
+    "revision": "8b6af8e5e8324edfd77af8b3b35d7f9c",
+    "url": "/static/media/Poppins-Regular.8b6af8e5.ttf"
+  },
+  {
+    "revision": "544fa4f2678a8285eb88b8dfe503c90c",
+    "url": "/static/media/Poppins-ExtraBold.544fa4f2.ttf"
   },
   {
     "revision": "f6ea751e936ade6edcd03a26b8153b4a",
     "url": "/static/media/Poppins-Light.f6ea751e.ttf"
   },
   {
-    "revision": "a3e0b5f427803a187c1b62c5919196aa",
-    "url": "/static/media/Poppins-Bold.a3e0b5f4.ttf"
-  },
-  {
-    "revision": "f61a4eb27371b7453bf5b12ab3648b9e",
-    "url": "/static/media/Poppins-Medium.f61a4eb2.ttf"
+    "revision": "25cd0f688f815bc4f6ac2b71eb6278ba",
+    "url": "/static/media/Poppins-Thin.25cd0f68.ttf"
   },
   {
     "revision": "b4e66b8f9de99890eed167c0bf472349",
@@ -60,16 +60,16 @@ self.__precacheManifest = [
     "url": "/static/media/pokemon0.3686591b.png"
   },
   {
-    "revision": "6c797f8b11cc0386ddef3c6f0134b630",
-    "url": "/static/media/pokemon11.6c797f8b.png"
-  },
-  {
     "revision": "a3adf0ac7711f30094880d0353508c9d",
     "url": "/static/media/pokemon13.a3adf0ac.png"
   },
   {
     "revision": "d1ad450253e262b3ac0b2be764b9723f",
     "url": "/static/media/pokemon14.d1ad4502.jpg"
+  },
+  {
+    "revision": "6c797f8b11cc0386ddef3c6f0134b630",
+    "url": "/static/media/pokemon11.6c797f8b.png"
   },
   {
     "revision": "98c402fbc4e76460282966610d4a9d74",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/static/media/logo_transparent_background.2f1a17a3.png"
   },
   {
-    "revision": "efc052195cbffa1f18ecb6e2e55d54a0",
+    "revision": "78da577676f33c6423e5b53c9e23a426",
     "url": "/index.html"
   }
 ];
