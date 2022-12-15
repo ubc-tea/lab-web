@@ -13,7 +13,11 @@ export default function News(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const news = [
-      {
+    {
+      title:
+        "[12/2022] We received the Health Innovation Funding Investment (HIFI) Awards on deep learning-based bladder cancer screening project.",
+    },
+    {
       title:
         "[07/2022] We received Meta Research Award on the project of data auditing for ML, leading by Prof. Kai Li at Princeton.",
     },

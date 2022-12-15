@@ -1,6 +1,7 @@
 import Home from "../LabContainer/Home/Home";
 import News from "../LabContainer/News/News";
 import People from "../LabContainer/People/People";
+import Previous from "../LabContainer/Previous/Previous";
 import Research from "../LabContainer/Research/Research";
 import Publications from "../LabContainer/Publications/Publications";
 import Positions from "../LabContainer/Positions/Positions";
@@ -27,6 +28,10 @@ export const TOTAL_SCREENS = [
   {
     screen_name: "People",
     component: People,
+  },
+  {
+    screen_name: "Previous Members",
+    component: Previous,
   },
     {
     screen_name: "Positions",

@@ -15,6 +15,13 @@ export default function Publications(props) {
   const publications = [
     {
       title:
+        "Guidelines and Evaluation of Clinical Explainable AI in Medical Image Analysis",
+      author: "Jin, W., Li, X., Fatehi, M., & Hamarneh, G.",
+      journal: "Medical Image Analysis 2022",
+      link: "https://arxiv.org/pdf/2202.10553.pdf",
+    },
+    {
+      title:
         "GATE: Graph CCA for Temporal SElf-supervised Learning for Label-efficient fMRI Analysis",
       author: "Peng, L., Nan, W., Xu, J., Zhu, X., & Li, X.",
       journal: "IEEE Transaction on Medical Imaging 2022",

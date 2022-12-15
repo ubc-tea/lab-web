@@ -22,13 +22,13 @@ export default function People(props) {
     {
       name: "Chun-Yin Huang",
       title: "PhD (2021 - )",
-      link: "www.google.com",
+      link: "https://www.linkedin.com/in/chun-yin-huang-00a728b3/",
       imgurl: require("../../assets/portrait/pokemon1.png"),
     },
     {
       name: "Wenlong Deng",
       title: "PhD (2022 - ), co-supervised with Dr. Christos Thrampoulidis at UBC ECE",
-      link: "www.google.com",
+      link: "https://www.linkedin.com/in/wenlongdeng/?originalSubdomain=ch",
       imgurl: require("../../assets/portrait/pokemon2.png"),
     },
     {
@@ -40,19 +40,19 @@ export default function People(props) {
     {
       name: "Sana Ayromlou",
       title: "MSc (2021 - ), co-supervised with Dr. Purang Abolmaesum at UBC ECE",
-      link: "www.google.com",
+      link: "https://www.linkedin.com/in/sana-ayromlou/",
       imgurl: require("../../assets/portrait/pokemon4.png"),
     },
      {
       name: "Beidi Zhao",
       title: "MSc (2022 -), co-supervised with Dr. Gang Wang at UBC Medicine",
-      link: "www.google.com",
+      link: "https://scholar.google.com/citations?user=iWwKZf8AAAAJ&hl=en",
       imgurl: require("../../assets/portrait/pokemon5.png"),
     },
     {
       name: "Justin Yang",
       title: "MSc (2022 -), co-supervised with Dr. Mi Jung Park at UBC CS",
-      link: "www.google.com",
+      link: "https://freddieneverleft.github.io/",
       imgurl: require("../../assets/portrait/pokemon6.png"),
     },
     {
@@ -67,24 +67,12 @@ export default function People(props) {
       link: "www.google.com",
       imgurl: require("../../assets/portrait/pokemon8.png"),
     },
-    {
-      name: "Fatemeh Taheri Dezaki",
-      title: "Postdoc, now at Amazon ",
-      link: "www.google.com",
-      imgurl: require("../../assets/portrait/pokemon12.png"),
-    },
-    {
-      name: "Nan Wang",
-      title: "Visiting Student",
-      link: "www.google.com",
-      imgurl: require("../../assets/portrait/pokemon10.png"),
-    },
-    {
-      name: "Jee Seok Yoon",
-      title: "Visiting Student",
-      link: "www.google.com",
-      imgurl: require("../../assets/portrait/pokemon11.png"), 
-    },
+    // {
+    //   name: "Nan Wang",
+    //   title: "Visiting Student",
+    //   link: "www.google.com",
+    //   imgurl: require("../../assets/portrait/pokemon10.png"),
+    // },
     {
       name: "Ruichen Yao",
       title: "MEng(2022 - ) at UBC",
@@ -93,10 +81,22 @@ export default function People(props) {
     },
     {
       name: "Yuyou Lai",
-      title: "Undergraduate at UBC ECE",
+      title: "UG at UBC ECE",
       link: "https://www.linkedin.com/in/yuyou-lai/",
       imgurl: require("../../assets/portrait/pokemon14.jpg"),
+    },
+    {
+      name: "Jee Seok Yoon",
+      title: "Visiting Student",
+      link: "www.google.com",
+      imgurl: require("../../assets/portrait/pokemon11.png"), 
     }
+    // {
+    //   name: "Fatemeh Taheri Dezaki",
+    //   title: "Postdoc, now at Amazon ",
+    //   link: "www.google.com",
+    //   imgurl: require("../../assets/portrait/pokemon12.png"),
+    // }
   ];
 
   // const renderPeople = () => {
