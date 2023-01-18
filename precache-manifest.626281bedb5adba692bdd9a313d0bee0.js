@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/static/js/3.fcc995d3.chunk.js"
   },
   {
-    "revision": "8b6af8e5e8324edfd77af8b3b35d7f9c",
-    "url": "/static/media/Poppins-Regular.8b6af8e5.ttf"
-  },
-  {
     "revision": "4cdacb8f89d588d69e8570edcbe49507",
     "url": "/static/media/Poppins-SemiBold.4cdacb8f.ttf"
+  },
+  {
+    "revision": "8b6af8e5e8324edfd77af8b3b35d7f9c",
+    "url": "/static/media/Poppins-Regular.8b6af8e5.ttf"
   },
   {
     "revision": "f61a4eb27371b7453bf5b12ab3648b9e",
