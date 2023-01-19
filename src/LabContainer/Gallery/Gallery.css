@@ -2,9 +2,6 @@
     align-content: center;
 }
 
-.items {
-    margin: 50px;
-}
 
 .gal-container {
     display: flex;
@@ -12,4 +9,14 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.window{
+    margin: auto;
+    width: 45%;
+    margin-bottom: 40px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    opacity: 0.8;
 }
