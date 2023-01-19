@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "98c402fbc4e76460282966610d4a9d74",
-    "url": "/static/media/fedbn.98c402fb.png"
+    "revision": "df9549ecc36e78c2930e4305a8ee1bac",
+    "url": "/static/media/avatar2.df9549ec.jpg"
   },
   {
-    "revision": "13715dc6b21cb0f7e6f0",
-    "url": "/static/css/main.6ef34b08.chunk.css"
+    "revision": "52c9361bca0126214fa7",
+    "url": "/static/css/main.5d638c73.chunk.css"
   },
   {
-    "revision": "7cf0eb63bd0d3b3cc219",
-    "url": "/static/js/runtime~main.508d5d6e.js"
+    "revision": "67f45efe784013c291c2",
+    "url": "/static/js/runtime~main.40425b10.js"
   },
   {
-    "revision": "e5ea7fa18e9fc73e5a49",
-    "url": "/static/js/2.e436704a.chunk.js"
+    "revision": "bb7ec907087246e3b915",
+    "url": "/static/js/2.531fb1f9.chunk.js"
   },
   {
-    "revision": "049481630dfb12e5a9f3",
-    "url": "/static/js/3.b25c81c5.chunk.js"
+    "revision": "2a102ed781a96e0d5028",
+    "url": "/static/js/3.cabcfef1.chunk.js"
   },
   {
     "revision": "f61a4eb27371b7453bf5b12ab3648b9e",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/static/media/Poppins-SemiBold.4cdacb8f.ttf"
   },
   {
-    "revision": "a3e0b5f427803a187c1b62c5919196aa",
-    "url": "/static/media/Poppins-Bold.a3e0b5f4.ttf"
-  },
-  {
     "revision": "8b6af8e5e8324edfd77af8b3b35d7f9c",
     "url": "/static/media/Poppins-Regular.8b6af8e5.ttf"
+  },
+  {
+    "revision": "a3e0b5f427803a187c1b62c5919196aa",
+    "url": "/static/media/Poppins-Bold.a3e0b5f4.ttf"
   },
   {
     "revision": "544fa4f2678a8285eb88b8dfe503c90c",
@@ -60,6 +60,10 @@ self.__precacheManifest = [
     "url": "/static/media/pokemon0.3686591b.png"
   },
   {
+    "revision": "21261a6faa64387c98b9a1b08c70c11a",
+    "url": "/static/media/pokemon15.21261a6f.jpg"
+  },
+  {
     "revision": "a3adf0ac7711f30094880d0353508c9d",
     "url": "/static/media/pokemon13.a3adf0ac.png"
   },
@@ -72,8 +76,20 @@ self.__precacheManifest = [
     "url": "/static/media/pokemon11.6c797f8b.png"
   },
   {
-    "revision": "13715dc6b21cb0f7e6f0",
-    "url": "/static/js/main.98582e76.chunk.js"
+    "revision": "a3e2fd8c319161004234a46aa32e9fe8",
+    "url": "/static/media/avatar1.a3e2fd8c.jpg"
+  },
+  {
+    "revision": "52c9361bca0126214fa7",
+    "url": "/static/js/main.e7433332.chunk.js"
+  },
+  {
+    "revision": "47cbbcc4b8292812d94b1f6870146d20",
+    "url": "/static/media/avatar3.47cbbcc4.jpg"
+  },
+  {
+    "revision": "98c402fbc4e76460282966610d4a9d74",
+    "url": "/static/media/fedbn.98c402fb.png"
   },
   {
     "revision": "387b52923829d9bca9ec2d5f5345bf28",
@@ -144,7 +160,7 @@ self.__precacheManifest = [
     "url": "/static/media/logo_transparent_background.2f1a17a3.png"
   },
   {
-    "revision": "0b386c5442f18d8cfad6d0be4c666f5c",
+    "revision": "77d8f7a37c9ba8e488cf9b674dcd3206",
     "url": "/index.html"
   }
 ];
