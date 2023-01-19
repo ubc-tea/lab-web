@@ -13,8 +13,26 @@
 
 .window{
     margin: auto;
-    width: 55%;
+    width: 30%;
     margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 1500px) {
+    .window {
+      width: 40%;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .window {
+      width: 60%;
+    }
+}
+  
+  @media only screen and (max-width: 500px) {
+    .window {
+      width: 80%;
+    }
 }
 
 .carousel-control-next, .carousel-control-prev{

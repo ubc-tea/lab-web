@@ -65,19 +65,19 @@ export default function Previous(props) {
       name: "Fatemeh Taheri Dezaki",
       title: "Postdoc, now Machine Learning Scientist at Amazon ",
       link: "www.google.com",
-      imgurl: require("../../assets/portrait/pokemon12.png"),
+      imgurl: require("../../assets/portrait/avatar1.jpg"),
     },
     {
       name: "Nan Wang",
       title: "Visiting Student",
       link: "www.google.com",
-      imgurl: require("../../assets/portrait/pokemon12.png"),
+      imgurl: require("../../assets/portrait/avatar2.jpg"),
     },
     {
       name: "Qiong Zhang",
       title: "Ph.D. Stats, now Asst. Prof. at Renmin Univ. ",
       link: "https://sarahqiong.github.io/",
-      imgurl: require("../../assets/portrait/pokemon12.png"),
+      imgurl: require("../../assets/portrait/avatar3.jpg"),
     }
     // {
     //   name: "Jee Seok Yoon",

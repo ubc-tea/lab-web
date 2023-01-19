@@ -41,7 +41,7 @@ export default function People(props) {
       name: "Sana Ayromlou",
       title: "MSc (2021 - ), co-supervised with Dr. Purang Abolmaesum at UBC ECE",
       link: "https://www.linkedin.com/in/sana-ayromlou/",
-      imgurl: require("../../assets/portrait/pokemon4.png"),
+      imgurl: require("../../assets/portrait/pokemon15.jpg"),
     },
      {
       name: "Beidi Zhao",
