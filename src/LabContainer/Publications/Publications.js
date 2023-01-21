@@ -15,6 +15,20 @@ export default function Publications(props) {
   const publications = [
     {
       title:
+        "PerFedMask: Personalized Federated Learning with Optimized Masking Vectors",
+      author: "Setayesh, M., Li, X., & Wang, V.",
+      journal: "ICLR 2023",
+      link: "https://openreview.net/forum?id=hxEIgUXLFF&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2023%2FConference%2FAuthors%23your-submissions",
+    },
+    {
+      title:
+        "A Dataset Auditing Method for Collaboratively Trained Machine Learning Models",
+      author: "Huang, Y., Huang, C., Li, X., & Li, K.",
+      journal: "IEEE Transaction on Medical Imaging 2022",
+      link: "https://ieeexplore.ieee.org/document/9951407",
+    },
+    {
+      title:
         "Guidelines and Evaluation of Clinical Explainable AI in Medical Image Analysis",
       author: "Jin, W., Li, X., Fatehi, M., & Hamarneh, G.",
       journal: "Medical Image Analysis 2022",
