@@ -15,6 +15,20 @@ export default function Publications(props) {
   const publications = [
     {
       title:
+        "SADM: Sequence-Aware Diffusion Model for Longitudinal Medical Image Generation",
+      author: "Yoon, J. S., Zhang, C., Suk, H. I., Guo, J., & Li, X",
+      journal: "IPMI 2023",
+      link: "https://arxiv.org/abs/2212.08228",
+    },
+    {
+      title:
+        "PerFedMask: Personalized Federated Learning with Optimized Masking Vectors",
+      author: "Deng, W., Zhong, Y., Dou, Q., & Li, X.",
+      journal: "IPMI 2023",
+      link: "https://arxiv.org/abs/2301.01481",
+    },
+    {
+      title:
         "PerFedMask: Personalized Federated Learning with Optimized Masking Vectors",
       author: "Setayesh, M., Li, X., & Wang, V.",
       journal: "ICLR 2023",
