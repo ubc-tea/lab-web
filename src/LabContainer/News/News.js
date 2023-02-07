@@ -15,7 +15,7 @@ export default function News(props) {
   const news = [
     {
       title:
-        "[02/2023] We have two paper accepted by IPMI 2023. Congrats, Wenlong and Jee Seok!.",
+        "[02/2023] We have two paper accepted by IPMI 2023. Congrats, Wenlong and Jee Seok!",
     },
     {
       title:
@@ -27,7 +27,7 @@ export default function News(props) {
     },
     {
       title:
-        "[12/2022] We received the Health Innovation Funding Investment (HIFI) Awards on deep learning-based bladder cancer screening project.",
+        "[12/2022] We received the Health Innovation Funding Investment (HIFI) Awards on deep learning-based cancer screening project.",
     },
     {
       title:
@@ -35,7 +35,7 @@ export default function News(props) {
     },
     {
       title:
-        "[06/2022] Chun-Yin and Minghui were selected as Blockchain Graduate Pathway 2022-2023 fellows. Weina is awarded Borelis AI fellowship.",
+        "[06/2022] Chun-Yin and Minghui were selected as Blockchain Graduate Pathway 2022-2023 fellows. Weina received Borelis AI fellowship.",
     },
     {
       title:
