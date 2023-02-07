@@ -15,7 +15,7 @@ export default function News(props) {
   const news = [
     {
       title:
-        "[02/2023] We have two paper accepted by IPMI 2023. Congrats, Wenlong and Jee Seok!",
+        "[02/2023] We have two papers accepted by IPMI 2023. Congrats, Wenlong and Jee Seok!",
     },
     {
       title:
