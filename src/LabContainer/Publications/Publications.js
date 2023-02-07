@@ -22,7 +22,7 @@ export default function Publications(props) {
     },
     {
       title:
-        "PerFedMask: Personalized Federated Learning with Optimized Masking Vectors",
+        "On Fairness of Medical Image Classification with Multiple Sensitive Attributes via Learning Orthogonal Representations",
       author: "Deng, W., Zhong, Y., Dou, Q., & Li, X.",
       journal: "IPMI 2023",
       link: "https://arxiv.org/abs/2301.01481",
