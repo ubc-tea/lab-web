@@ -23,7 +23,7 @@ export default function News(props) {
     },
     {
       title:
-        "[01/2023] Dr. Li is serving as a Program Chairs of Medical Image with Deep Learning (MIDL) 2023. Dr. Li is serving as an Area Chair and Organizing Committee (Women in MICCAI) of MICCAI 2023. Dr. Li was appointed as an Assitant Professor Adjunct at Yale University.",
+        "[01/2023] Dr. Li is serving as a Program Chairs of MIDL 2023. Dr. Li is serving as an Area Chair and Organizing Committee (Women in MICCAI) of MICCAI 2023. Dr. Li was appointed as an Assitant Professor Adjunct at Yale University.",
     },
     {
       title:
