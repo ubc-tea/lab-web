@@ -19,11 +19,11 @@ export default function News(props) {
     },
     {
       title:
-        "[01/2023] We have one paper accepted by ICLR 2023. Dr. Li will give a keynote speak at TML4H workshop at ICLR2023.",
+        "[01/2023] We have one paper accepted by ICLR 2023. Dr. Li will give a keynote speak at TML4H workshop at ICLR 2023.",
     },
     {
       title:
-        "[01/2023] Dr. Li is serving as a Program Chairs of MIDL 2023. Dr. Li is serving as an Area Chair and Organizing Committee (Women in MICCAI) of MICCAI 2023. Dr. Li was appointed as an Assitant Professor Adjunct at Yale University.",
+        "[01/2023] Dr. Li is serving as a Program Chairs for MIDL 2023. Dr. Li is serving as an Area Chair and Organizing Committee (Women in MICCAI) for MICCAI 2023. Dr. Li was appointed as an Assitant Professor Adjunct at Yale University.",
     },
     {
       title:
@@ -51,7 +51,7 @@ export default function News(props) {
     },
     {
       title:
-        "[03/2022] We received NVIDIA Academic Hardware Grant to continuously support our FL projects. Thank Nvidia for the generous sponsorship..",
+        "[03/2022] We received NVIDIA Academic Hardware Grant to continuously support our FL projects.",
     },
     { title: "[02/2022] Dr.Li was selected as a Google Cloud Research Innovator." },
     { title: "[11/2021] We received Health Innovation Funding Investment Awards with Dr. Charlene Ronquillo on fairness on healthcare data analysis project." },
