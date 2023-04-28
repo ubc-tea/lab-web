@@ -15,6 +15,14 @@ export default function Publications(props) {
   const publications = [
     {
       title:
+        "Federated Adversarial Learning: A Framework with Convergence Analysis",
+      author: "Yoon, J. S., Zhang, C., Suk, H. I., Guo, J., & Li, X",
+      author: "Li, X., Zhao, S., Yang, J.",
+      journal: "ICML 2023",
+      link: "https://arxiv.org/abs/2208.03635",
+    },
+    {
+      title:
         "SADM: Sequence-Aware Diffusion Model for Longitudinal Medical Image Generation",
       author: "Yoon, J. S., Zhang, C., Suk, H. I., Guo, J., & Li, X",
       journal: "IPMI 2023",
