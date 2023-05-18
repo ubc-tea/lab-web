@@ -15,6 +15,10 @@ export default function News(props) {
   const news = [
     {
       title:
+        "[04/2023] We got a paper accepted by Nature Methods led by Dr. Tao Huan.",
+    },
+    {
+      title:
         "[04/2023] We got a paper accepted by ICML 2023.",
     },
     {

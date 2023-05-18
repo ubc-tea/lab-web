@@ -15,8 +15,14 @@ export default function Publications(props) {
   const publications = [
     {
       title:
+        "BUDDY: Molecular Formula Discovery via Bottom-up MS/MS Interrogation",
+      author: "Xing, S., Shen, S., Xu, B., Li, X., & Huan, T.",
+      journal: "Nature Methods",
+      link: "https://www.nature.com/articles/s41592-023-01850-x",
+    },
+    {
+      title:
         "Federated Adversarial Learning: A Framework with Convergence Analysis",
-      author: "Yoon, J. S., Zhang, C., Suk, H. I., Guo, J., & Li, X",
       author: "Li, X., Zhao, S., Yang, J.",
       journal: "ICML 2023",
       link: "https://arxiv.org/abs/2208.03635",
