@@ -15,6 +15,18 @@ export default function Publications(props) {
   const publications = [
     {
       title:
+        "BCommunity-Aware Transformer for Autism Prediction in fMRI Connectome",
+      author: "Bannadabhavi, A., Lee, S., Deng, W., & Li, X.",
+      journal: "MICCAI 2023",
+    },
+    {
+      title:
+        "FedSoup: Improving Generalization and Personalization in Federated Learning via Selective Model Interpolation",
+      author: "Chen, M., Jiang, M., Dou, Q., & Li, X.",
+      journal: "MICCAI 2023",
+    },
+    {
+      title:
         "BUDDY: Molecular Formula Discovery via Bottom-up MS/MS Interrogation",
       author: "Xing, S., Shen, S., Xu, B., Li, X., & Huan, T.",
       journal: "Nature Methods",
