@@ -15,7 +15,7 @@ export default function Publications(props) {
   const publications = [
     {
       title:
-        "BCommunity-Aware Transformer for Autism Prediction in fMRI Connectome",
+        "Community-Aware Transformer for Autism Prediction in fMRI Connectome",
       author: "Bannadabhavi, A., Lee, S., Deng, W., & Li, X.",
       journal: "MICCAI 2023",
     },
