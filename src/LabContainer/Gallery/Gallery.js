@@ -48,6 +48,9 @@ export default function Gallery(props) {
                     <img src={require("../../assets/Home/group.JPG")} width="300" height="200" class="items" />
                 </div>
                 <div>
+                    <img src={require("../../assets/Home/group2.jpg")} width="300" height="200" class="items" />
+                </div>
+                <div>
                     <img src={require("../../assets/Home/tea_group2.jpg")} width="300" height="200" class="items" />
                 </div>
                 <div>
