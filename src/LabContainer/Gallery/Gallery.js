@@ -18,10 +18,16 @@ export default function Gallery(props) {
                     <img class="d-block w-100 galStyle" src={require("../../assets/Home/group_small.png")} alt="First slide"/>
                     </div>
                     <div class="carousel-item">
-                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/tea_group2.jpg")} alt="Second slide"/>
+                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/group2.jpg")} alt="Second slide"/>
                     </div>
                     <div class="carousel-item">
-                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/tea_group1.jpg")} alt="Third slide"/>
+                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/cvpr2023.jpg")} alt="Third slide"/>
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/tea_group2.jpg")} alt="Fourth slide"/>
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/tea_group1.jpg")} alt="Fifth slide"/>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -51,13 +57,13 @@ export default function Gallery(props) {
                     <img src={require("../../assets/Home/group2.jpg")} width="300" height="200" class="items" />
                 </div>
                 <div>
+                    <img src={require("../../assets/Home/cvpr2023.jpg")} width="300" height="200" class="items" />
+                </div> 
+                <div>
                     <img src={require("../../assets/Home/tea_group2.jpg")} width="300" height="200" class="items" />
                 </div>
                 <div>
                     <img src={require("../../assets/Home/tea_group1.jpg")} width="300" height="200" class="items" />
-                </div>  
-                <div>
-                    <img src={require("../../assets/Home/cvpr2023.jpg")} width="300" height="200" class="items" />
-                </div>                
+                </div>                 
             </div>
         </div> */}
