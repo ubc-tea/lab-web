@@ -55,6 +55,9 @@ export default function Gallery(props) {
                 </div>
                 <div>
                     <img src={require("../../assets/Home/tea_group1.jpg")} width="300" height="200" class="items" />
+                </div>  
+                <div>
+                    <img src={require("../../assets/Home/cvpr2023.jpg")} width="300" height="200" class="items" />
                 </div>                
             </div>
         </div> */}
