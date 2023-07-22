@@ -1,14 +1,14 @@
 {
   "main.css": "/static/css/main.7eac04b8.chunk.css",
-  "main.js": "/static/js/main.0a7aa068.chunk.js",
-  "main.js.map": "/static/js/main.0a7aa068.chunk.js.map",
+  "main.js": "/static/js/main.23493ae8.chunk.js",
+  "main.js.map": "/static/js/main.23493ae8.chunk.js.map",
   "static/js/1.0d71e04f.chunk.js": "/static/js/1.0d71e04f.chunk.js",
   "static/js/1.0d71e04f.chunk.js.map": "/static/js/1.0d71e04f.chunk.js.map",
   "static/js/2.b22acadd.chunk.js": "/static/js/2.b22acadd.chunk.js",
   "static/js/2.b22acadd.chunk.js.map": "/static/js/2.b22acadd.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.d1ae0fac.js",
   "runtime~main.js.map": "/static/js/runtime~main.d1ae0fac.js.map",
-  "static/media/index.css": "/static/media/Poppins-Thin.25cd0f68.ttf",
+  "static/media/index.css": "/static/media/Poppins-ExtraBold.544fa4f2.ttf",
   "static/media/xiaoxiao.jpg": "/static/media/xiaoxiao.b4e66b8f.jpg",
   "static/media/Home.css": "/static/media/bg.07d5078c.png",
   "static/media/pokemon0.png": "/static/media/pokemon0.3686591b.png",
@@ -41,6 +41,6 @@
   "static/media/logo_transparent_background.png": "/static/media/logo_transparent_background.2f1a17a3.png",
   "static/css/main.7eac04b8.chunk.css.map": "/static/css/main.7eac04b8.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.bcccfe7f1e373f53ca7011599d9ce260.js": "/precache-manifest.bcccfe7f1e373f53ca7011599d9ce260.js",
+  "precache-manifest.7bcc596a0ac92e09ee8fdad5b5d128a9.js": "/precache-manifest.7bcc596a0ac92e09ee8fdad5b5d128a9.js",
   "service-worker.js": "/service-worker.js"
 }
