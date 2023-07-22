@@ -18,12 +18,14 @@ export default function Publications(props) {
         "Community-Aware Transformer for Autism Prediction in fMRI Connectome",
       author: "Bannadabhavi, A., Lee, S., Deng, W., & Li, X.",
       journal: "MICCAI 2023",
+      link: "http://arxiv.org/abs/2307.10181"
     },
     {
       title:
         "FedSoup: Improving Generalization and Personalization in Federated Learning via Selective Model Interpolation",
       author: "Chen, M., Jiang, M., Dou, Q., & Li, X.",
       journal: "MICCAI 2023",
+      link: "https://arxiv.org/abs/2307.10507"，
     },
     {
       title:
