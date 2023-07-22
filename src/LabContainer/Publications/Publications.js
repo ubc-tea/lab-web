@@ -25,7 +25,7 @@ export default function Publications(props) {
         "FedSoup: Improving Generalization and Personalization in Federated Learning via Selective Model Interpolation",
       author: "Chen, M., Jiang, M., Dou, Q., & Li, X.",
       journal: "MICCAI 2023",
-      link: "https://arxiv.org/abs/2307.10507"，
+      link: "https://arxiv.org/abs/2307.10507",
     },
     {
       title:
