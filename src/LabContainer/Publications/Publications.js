@@ -15,6 +15,13 @@ export default function Publications(props) {
   const publications = [
     {
       title:
+        "Backdoor Attack and Defense in Federated Generative Adversarial Network-based Medical Image Synthesis",
+      author: "Jin, R., Li, X.",
+      journal: "Medical Image Analysis",
+      link: "https://arxiv.org/pdf/2210.10886.pdf"
+    },
+    {
+      title:
         "Community-Aware Transformer for Autism Prediction in fMRI Connectome",
       author: "Bannadabhavi, A., Lee, S., Deng, W., & Li, X.",
       journal: "MICCAI 2023",
