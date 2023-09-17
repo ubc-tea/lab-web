@@ -78,7 +78,7 @@ export default function Previous(props) {
       title: "Ph.D. Stats, now Asst. Prof. at Renmin Univ. ",
       link: "https://sarahqiong.github.io/",
       imgurl: require("../../assets/portrait/avatar3.jpg"),
-    }
+    },
     {
       name: "Jee Seok Yoon",
       title: "Visiting Student",

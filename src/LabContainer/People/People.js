@@ -41,7 +41,7 @@ export default function People(props) {
       name: "Gexin Huang",
       title: "PhD (2023 - )",
       link: "https://scholar.google.com.tw/citations?user=Uh9kwTIAAAAJ&hl=zh-TW",
-      imgurl: require("../../assets/portrait/pokemon14.png"),
+      imgurl: require("../../assets/portrait/pokemon12.png"),
     },
     {
       name: "Sana Ayromlou",
