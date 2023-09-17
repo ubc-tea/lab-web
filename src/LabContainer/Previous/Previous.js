@@ -79,6 +79,12 @@ export default function Previous(props) {
       link: "https://sarahqiong.github.io/",
       imgurl: require("../../assets/portrait/avatar3.jpg"),
     }
+    {
+      name: "Jee Seok Yoon",
+      title: "Visiting Student",
+      link: "www.google.com",
+      imgurl: require("../../assets/portrait/jeeseok.jpg"), 
+    }
     // {
     //   name: "Jee Seok Yoon",
     //   title: "Visiting Student",
@@ -91,12 +97,12 @@ export default function Previous(props) {
     //   link: "https://www.linkedin.com/in/ruichen-yao-10299248/",
     //   imgurl: require("../../assets/portrait/pokemon13.png"), 
     // },
-    // {
-    //   name: "Yuyou Lai",
-    //   title: "Undergraduate at UBC ECE",
-    //   link: "https://www.linkedin.com/in/yuyou-lai/",
-    //   imgurl: require("../../assets/portrait/pokemon14.jpg"),
-    // }
+    {
+      name: "Yuyou Lai",
+      title: "Undergraduate at UBC ECE",
+      link: "https://www.linkedin.com/in/yuyou-lai/",
+      imgurl: require("../../assets/portrait/boy.jpeg"),
+    }
   ];
 
   // const renderPeople = () => {

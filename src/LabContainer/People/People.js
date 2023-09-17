@@ -38,6 +38,12 @@ export default function People(props) {
       imgurl: require("../../assets/portrait/pokemon3.png"),
     },
     {
+      name: "Gexin Huang",
+      title: "PhD (2023 - )",
+      link: "https://scholar.google.com.tw/citations?user=Uh9kwTIAAAAJ&hl=zh-TW",
+      imgurl: require("../../assets/portrait/pokemon14.png"),
+    },
+    {
       name: "Sana Ayromlou",
       title: "MSc (2021 - ), co-supervised with Dr. Purang Abolmaesum at UBC ECE",
       link: "https://www.linkedin.com/in/sana-ayromlou/",
@@ -62,33 +68,33 @@ export default function People(props) {
       imgurl: require("../../assets/portrait/pokemon7.png"),
     },
     {
+      name: "Jane Shi",
+      title: "MSc (2023 -)",
+      link: "www.google.com",
+      imgurl: require("../../assets/portrait/pokemon10.png"),
+    },
+    {
       name: "Ruinan Jin",
       title: "UG",
       link: "www.google.com",
       imgurl: require("../../assets/portrait/pokemon8.png"),
     },
-    // {
-    //   name: "Nan Wang",
-    //   title: "Visiting Student",
-    //   link: "www.google.com",
-    //   imgurl: require("../../assets/portrait/pokemon10.png"),
-    // },
     {
       name: "Ruichen Yao",
-      title: "MEng(2022 - ) at UBC",
+      title: "MEng(2022 - )",
       link: "https://www.linkedin.com/in/ruichen-yao-10299248/",
       imgurl: require("../../assets/portrait/pokemon13.png"), 
     },
+    // {
+    //   name: "Yuyou Lai",
+    //   title: "UG at UBC ECE",
+    //   link: "https://www.linkedin.com/in/yuyou-lai/",
+    //   imgurl: require("../../assets/portrait/pokemon14.jpg"),
+    // },
     {
-      name: "Yuyou Lai",
-      title: "UG at UBC ECE",
-      link: "https://www.linkedin.com/in/yuyou-lai/",
-      imgurl: require("../../assets/portrait/pokemon14.jpg"),
-    },
-    {
-      name: "Jee Seok Yoon",
-      title: "Visiting Student",
-      link: "www.google.com",
+      name: "SangMook Kim",
+      title: "Postdoc(2023 - )",
+      link: "https://scholar.google.com/citations?user=YjpFRuIAAAAJ&hl=ko",
       imgurl: require("../../assets/portrait/pokemon11.png"), 
     }
     // {
