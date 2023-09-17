@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "f26ebe3dd9cd1a81178c",
-    "url": "/static/css/main.7eac04b8.chunk.css"
+    "revision": "d81c254b74ab2d106923",
+    "url": "/static/css/main.9263ef91.chunk.css"
   },
   {
-    "revision": "f26ebe3dd9cd1a81178c",
-    "url": "/static/js/main.f26ebe3d.chunk.js"
+    "revision": "d81c254b74ab2d106923",
+    "url": "/static/js/main.d81c254b.chunk.js"
   },
   {
-    "revision": "0d71e04f289fc819143c",
-    "url": "/static/js/1.0d71e04f.chunk.js"
+    "revision": "45789c75afb661050078",
+    "url": "/static/js/1.45789c75.chunk.js"
   },
   {
-    "revision": "b22acaddc0be2dabf28c",
-    "url": "/static/js/2.b22acadd.chunk.js"
+    "revision": "c26cd16a583dcb07f12c",
+    "url": "/static/js/2.c26cd16a.chunk.js"
   },
   {
-    "revision": "d1ae0facffafa29cf208",
-    "url": "/static/js/runtime~main.d1ae0fac.js"
+    "revision": "24b82f825f1d608b39ed",
+    "url": "/static/js/runtime~main.24b82f82.js"
+  },
+  {
+    "revision": "f61a4eb27371b7453bf5b12ab3648b9e",
+    "url": "/static/media/Poppins-Medium.f61a4eb2.ttf"
   },
   {
     "revision": "8b6af8e5e8324edfd77af8b3b35d7f9c",
@@ -28,24 +32,20 @@ self.__precacheManifest = [
     "url": "/static/media/Poppins-SemiBold.4cdacb8f.ttf"
   },
   {
-    "revision": "f61a4eb27371b7453bf5b12ab3648b9e",
-    "url": "/static/media/Poppins-Medium.f61a4eb2.ttf"
-  },
-  {
-    "revision": "a3e0b5f427803a187c1b62c5919196aa",
-    "url": "/static/media/Poppins-Bold.a3e0b5f4.ttf"
+    "revision": "f6ea751e936ade6edcd03a26b8153b4a",
+    "url": "/static/media/Poppins-Light.f6ea751e.ttf"
   },
   {
     "revision": "544fa4f2678a8285eb88b8dfe503c90c",
     "url": "/static/media/Poppins-ExtraBold.544fa4f2.ttf"
   },
   {
-    "revision": "f6ea751e936ade6edcd03a26b8153b4a",
-    "url": "/static/media/Poppins-Light.f6ea751e.ttf"
-  },
-  {
     "revision": "25cd0f688f815bc4f6ac2b71eb6278ba",
     "url": "/static/media/Poppins-Thin.25cd0f68.ttf"
+  },
+  {
+    "revision": "a3e0b5f427803a187c1b62c5919196aa",
+    "url": "/static/media/Poppins-Bold.a3e0b5f4.ttf"
   },
   {
     "revision": "b4e66b8f9de99890eed167c0bf472349",
@@ -68,10 +68,6 @@ self.__precacheManifest = [
     "url": "/static/media/pokemon13.a3adf0ac.png"
   },
   {
-    "revision": "d1ad450253e262b3ac0b2be764b9723f",
-    "url": "/static/media/pokemon14.d1ad4502.jpg"
-  },
-  {
     "revision": "6c797f8b11cc0386ddef3c6f0134b630",
     "url": "/static/media/pokemon11.6c797f8b.png"
   },
@@ -86,6 +82,10 @@ self.__precacheManifest = [
   {
     "revision": "47cbbcc4b8292812d94b1f6870146d20",
     "url": "/static/media/avatar3.47cbbcc4.jpg"
+  },
+  {
+    "revision": "32d87457483eb5c870d379a7bfd4314a",
+    "url": "/static/media/boy.32d87457.jpeg"
   },
   {
     "revision": "98c402fbc4e76460282966610d4a9d74",
@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/static/media/logo_transparent_background.2f1a17a3.png"
   },
   {
-    "revision": "ea37692d037f2940f6b36f1c43e2f220",
+    "revision": "21bdd76643dca276e53bd07bd57a453e",
     "url": "/index.html"
   }
 ];
