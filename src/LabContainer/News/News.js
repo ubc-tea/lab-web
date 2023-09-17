@@ -13,7 +13,11 @@ export default function News(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const news = [
-  
+    {
+      title:
+        "[09/2023] Ruinan's paper is accepted by Meidical Image Analysis!",
+    },
+
     {
       title:
         "[06/2023] We got three papers accepted by MICCAI 2023. Congrats, Minghui, Anushree, and Meirui!",
@@ -32,11 +36,11 @@ export default function News(props) {
     },
     {
       title:
-        "[01/2023] We have one paper accepted by ICLR 2023. Dr. Li will give a keynote speak at TML4H workshop at ICLR 2023.",
+        "[01/2023] We have one paper accepted by ICLR 2023. Dr. Li gives keynote at TML4H workshop at ICLR 2023.",
     },
     {
       title:
-        "[01/2023] Dr. Li serves as a Program Chairs for MIDL 2023. Dr. Li serves an Area Chair and Organizing Committee for MICCAI 2023. Dr. Li was appointed as an Assitant Professor Adjunct at Yale University.",
+        "[01/2023] Dr. Li serves as a Program Chairs for MIDL 2023. Dr. Li serves an Area Chair and Organizing Committee for MICCAI 2023. ",
     },
     // {
     //   title:
