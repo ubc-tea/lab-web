@@ -84,7 +84,7 @@ export default function Previous(props) {
       title: "Visiting Student",
       link: "www.google.com",
       imgurl: require("../../assets/portrait/jeeseok.jpg"), 
-    }
+    },
     // {
     //   name: "Jee Seok Yoon",
     //   title: "Visiting Student",
