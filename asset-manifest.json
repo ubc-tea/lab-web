@@ -8,7 +8,7 @@
   "static/js/2.c26cd16a.chunk.js.map": "/static/js/2.c26cd16a.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.24b82f82.js",
   "runtime~main.js.map": "/static/js/runtime~main.24b82f82.js.map",
-  "static/media/index.css": "/static/media/Poppins-Bold.a3e0b5f4.ttf",
+  "static/media/index.css": "/static/media/Poppins-Medium.f61a4eb2.ttf",
   "static/media/xiaoxiao.jpg": "/static/media/xiaoxiao.b4e66b8f.jpg",
   "static/media/Home.css": "/static/media/bg.07d5078c.png",
   "static/media/pokemon0.png": "/static/media/pokemon0.3686591b.png",
@@ -41,6 +41,6 @@
   "static/media/logo_transparent_background.png": "/static/media/logo_transparent_background.2f1a17a3.png",
   "static/css/main.9263ef91.chunk.css.map": "/static/css/main.9263ef91.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.713f0ad016e286a37f2d8ab3cb475370.js": "/precache-manifest.713f0ad016e286a37f2d8ab3cb475370.js",
+  "precache-manifest.4243b7be315261b96213ff4e189e0ec9.js": "/precache-manifest.4243b7be315261b96213ff4e189e0ec9.js",
   "service-worker.js": "/service-worker.js"
 }
