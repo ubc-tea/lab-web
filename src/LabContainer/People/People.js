@@ -16,7 +16,7 @@ export default function People(props) {
     {
       name: "Dr. Xiaoxiao Li",
       title: "PI",
-      link: "https://xxlya.github.io/xiaoxiao/",
+      link: "https://xxlya.github.io/",
       imgurl: require("../../assets/portrait/pokemon0.png"),
     },
     {
