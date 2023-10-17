@@ -29,6 +29,15 @@ export default function Gallery(props) {
                     <div class="carousel-item">
                     <img class="d-block w-100 galStyle" src={require("../../assets/Home/tea_group1.jpg")} alt="Fifth slide"/>
                     </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/miccai2023-0.jpg")} alt="Fifth slide"/>
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/miccai2023-1.jpg")} alt="Fifth slide"/>
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/miccai2023-2.jpg")} alt="Fifth slide"/>
+                    </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <img width="32" height="32" src={require("../../assets/Home/left.png")} />
