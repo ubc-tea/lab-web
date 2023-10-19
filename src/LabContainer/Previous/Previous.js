@@ -62,6 +62,12 @@ export default function Previous(props) {
     //   imgurl: require("../../assets/portrait/pokemon7.png"),
     // },
     {
+      name: "Sana Ayromlou",
+      title: "MSc (2021 - 2023), now Associate ML Specialistat VectorInstitute",
+      link: "https://www.linkedin.com/in/sana-ayromlou/",
+      imgurl: require("../../assets/portrait/sana.jpg"),
+    },
+    {
       name: "Fatemeh Taheri Dezaki",
       title: "Postdoc, now Machine Learning Scientist at Amazon ",
       link: "www.google.com",

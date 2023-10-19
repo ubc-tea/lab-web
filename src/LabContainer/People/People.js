@@ -43,12 +43,12 @@ export default function People(props) {
       link: "https://scholar.google.com.tw/citations?user=Uh9kwTIAAAAJ&hl=zh-TW",
       imgurl: require("../../assets/portrait/pokemon12.png"),
     },
-    {
-      name: "Sana Ayromlou",
-      title: "MSc (2021 - ), co-supervised with Dr. Purang Abolmaesum at UBC ECE",
-      link: "https://www.linkedin.com/in/sana-ayromlou/",
-      imgurl: require("../../assets/portrait/pokemon15.jpg"),
-    },
+    // {
+    //   name: "Sana Ayromlou",
+    //   title: "MSc (2021 - ), co-supervised with Dr. Purang Abolmaesum at UBC ECE",
+    //   link: "https://www.linkedin.com/in/sana-ayromlou/",
+    //   imgurl: require("../../assets/portrait/pokemon15.jpg"),
+    // },
      {
       name: "Beidi Zhao",
       title: "MSc (2022 -), co-supervised with Dr. Gang Wang at UBC Medicine",
