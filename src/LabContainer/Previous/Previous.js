@@ -63,7 +63,7 @@ export default function Previous(props) {
     // },
     {
       name: "Sana Ayromlou",
-      title: "MSc (2021 - 2023), now Associate ML Specialistat VectorInstitute",
+      title: "MSc (2021 - 2023), now Associate ML Specialist at Vector Institute",
       link: "https://www.linkedin.com/in/sana-ayromlou/",
       imgurl: require("../../assets/portrait/sana.jpg"),
     },
