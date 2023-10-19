@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "355263c5cc56246e2fa9",
-    "url": "/static/css/main.771e1c21.chunk.css"
+    "revision": "3995934efc35ed7d9c7c",
+    "url": "/static/css/main.dd29766a.chunk.css"
   },
   {
-    "revision": "355263c5cc56246e2fa9",
-    "url": "/static/js/main.355263c5.chunk.js"
+    "revision": "3995934efc35ed7d9c7c",
+    "url": "/static/js/main.3995934e.chunk.js"
   },
   {
     "revision": "4e3eec0efd1bea118b1d",
@@ -20,10 +20,6 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.63100f81.js"
   },
   {
-    "revision": "8b6af8e5e8324edfd77af8b3b35d7f9c",
-    "url": "/static/media/Poppins-Regular.8b6af8e5.ttf"
-  },
-  {
     "revision": "f61a4eb27371b7453bf5b12ab3648b9e",
     "url": "/static/media/Poppins-Medium.f61a4eb2.ttf"
   },
@@ -32,8 +28,16 @@ self.__precacheManifest = [
     "url": "/static/media/Poppins-SemiBold.4cdacb8f.ttf"
   },
   {
+    "revision": "8b6af8e5e8324edfd77af8b3b35d7f9c",
+    "url": "/static/media/Poppins-Regular.8b6af8e5.ttf"
+  },
+  {
     "revision": "a3e0b5f427803a187c1b62c5919196aa",
     "url": "/static/media/Poppins-Bold.a3e0b5f4.ttf"
+  },
+  {
+    "revision": "544fa4f2678a8285eb88b8dfe503c90c",
+    "url": "/static/media/Poppins-ExtraBold.544fa4f2.ttf"
   },
   {
     "revision": "f6ea751e936ade6edcd03a26b8153b4a",
@@ -42,10 +46,6 @@ self.__precacheManifest = [
   {
     "revision": "25cd0f688f815bc4f6ac2b71eb6278ba",
     "url": "/static/media/Poppins-Thin.25cd0f68.ttf"
-  },
-  {
-    "revision": "544fa4f2678a8285eb88b8dfe503c90c",
-    "url": "/static/media/Poppins-ExtraBold.544fa4f2.ttf"
   },
   {
     "revision": "b4e66b8f9de99890eed167c0bf472349",
@@ -60,16 +60,16 @@ self.__precacheManifest = [
     "url": "/static/media/pokemon0.3686591b.png"
   },
   {
-    "revision": "21261a6faa64387c98b9a1b08c70c11a",
-    "url": "/static/media/pokemon15.21261a6f.jpg"
-  },
-  {
     "revision": "a3adf0ac7711f30094880d0353508c9d",
     "url": "/static/media/pokemon13.a3adf0ac.png"
   },
   {
     "revision": "6c797f8b11cc0386ddef3c6f0134b630",
     "url": "/static/media/pokemon11.6c797f8b.png"
+  },
+  {
+    "revision": "21fca22ae29c6070b6896a1a3c32d204",
+    "url": "/static/media/sana.21fca22a.jpg"
   },
   {
     "revision": "a3e2fd8c319161004234a46aa32e9fe8",
@@ -180,7 +180,7 @@ self.__precacheManifest = [
     "url": "/static/media/logo_transparent_background.2f1a17a3.png"
   },
   {
-    "revision": "27b908e1d2ef0a363271fcbe251ecc5b",
+    "revision": "4e81d43d05e47dbddc08bcebbbea1fcc",
     "url": "/index.html"
   }
 ];
