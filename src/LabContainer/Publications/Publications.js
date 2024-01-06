@@ -15,9 +15,9 @@ export default function Publications(props) {
   const publications = [
   {
     title:
-    "Backdoor Attack on Unpaired Medical Image-Text Foundation Models: A Pilot Study on MedCLIP"
-    author: "Jin, R., Huang, C., You, C. & Li, X."
-    journal: "SaTML 2024"
+    "Backdoor Attack on Unpaired Medical Image-Text Foundation Models: A Pilot Study on MedCLIP",
+    author: "Jin, R., Huang, C., You, C. & Li, X.",
+    journal: "SaTML 2024",
     link: "https://arxiv.org/abs/2401.01911.pdf"
   }
     {
