@@ -15,7 +15,7 @@ export default function News(props) {
   const news = [
     {
       title:
-        "[01/2024] We got one paper accepted by ICLR on Heterogenous Federated Learning!",
+        "[01/2024] We got one paper accepted by ICLR 2024 on Heterogenous Federated Learning!",
     },
     {
       title:
