@@ -43,12 +43,6 @@ export default function People(props) {
       link: "https://scholar.google.com.tw/citations?user=Uh9kwTIAAAAJ&hl=zh-TW",
       imgurl: require("../../assets/portrait/pokemon12.png"),
     },
-    // {
-    //   name: "Sana Ayromlou",
-    //   title: "MSc (2021 - ), co-supervised with Dr. Purang Abolmaesum at UBC ECE",
-    //   link: "https://www.linkedin.com/in/sana-ayromlou/",
-    //   imgurl: require("../../assets/portrait/pokemon15.jpg"),
-    // },
      {
       name: "Beidi Zhao",
       title: "MSc (2022 -), co-supervised with Dr. Gang Wang at UBC Medicine",
@@ -80,29 +74,11 @@ export default function People(props) {
       imgurl: require("../../assets/portrait/pokemon8.png"),
     },
     {
-      name: "Ruichen Yao",
-      title: "MEng(2022 - )",
-      link: "https://www.linkedin.com/in/ruichen-yao-10299248/",
-      imgurl: require("../../assets/portrait/pokemon13.png"), 
-    },
-    // {
-    //   name: "Yuyou Lai",
-    //   title: "UG at UBC ECE",
-    //   link: "https://www.linkedin.com/in/yuyou-lai/",
-    //   imgurl: require("../../assets/portrait/pokemon14.jpg"),
-    // },
-    {
       name: "SangMook Kim",
       title: "Postdoc(2023 - )",
       link: "https://scholar.google.com/citations?user=YjpFRuIAAAAJ&hl=ko",
       imgurl: require("../../assets/portrait/pokemon11.png"), 
     }
-    // {
-    //   name: "Fatemeh Taheri Dezaki",
-    //   title: "Postdoc, now at Amazon ",
-    //   link: "www.google.com",
-    //   imgurl: require("../../assets/portrait/pokemon12.png"),
-    // }
   ];
 
   // const renderPeople = () => {

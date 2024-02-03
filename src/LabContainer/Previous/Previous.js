@@ -91,24 +91,18 @@ export default function Previous(props) {
       link: "www.google.com",
       imgurl: require("../../assets/portrait/jeeseok.jpeg"), 
     },
-    // {
-    //   name: "Jee Seok Yoon",
-    //   title: "Visiting Student",
-    //   link: "www.google.com",
-    //   imgurl: require("../../assets/portrait/pokemon11.png"), 
-    // },
-    // {
-    //   name: "Ruichen Yao",
-    //   title: "MEng(2022 - ) at UBC",
-    //   link: "https://www.linkedin.com/in/ruichen-yao-10299248/",
-    //   imgurl: require("../../assets/portrait/pokemon13.png"), 
-    // },
     {
       name: "Yuyou Lai",
       title: "Undergraduate at UBC ECE",
       link: "https://www.linkedin.com/in/yuyou-lai/",
       imgurl: require("../../assets/portrait/boy.jpeg"),
-    }
+    },
+    {
+      name: "Ruichen Yao",
+      title: "MEng(2022 - )",
+      link: "https://www.linkedin.com/in/ruichen-yao-10299248/",
+      imgurl: require("../../assets/portrait/pokemon13.png"), 
+    },
   ];
 
   // const renderPeople = () => {
