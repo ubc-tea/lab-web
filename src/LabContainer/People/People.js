@@ -84,6 +84,12 @@ export default function People(props) {
       title: "PhD (2024 - )",
       link: "www.google.com",
       imgurl: require("../../assets/portrait/pokemon11.png"), 
+    },
+    {
+      name: "Chen Zhao",
+      title: "PhD (2024 - )",
+      link: "www.google.com",
+      imgurl: require("../../assets/portrait/pokemon11.png"), 
     }
   ];
 
