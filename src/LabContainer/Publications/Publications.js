@@ -15,6 +15,13 @@ export default function Publications(props) {
   const publications = [
   {
     title:
+    "Heterogeneous Personalized Federated Learning by Local-Global Updates Mixing via Convergence Rate.",
+    author: "Jiang, M. , Le, A., Li X., Dou X.",
+    journal: "ICLR 2024",
+    link: "https://openreview.net/forum?id=7pWRLDBAtc&noteId=zWmLRWv933"
+  },
+  {
+    title:
     "Backdoor Attack on Unpaired Medical Image-Text Foundation Models: A Pilot Study on MedCLIP",
     author: "Jin, R., Huang, C., You, C. & Li, X.",
     journal: "SaTML 2024",
