@@ -78,6 +78,12 @@ export default function People(props) {
       title: "Postdoc(2023 - )",
       link: "https://scholar.google.com/citations?user=YjpFRuIAAAAJ&hl=ko",
       imgurl: require("../../assets/portrait/pokemon11.png"), 
+    },
+    {
+      name: "Yanting Yang",
+      title: "PhD (2024 - )",
+      link: "www.google.com",
+      imgurl: require("../../assets/portrait/pokemon11.png"), 
     }
   ];
 
