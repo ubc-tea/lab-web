@@ -83,13 +83,13 @@ export default function People(props) {
       name: "Yanting Yang",
       title: "PhD (2024 - )",
       link: "www.google.com",
-      imgurl: require("../../assets/portrait/pokemon11.png"), 
+      imgurl: require("../../assets/portrait/pokemon4.png"), 
     },
     {
       name: "Chen Zhao",
       title: "PhD (2024 - )",
       link: "www.google.com",
-      imgurl: require("../../assets/portrait/pokemon11.png"), 
+      imgurl: require("../../assets/portrait/pokemon13.png"), 
     }
   ];
 

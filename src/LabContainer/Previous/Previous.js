@@ -101,7 +101,7 @@ export default function Previous(props) {
       name: "Ruichen Yao",
       title: "MEng(2022 - )",
       link: "https://www.linkedin.com/in/ruichen-yao-10299248/",
-      imgurl: require("../../assets/portrait/pokemon13.png"), 
+      imgurl: require("../../assets/portrait/ruichen.jpeg"), 
     },
   ];
 
