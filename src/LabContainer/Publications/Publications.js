@@ -18,7 +18,7 @@ export default function Publications(props) {
      "LESS: Label-efficient Multi-scale Learning for Cytological Whole Slide Image Screening.",
     author: "Zhao, B., Deng, W., Li, Z., Zhou, C., Gao, Z., Wang, G. & Li, X.",
     journal: "Medical Image Analysis",
-    link: "https://arxiv.org/pdf/2306.03407.pdf"
+    link: "https://arxiv.org/abs/2306.03407"
   },
   {
     title:
