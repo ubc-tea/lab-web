@@ -15,8 +15,15 @@ export default function Publications(props) {
   const publications = [
   {
     title:
-    "Heterogeneous Personalized Federated Learning by Local-Global Updates Mixing via Convergence Rate.",
-    author: "Jiang, M. , Le, A., Li X., Dou X.",
+     "LESS: Label-efficient Multi-scale Learning for Cytological Whole Slide Image Screening.",
+    author: "Zhao, B., Deng, W., Li, Z., Zhou, C., Gao, Z., Wang, G. & Li, X.",
+    journal: "Medical Image Analysis",
+    link: "https://arxiv.org/pdf/2306.03407.pdf"
+  },
+  {
+    title:
+     "Heterogeneous Personalized Federated Learning by Local-Global Updates Mixing via Convergence Rate.",
+    author: "Jiang, M., Le, A., Li X., Dou X.",
     journal: "ICLR 2024",
     link: "https://openreview.net/forum?id=7pWRLDBAtc&noteId=zWmLRWv933"
   },
