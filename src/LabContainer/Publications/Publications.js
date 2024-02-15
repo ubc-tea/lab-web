@@ -15,14 +15,14 @@ export default function Publications(props) {
   const publications = [
   {
     title:
-     "LESS: Label-efficient Multi-scale Learning for Cytological Whole Slide Image Screening.",
+     "LESS: Label-efficient Multi-scale Learning for Cytological Whole Slide Image Screening",
     author: "Zhao, B., Deng, W., Li, Z., Zhou, C., Gao, Z., Wang, G. & Li, X.",
     journal: "Medical Image Analysis",
     link: "https://arxiv.org/abs/2306.03407"
   },
   {
     title:
-     "Heterogeneous Personalized Federated Learning by Local-Global Updates Mixing via Convergence Rate.",
+     "Heterogeneous Personalized Federated Learning by Local-Global Updates Mixing via Convergence Rate",
     author: "Jiang, M., Le, A., Li X., Dou X.",
     journal: "ICLR 2024",
     link: "https://openreview.net/forum?id=7pWRLDBAtc&noteId=zWmLRWv933"
