@@ -15,15 +15,15 @@ export default function News(props) {
   const news = [
     {
       title:
-        "[02/2024] We have one paper accepted by CVPR 2024. Congrats, Wenlong!",
+        "[02/2024] We have one paper on FL with prompt tuning accepted by CVPR 2024. Congrats, Wenlong!",
     },
     {
       title:
-        "[02/2024] We have one paper accepted by Meidical Image Analysis. Congrats, Beidi!",
+        "[02/2024] We have one paper on label efficient WSI analysis accepted by Meidical Image Analysis. Congrats, Beidi!",
     },
-    {
+    { 
       title:
-        "[01/2024] We got one paper accepted by ICLR 2024 on Heterogenous Federated Learning!",
+        "[01/2024] We got one paper on Heterogenous Federated Learning accepted by ICLR 2024!",
     },
     {
       title:
