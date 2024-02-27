@@ -24,7 +24,7 @@ export default function Publications(props) {
     title:
      "LESS: Label-efficient Multi-scale Learning for Cytological Whole Slide Image Screening",
     author: "Zhao, B., Deng, W., Li, Z., Zhou, C., Gao, Z., Wang, G. & Li, X.",
-    journal: "Medical Image Analysis",
+    journal: "Medical Image Analysis 2024",
     link: "https://arxiv.org/abs/2306.03407"
   },
   {
@@ -45,7 +45,7 @@ export default function Publications(props) {
       title:
         "Backdoor Attack and Defense in Federated Generative Adversarial Network-based Medical Image Synthesis",
       author: "Jin, R., & Li, X.",
-      journal: "Medical Image Analysis",
+      journal: "Medical Image Analysis 2024",
       link: "https://arxiv.org/pdf/2210.10886.pdf"
     },
     {
@@ -66,7 +66,7 @@ export default function Publications(props) {
       title:
         "BUDDY: Molecular Formula Discovery via Bottom-up MS/MS Interrogation",
       author: "Xing, S., Shen, S., Xu, B., Li, X., & Huan, T.",
-      journal: "Nature Methods",
+      journal: "Nature Methods 2024",
       link: "https://www.nature.com/articles/s41592-023-01850-x",
     },
     {

@@ -15,7 +15,7 @@ export default function News(props) {
   const news = [
     {
       title:
-        "[02/2024] We have one paper accepted CVPR 2024. Congrats, Wenlong!",
+        "[02/2024] We have one paper accepted by CVPR 2024. Congrats, Wenlong!",
     },
     {
       title:
