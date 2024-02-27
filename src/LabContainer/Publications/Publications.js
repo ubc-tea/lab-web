@@ -15,6 +15,13 @@ export default function Publications(props) {
   const publications = [
   {
     title:
+     "Unlocking the Potential of Prompt-Tuning in Bridging Generalized and Personalized Federated Learning",
+    author: "Deng, W., Thrampoulidis, C., & Li, X.",
+    journal: "CVPR 2024",
+    link: "https://arxiv.org/abs/2310.18285"
+  },
+  {
+    title:
      "LESS: Label-efficient Multi-scale Learning for Cytological Whole Slide Image Screening",
     author: "Zhao, B., Deng, W., Li, Z., Zhou, C., Gao, Z., Wang, G. & Li, X.",
     journal: "Medical Image Analysis",
