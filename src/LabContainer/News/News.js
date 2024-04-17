@@ -16,7 +16,7 @@ export default function News(props) {
     {
       title:
         "[04/2024] We have four papers on FL accepted by IJCAI 2024!",
-    }
+    },
     {
       title:
         "[02/2024] We have one paper on FL with prompt tuning accepted by CVPR 2024. Congrats, Wenlong!",
