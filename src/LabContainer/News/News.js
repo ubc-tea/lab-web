@@ -23,7 +23,7 @@ export default function News(props) {
     },
     {
       title:
-        "[02/2024] We have one paper on label efficient WSI analysis accepted by Meidical Image Analysis. Congrats, Beidi!",
+        "[02/2024] Beidi's paper on label efficient WSI analysis is accepted by Meidical Image Analysis!",
     },
     { 
       title:
@@ -58,10 +58,10 @@ export default function News(props) {
       title:
         "[01/2023] We have one paper accepted by ICLR 2023. Dr. Li gives keynote at TML4H workshop at ICLR 2023.",
     },
-    {
-      title:
-        "[01/2023] Dr. Li serves as a Program Chairs for MIDL 2023. Dr. Li serves an Area Chair and Organizing Committee for MICCAI 2023. ",
-    },
+    // {
+    //   title:
+    //     "[01/2023] Dr. Li serves as a Program Chairs for MIDL 2023. Dr. Li serves an Area Chair and Organizing Committee for MICCAI 2023. ",
+    // },
     // {
     //   title:
     //     "[12/2022] We received the Health Innovation Funding Investment (HIFI) Awards on deep learning-based cancer screening project.",
@@ -74,18 +74,18 @@ export default function News(props) {
     //   title:
     //     "[06/2022] Chun-Yin and Minghui were selected as Blockchain Graduate Pathway 2022-2023 fellows. Weina received Borelis AI fellowship.",
     // },
-    {
-      title:
-        "[04/2022] We received NSERC Discovery Grants program's support on continous learning project.",
-    },
-    {
-      title:
-        "[04/2022] We received ROCHE's and CIFAR's support on healthcare data synthesis project.",
-    },
-    {
-      title:
-        "[03/2022] We received generous support from Compute Canada RPP Competetion.",
-    },
+    // {
+    //   title:
+    //     "[04/2022] We received NSERC Discovery Grants program's support on continous learning project.",
+    // },
+    // {
+    //   title:
+    //     "[04/2022] We received ROCHE's and CIFAR's support on healthcare data synthesis project.",
+    // },
+    // {
+    //   title:
+    //     "[03/2022] We received generous support from Compute Canada RPP Competetion.",
+    // },
     {
       title:
         "[03/2022] We received NVIDIA Academic Hardware Grant to continuously support our FL projects.",
