@@ -13,6 +13,25 @@ export default function Publications(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const publications = [
+    {
+    title:
+     "Overcoming Data and Model heterogeneities in Decentralized Federated Learning via Synthetic Anchors",
+    author: "Huang, C. Y., Srinivas, K., Zhang, X., & Li, X",
+    journal: "ICML 2024"
+  },
+    {
+    title:
+     "FedCal: Achieving Local and Global Calibration in Federated Learning via Aggregated Parameterized Scaler",
+    author: "Deng, W., Thrampoulidis, C., & Li, X.",
+    journal: "ICML 2024"
+  },
+    {
+    title:
+     "Learning High-Order Relationships of Brain Regions.",
+    author: "Qiu, W., Chu, H., Wang, S., Zuo, H., Li, X., Zhao, Y., & Ying, R. ",
+    journal: "ICML 2024",
+    link: "https://arxiv.org/html/2312.02203v2"
+  },
   {
     title:
      "Unlocking the Potential of Prompt-Tuning in Bridging Generalized and Personalized Federated Learning",
