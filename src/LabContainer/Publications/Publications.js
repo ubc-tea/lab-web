@@ -27,7 +27,7 @@ export default function Publications(props) {
   },
     {
     title:
-     "Learning High-Order Relationships of Brain Regions.",
+     "Learning High-Order Relationships of Brain Regions",
     author: "Qiu, W., Chu, H., Wang, S., Zuo, H., Li, X., Zhao, Y., & Ying, R. ",
     journal: "ICML 2024",
     link: "https://arxiv.org/html/2312.02203v2"
