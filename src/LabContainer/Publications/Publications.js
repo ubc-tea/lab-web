@@ -22,7 +22,7 @@ export default function Publications(props) {
     {
     title:
      "FedCal: Achieving Local and Global Calibration in Federated Learning via Aggregated Parameterized Scaler",
-    author: "Deng, W., Thrampoulidis, C., & Li, X.",
+    author: "Peng, H., Yu, H., Tang, X., & Li, X.",
     journal: "ICML 2024"
   },
     {
