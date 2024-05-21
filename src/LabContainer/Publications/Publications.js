@@ -17,7 +17,8 @@ export default function Publications(props) {
     title:
      "Overcoming Data and Model heterogeneities in Decentralized Federated Learning via Synthetic Anchors",
     author: "Huang, C. Y., Srinivas, K., Zhang, X., & Li, X",
-    journal: "ICML 2024"
+    journal: "ICML 2024",
+    link: "https://arxiv.org/pdf/2405.11525"
   },
     {
     title:
