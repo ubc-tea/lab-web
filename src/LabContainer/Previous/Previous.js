@@ -13,54 +13,6 @@ export default function Previous(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const people = [
-    // {
-    //   name: "Dr. Xiaoxiao Li",
-    //   title: "PI",
-    //   link: "https://xxlya.github.io/xiaoxiao/",
-    //   imgurl: require("../../assets/portrait/pokemon0.png"),
-    // },
-    // {
-    //   name: "Chun-Yin Huang",
-    //   title: "PhD (2021 - )",
-    //   link: "https://www.linkedin.com/in/chun-yin-huang-00a728b3/",
-    //   imgurl: require("../../assets/portrait/pokemon1.png"),
-    // },
-    // {
-    //   name: "Wenlong Deng",
-    //   title: "PhD (2022 - ), co-supervised with Dr. Christos Thrampoulidis at UBC ECE",
-    //   link: "https://www.linkedin.com/in/wenlongdeng/?originalSubdomain=ch",
-    //   imgurl: require("../../assets/portrait/pokemon2.png"),
-    // },
-    // {
-    //   name: "Minghui Chen",
-    //   title: "PhD (2022 - ), co-supervised with Dr. Zehua Wang at UBC ECE",
-    //   link: "https://chenminghui.com/",
-    //   imgurl: require("../../assets/portrait/pokemon3.png"),
-    // },
-    // {
-    //   name: "Sana Ayromlou",
-    //   title: "MSc (2021 - ), co-supervised with Dr. Purang Abolmaesum at UBC ECE",
-    //   link: "https://www.linkedin.com/in/sana-ayromlou/",
-    //   imgurl: require("../../assets/portrait/pokemon4.png"),
-    // },
-    //  {
-    //   name: "Beidi Zhao",
-    //   title: "MSc (2022 -), co-supervised with Dr. Gang Wang at UBC Medicine",
-    //   link: "https://scholar.google.com/citations?user=iWwKZf8AAAAJ&hl=en",
-    //   imgurl: require("../../assets/portrait/pokemon5.png"),
-    // },
-    // {
-    //   name: "Justin Yang",
-    //   title: "MSc (2022 -), co-supervised with Dr. Mi Jung Park at UBC CS",
-    //   link: "https://freddieneverleft.github.io/",
-    //   imgurl: require("../../assets/portrait/pokemon6.png"),
-    // },
-    // {
-    //   name: "Ailar Mahdizadeh",
-    //   title: "MSc (2022 -), co-supervised with Dr. Martin Mckweon at UBC Medicine",
-    //   link: "www.google.com",
-    //   imgurl: require("../../assets/portrait/pokemon7.png"),
-    // },
     {
       name: "Sana Ayromlou",
       title: "MSc (2021 - 2023), now Associate ML Specialist at Vector Institute",
@@ -99,7 +51,7 @@ export default function Previous(props) {
     },
     {
       name: "Ruichen Yao",
-      title: "MEng(2022 - )",
+      title: "MEng(2022 - 2023)",
       link: "https://www.linkedin.com/in/ruichen-yao-10299248/",
       imgurl: require("../../assets/portrait/ruichen.jpeg"), 
     },
