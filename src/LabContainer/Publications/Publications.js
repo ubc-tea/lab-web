@@ -17,7 +17,7 @@ export default function Publications(props) {
     title:
      "MMGPL: Multimodal Medical Data Analysis with Graph Prompt Learning",
     author: "Peng, L., Cai, S., Wu, Z., Shang, H., Zhu, X., & Li, X.",
-    journal: "Medical Image Analysis",
+    journal: "Medical Image Analysis 2024",
     link: "https://arxiv.org/pdf/2312.14574"
   },
     {
