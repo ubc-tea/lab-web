@@ -15,7 +15,7 @@ export default function News(props) {
   const news = [
     {
       title:
-        "[05/2024] Our paper on federated unlearning received Best Paper Award at FL@FM www 2024. Congrats, Ruinan and Minghui!",
+        "[05/2024] Our paper on federated unlearning received Best Paper Award at FL@FM WWW 2024. Congrats, Ruinan and Minghui!",
     },
     {
       title:
