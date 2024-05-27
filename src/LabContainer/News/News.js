@@ -15,6 +15,14 @@ export default function News(props) {
   const news = [
     {
       title:
+        "[05/2024] Our paper on federated unlearning received Best Paper Award at FL@FM www 2024. Congrats, Ruinan and Minghui!",
+    },
+    {
+      title:
+        "[05/2024] We have one paper on multimodal foundation model accepted by Medical Image Analaysis!",
+    },
+    {
+      title:
         "[04/2024] We have three papers on federated learning and brain networks accepted by ICML 2024!",
     },
     {

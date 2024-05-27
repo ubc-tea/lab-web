@@ -13,10 +13,17 @@ export default function Publications(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const publications = [
+     {
+    title:
+     "MMGPL: Multimodal Medical Data Analysis with Graph Prompt Learning",
+    author: "Peng, L., Cai, S., Wu, Z., Shang, H., Zhu, X., & Li, X.",
+    journal: "Medical Image Analysis",
+    link: "https://arxiv.org/pdf/2312.14574"
+  },
     {
     title:
      "Overcoming Data and Model heterogeneities in Decentralized Federated Learning via Synthetic Anchors",
-    author: "Huang, C. Y., Srinivas, K., Zhang, X., & Li, X",
+    author: "Huang, C. Y., Srinivas, K., Zhang, X., & Li, X.",
     journal: "ICML 2024",
     link: "https://arxiv.org/pdf/2405.11525"
   },
