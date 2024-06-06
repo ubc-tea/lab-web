@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.df78c657.css",
-    "main.js": "/static/js/main.891a2566.js",
+    "main.js": "/static/js/main.37a641c3.js",
     "static/js/592.fdccbbfb.chunk.js": "/static/js/592.fdccbbfb.chunk.js",
     "static/media/miccai2023-1.jpg": "/static/media/miccai2023-1.4ae1c2a815ebcf580a10.jpg",
     "static/media/cvpr2023.jpg": "/static/media/cvpr2023.b50527968d12c22522b8.jpg",
@@ -15,6 +15,7 @@
     "static/media/bg.png": "/static/media/bg.00658820a8d1606cecff.png",
     "static/media/fedbn.png": "/static/media/fedbn.a2a7afac93c2dc5dca5b.png",
     "static/media/gate.png": "/static/media/gate.bd7c53f20bad27b822dc.png",
+    "static/media/bestflfm_www2024.jpg": "/static/media/bestflfm_www2024.93f9ed5de414e57196f7.jpg",
     "static/media/pokemon13.png": "/static/media/pokemon13.af663beb3a5ee2ece82c.png",
     "static/media/examine.png": "/static/media/examine.019898ce0410167969c4.png",
     "static/media/tea_group2.jpg": "/static/media/tea_group2.cb6e7c945a0c307ad8f4.jpg",
@@ -47,11 +48,11 @@
     "static/media/avatar2.jpg": "/static/media/avatar2.05450b6cea510b9ef1e8.jpg",
     "index.html": "/index.html",
     "main.df78c657.css.map": "/static/css/main.df78c657.css.map",
-    "main.891a2566.js.map": "/static/js/main.891a2566.js.map",
+    "main.37a641c3.js.map": "/static/js/main.37a641c3.js.map",
     "592.fdccbbfb.chunk.js.map": "/static/js/592.fdccbbfb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df78c657.css",
-    "static/js/main.891a2566.js"
+    "static/js/main.37a641c3.js"
   ]
 }
