@@ -15,6 +15,10 @@ export default function News(props) {
   const news = [
     {
       title:
+        "[06/2024] Our paper on continual learning was accepted by Medical Image Analysis. Congrats, Sana!",
+    },
+    {
+      title:
         "[05/2024] Our paper on federated unlearning received Best Paper Award at FL@FM WWW 2024. Congrats, Ruinan and Minghui!",
     },
     {

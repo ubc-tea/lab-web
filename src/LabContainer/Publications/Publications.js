@@ -13,6 +13,14 @@ export default function Publications(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const publications = [
+
+  {
+    title:
+     "CCSI: Continual Class-Specific Impression for Data-free Class Incremental Learning",
+    author: "Ayromlou, S., Tsang, T., Abolmaesumi, P., & Li, X.",
+    journal: "Medical Image Analysis 2024",
+    link: "https://arxiv.org/pdf/2312.14574"
+  },
      {
     title:
      "MMGPL: Multimodal Medical Data Analysis with Graph Prompt Learning",
