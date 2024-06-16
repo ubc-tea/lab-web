@@ -30,12 +30,6 @@ export default function Gallery(props) {
                     <img class="d-block w-100 galStyle" src={require("../../assets/Home/tea_group1.jpg")} alt="Fifth slide"/>
                     </div>
                     <div class="carousel-item">
-                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/miccai2023-0.jpg")} alt="Fifth slide"/>
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/miccai2023-1.jpg")} alt="Fifth slide"/>
-                    </div>
-                    <div class="carousel-item">
                     <img class="d-block w-100 galStyle" src={require("../../assets/Home/miccai2023-2.jpg")} alt="Fifth slide"/>
                     </div>
                     <div class="carousel-item">
