@@ -24,7 +24,7 @@ export default function Research(props) {
       title: "Data Valuation and Auditing for GenAI",
       description: "Data valuation plays a crucial role in machine learning. Existing data valuation methods, mainly focused on discriminative models, overlook generative models that have gained attention recently. In generative models, data valuation measures the impact of training data on generated datasets. We formulate the data valuation problem in generative models from a similarity matching perspective to bridge the gaps. Specifically, we introduce GMValuator, , the first training-free and model-agnostic approach to providing data valuation for generation tasks.",
       Imgurl:require("../../assets/Research/gmvaluator.png"),
-    }
+    },
     {
       title:
         "Federated Learning on Non-iid Features",
