@@ -15,7 +15,7 @@ export default function News(props) {
   const news = [
     {
       title:
-        "[06/2024] Three papers are accepted by MICCAI 2023. Congrats, Ruinan, Minghui and Wenlong!",
+        "[06/2024] Three papers are accepted by MICCAI 2024. Congrats, Ruinan, Minghui and Wenlong!",
     },
     {
       title:
