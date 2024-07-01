@@ -15,6 +15,10 @@ export default function News(props) {
   const news = [
     {
       title:
+        "[07/2024] One is accepted by MICCAI 2024.",
+    },
+    {
+      title:
         "[06/2024] Three papers are accepted by MICCAI 2024. Congrats, Ruinan, Minghui and Wenlong!",
     },
     {
