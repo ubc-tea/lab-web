@@ -15,7 +15,7 @@ export default function News(props) {
   const news = [
     {
       title:
-        "[07/2024] One is accepted by MICCAI 2024.",
+        "[07/2024] One is accepted by ECCV 2024.",
     },
     {
       title:
