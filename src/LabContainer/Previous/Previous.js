@@ -65,7 +65,7 @@ export default function Previous(props) {
       name: "Ailar Mahdizadeh",
       title: "MSc (2022 - 2024), now PhD student at UBC",
       link: "www.google.com",
-      imgurl: require("../../assets/portrait/ailar.jpeg"),
+      imgurl: require("../../assets/portrait/ailar.png"),
     },
     {
       name: "SangMook Kim",
