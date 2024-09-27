@@ -27,7 +27,7 @@ export default function Previous(props) {
     },
     {
       name: "Nan Wang",
-      title: "Visiting Student",
+      title: "Visiting Student, now Asst. Prof. at ECUST",
       link: "www.google.com",
       imgurl: require("../../assets/portrait/avatar2.jpg"),
     },
