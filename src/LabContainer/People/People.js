@@ -58,7 +58,7 @@ export default function People(props) {
     },
     {
       name: "Ruinan Jin",
-      title: "UG",
+      title: "PhD (2024 -)",
       link: "www.google.com",
       imgurl: require("../../assets/portrait/pokemon8.png"),
     },
