@@ -33,9 +33,15 @@ export default function People(props) {
     },
     {
       name: "Minghui Chen",
-      title: "PhD (2022 - ), co-supervised with Dr. Zehua Wang at UBC ECE",
+      title: "PhD (2022 - )",
       link: "https://chenminghui.com/",
       imgurl: require("../../assets/portrait/pokemon3.png"),
+    },
+     {
+      name: "Beidi Zhao",
+      title: "PhD (2022 -)",
+      link: "https://scholar.google.com/citations?user=iWwKZf8AAAAJ&hl=en",
+      imgurl: require("../../assets/portrait/pokemon5.png"),
     },
     {
       name: "Gexin Huang",
@@ -43,24 +49,7 @@ export default function People(props) {
       link: "https://scholar.google.com.tw/citations?user=Uh9kwTIAAAAJ&hl=zh-TW",
       imgurl: require("../../assets/portrait/pokemon12.png"),
     },
-     {
-      name: "Beidi Zhao",
-      title: "MSc (2022 -), co-supervised with Dr. Gang Wang at UBC Medicine",
-      link: "https://scholar.google.com/citations?user=iWwKZf8AAAAJ&hl=en",
-      imgurl: require("../../assets/portrait/pokemon5.png"),
-    },
-    {
-      name: "Justin Yang",
-      title: "MSc (2022 -), co-supervised with Dr. Mi Jung Park at UBC CS",
-      link: "https://freddieneverleft.github.io/",
-      imgurl: require("../../assets/portrait/pokemon6.png"),
-    },
-    {
-      name: "Ailar Mahdizadeh",
-      title: "MSc (2022 -), co-supervised with Dr. Martin Mckweon at UBC Medicine",
-      link: "www.google.com",
-      imgurl: require("../../assets/portrait/pokemon7.png"),
-    },
+
     {
       name: "Jane Shi",
       title: "MSc (2023 -)",
@@ -72,12 +61,6 @@ export default function People(props) {
       title: "UG",
       link: "www.google.com",
       imgurl: require("../../assets/portrait/pokemon8.png"),
-    },
-    {
-      name: "SangMook Kim",
-      title: "Postdoc(2023 - )",
-      link: "https://scholar.google.com/citations?user=YjpFRuIAAAAJ&hl=ko",
-      imgurl: require("../../assets/portrait/pokemon11.png"), 
     },
     {
       name: "Yanting Yang",

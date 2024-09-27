@@ -55,6 +55,24 @@ export default function Previous(props) {
       link: "https://www.linkedin.com/in/ruichen-yao-10299248/",
       imgurl: require("../../assets/portrait/ruichen.jpeg"), 
     },
+    {
+      name: "Justin Yang",
+      title: "MSc (2022 - 2024), now at Vector Institute",
+      link: "https://freddieneverleft.github.io/",
+      imgurl: require("../../assets/portrait/justin.jpeg"),
+    },
+    {
+      name: "Ailar Mahdizadeh",
+      title: "MSc (2022 - 2024), now PhD student at UBC",
+      link: "www.google.com",
+      imgurl: require("../../assets/portrait/ailar.jpeg"),
+    },
+    {
+      name: "SangMook Kim",
+      title: "Postdoc(2023 - 2024), now Asst Prof. at CNU (Korea)",
+      link: "https://scholar.google.com/citations?user=YjpFRuIAAAAJ&hl=ko",
+      imgurl: require("../../assets/portrait/sam.jpeg"), 
+    },
   ];
 
   // const renderPeople = () => {
