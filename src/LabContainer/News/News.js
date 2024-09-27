@@ -15,6 +15,10 @@ export default function News(props) {
   const news = [
     {
       title:
+        "[09/2024] Three papers are accepted by NeurIPS 2024.",
+    },
+    {
+      title:
         "[07/2024] One paper is accepted by ECCV 2024.",
     },
     {
