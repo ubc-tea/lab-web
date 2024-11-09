@@ -23,7 +23,7 @@ export default function Acknowledgement(props) {
                     <img src={require("../../assets/Home/roche.png")} width="50" height="55" class="items" />
                 </div>
                 <div>
-                    <img src={require("../../assets/Home/azure.png")} width="100" height="50" class="items" />
+                    <img src={require("../../assets/Home/google.png")} width="100" height="50" class="items" />
                 </div>
                 <div>
                     <img src={require("../../assets/Home/meta.png")} width="100" height="50" class="items" />
