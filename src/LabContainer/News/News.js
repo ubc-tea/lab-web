@@ -31,7 +31,7 @@ export default function News(props) {
     },
     {
       title:
-        "[05/2024] Our paper on federated unlearning received Best Paper Award at FL@FM WWW 2024. Congrats, Ruinan and Minghui!",
+        "[05/2024] Our paper on federated unlearning received Best Paper Award at FL@FM WWW 2024.",
     },
     {
       title:
@@ -39,53 +39,53 @@ export default function News(props) {
     },
     {
       title:
-        "[04/2024] We have three papers on federated learning and brain networks accepted by ICML 2024!",
+        "[04/2024] Three papers are accepted by ICML 2024!",
     },
     {
       title:
-        "[04/2024] We have five papers on federated learning accepted by IJCAI 2024!",
+        "[04/2024] Five papers are accepted by IJCAI 2024!",
     },
     {
       title:
-        "[02/2024] We have one paper on federated learning with prompt tuning accepted by CVPR 2024. Congrats, Wenlong!",
+        "[02/2024] Our paper on federated learning with prompt tuning accepted by CVPR 2024. Congrats, Wenlong!",
     },
     {
       title:
-        "[02/2024] Beidi's paper on label efficient WSI analysis is accepted by Meidical Image Analysis!",
+        "[02/2024] Our paper on label efficient WSI analysis is accepted by Meidical Image Analysis!",
     },
     { 
       title:
-        "[01/2024] We got one paper on Heterogenous Federated Learning accepted by ICLR 2024!",
+        "[01/2024] Our paper on Heterogenous Federated Learning accepted by ICLR 2024!",
     },
     {
       title:
-        "[12/2023] One paper is accepted by SaTML 2024. Congrats, Ruinan and Chun-Yin!",
+        "[12/2023] Our paper on backdoor attack on VLM is accepted by SaTML 2024.",
     },
     {
       title:
         "[09/2023] Ruinan's paper is accepted by Meidical Image Analysis!",
     },
 
-    {
-      title:
-        "[06/2023] We got three papers accepted by MICCAI 2023. Congrats, Minghui, Anushree, and Meirui!",
-    },
-    {
-      title:
-        "[04/2023] We got a paper accepted by Nature Methods led by Dr. Tao Huan.",
-    },
-    {
-      title:
-        "[04/2023] We got a paper accepted by ICML 2023.",
-    },
-    {
-      title:
-        "[02/2023] We have two papers accepted by IPMI 2023. Congrats, Wenlong and Jee Seok!",
-    },
-    {
-      title:
-        "[01/2023] We have one paper accepted by ICLR 2023. Dr. Li gives keynote at TML4H workshop at ICLR 2023.",
-    },
+    // {
+    //   title:
+    //     "[06/2023] We got three papers accepted by MICCAI 2023. Congrats, Minghui, Anushree, and Meirui!",
+    // },
+    // {
+    //   title:
+    //     "[04/2023] We got a paper accepted by Nature Methods led by Dr. Tao Huan.",
+    // },
+    // {
+    //   title:
+    //     "[04/2023] We got a paper accepted by ICML 2023.",
+    // },
+    // {
+    //   title:
+    //     "[02/2023] We have two papers accepted by IPMI 2023. Congrats, Wenlong and Jee Seok!",
+    // },
+    // {
+    //   title:
+    //     "[01/2023] We have one paper accepted by ICLR 2023. Dr. Li gives keynote at TML4H workshop at ICLR 2023.",
+    // },
     // {
     //   title:
     //     "[01/2023] Dr. Li serves as a Program Chairs for MIDL 2023. Dr. Li serves an Area Chair and Organizing Committee for MICCAI 2023. ",
