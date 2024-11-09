@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.df78c657.css",
-    "main.js": "/static/js/main.df08d755.js",
+    "main.js": "/static/js/main.22a40961.js",
     "static/js/592.fdccbbfb.chunk.js": "/static/js/592.fdccbbfb.chunk.js",
     "static/media/cvpr2023.jpg": "/static/media/cvpr2023.b50527968d12c22522b8.jpg",
     "static/media/tea_group1.jpg": "/static/media/tea_group1.6be313da3db8ef7bf4b3.jpg",
@@ -11,12 +11,12 @@
     "static/media/xiaoxiao.jpg": "/static/media/xiaoxiao.b64d1120fbd62ad8c2dd.jpg",
     "static/media/distdeepshap.png": "/static/media/distdeepshap.184382060621d031f29b.png",
     "static/media/bg.png": "/static/media/bg.00658820a8d1606cecff.png",
-    "static/media/mac-health.jpg": "/static/media/mac-health.ad55fc8bf49f271fdb43.jpg",
     "static/media/fedbn.png": "/static/media/fedbn.a2a7afac93c2dc5dca5b.png",
     "static/media/gate.png": "/static/media/gate.bd7c53f20bad27b822dc.png",
     "static/media/bestflfm_www2024.jpg": "/static/media/bestflfm_www2024.93f9ed5de414e57196f7.jpg",
     "static/media/pokemon13.png": "/static/media/pokemon13.af663beb3a5ee2ece82c.png",
     "static/media/tea_group2.jpg": "/static/media/tea_group2.cb6e7c945a0c307ad8f4.jpg",
+    "static/media/mac-health.jpg": "/static/media/mac-health.afb98ff0553357fdb843.jpg",
     "static/media/roche.png": "/static/media/roche.526cbd2dc885838ed542.png",
     "static/media/valuator.jpg": "/static/media/valuator.6561ff068ea93b58d839.jpg",
     "static/media/class_impression.png": "/static/media/class_impression.7b3984b3b40657883a6a.png",
@@ -48,11 +48,11 @@
     "static/media/avatar2.jpg": "/static/media/avatar2.05450b6cea510b9ef1e8.jpg",
     "index.html": "/index.html",
     "main.df78c657.css.map": "/static/css/main.df78c657.css.map",
-    "main.df08d755.js.map": "/static/js/main.df08d755.js.map",
+    "main.22a40961.js.map": "/static/js/main.22a40961.js.map",
     "592.fdccbbfb.chunk.js.map": "/static/js/592.fdccbbfb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df78c657.css",
-    "static/js/main.df08d755.js"
+    "static/js/main.22a40961.js"
   ]
 }
