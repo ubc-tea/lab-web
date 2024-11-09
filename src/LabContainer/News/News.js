@@ -61,10 +61,10 @@ export default function News(props) {
       title:
         "[12/2023] Our paper on backdoor attack on VLM is accepted by SaTML 2024.",
     },
-    {
-      title:
-        "[09/2023] Ruinan's paper is accepted by Meidical Image Analysis!",
-    },
+    // {
+    //   title:
+    //     "[09/2023] Ruinan's paper is accepted by Meidical Image Analysis!",
+    // },
 
     // {
     //   title:
@@ -94,10 +94,10 @@ export default function News(props) {
     //   title:
     //     "[12/2022] We received the Health Innovation Funding Investment (HIFI) Awards on deep learning-based cancer screening project.",
     // },
-    {
-      title:
-        "[07/2022] We received Meta Research Award on the project of data auditing for ML.",
-    },
+    // {
+    //   title:
+    //     "[07/2022] We received Meta Research Award on the project of data auditing for ML.",
+    // },
     // {
     //   title:
     //     "[06/2022] Chun-Yin and Minghui were selected as Blockchain Graduate Pathway 2022-2023 fellows. Weina received Borelis AI fellowship.",
@@ -114,10 +114,10 @@ export default function News(props) {
     //   title:
     //     "[03/2022] We received generous support from Compute Canada RPP Competetion.",
     // },
-    {
-      title:
-        "[03/2022] We received NVIDIA Academic Hardware Grant to continuously support our FL projects.",
-    },
+    // {
+    //   title:
+    //     "[03/2022] We received NVIDIA Academic Hardware Grant to continuously support our FL projects.",
+    // },
     // { title: "[02/2022] Dr.Li was selected as a Google Cloud Research Innovator." },
     // { title: "[11/2021] We received Health Innovation Funding Investment Awards with Dr. Charlene Ronquillo on fairness on healthcare data analysis project." },
   ];
