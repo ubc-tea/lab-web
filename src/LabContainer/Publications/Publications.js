@@ -13,6 +13,34 @@ export default function Publications(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const publications = [
+                {
+    title:
+     "S4M: S4 for multivariate time series forecasting with Missing values",
+    author: "Peng, J., Yang, M., Zhang, Q., & Li, X.",
+    journal: "ICLR 2025",
+    link: "https://openreview.net/pdf?id=BkftcwIVmR"
+  },
+            {
+    title:
+     "Can Textual Gradient Work in Federated Learning?",
+    author: "Chen, M., Jin, R., Deng, W., Chen, Y., Huang, Z., Han, Y., & Li, X.",
+    journal: "ICLR 2025",
+    link: "https://openreview.net/pdf?id=Cy5IKvYbR3"
+  },
+        {
+    title:
+     "GMValuator: Similarity-based Data Valuation for Generative Models",
+    author: "Yang, J., Deng, W., Liu, B., Huang, Y., Zou, J., & Li, X.",
+    journal: "ICLR 2025",
+    link: "https://openreview.net/pdf?id=WncnpvJk83"
+  },
+          {
+    title:
+     "Revisiting Delta-Parameter Pruning For Fine-Tuned Models",
+    author: "Deng, W., Zhao, Y., Vakilian, V., Chen, M., Li, X., & Thrampoulidis, C.",
+    journal: "ICLR 2025",
+    link: "https://openreview.net/pdf?id=WncnpvJk83"
+  },
     {
     title:
      "Local Superior Soups: A Catalyst for Reducing Communication Rounds in Federated Learning with Pre-trained Model",
