@@ -39,7 +39,7 @@ export default function Publications(props) {
      "Revisiting Delta-Parameter Pruning For Fine-Tuned Models",
     author: "Deng, W., Zhao, Y., Vakilian, V., Chen, M., Li, X., & Thrampoulidis, C.",
     journal: "ICLR 2025",
-    link: "https://openreview.net/pdf?id=WncnpvJk83"
+    link: "https://arxiv.org/pdf/2410.09344"
   },
     {
     title:
