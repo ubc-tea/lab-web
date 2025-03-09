@@ -1,14 +1,15 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
-import "./People.css";
+import "./Previous.css";
 
-export default function Previous(props) {
+export default function People(props) {
   let fadeInScreenHandler = (screen) => {
     if (screen.fadeScreen !== props.id) return;
     Animations.animations.fadeScreen(props.id);
   };
+
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
@@ -97,17 +98,17 @@ export default function Previous(props) {
 
   const renderPeople = () => {
     return (
-      <div class="gallery-container">
-        {people.map((data) => (
-          <div class="responsive">
-          <div class="gallery">
-            <a target="_blank" href="img_forest.jpg">
-              <img src={data.imgurl} alt="Forest" width="600" height="400" />
-            </a>
-            <a class="desc" href={data.link}>{data.name}</a>
-            <div class="desc">{data.title}</div>
+      <div className="people-grid">
+        {people.map((data, index) => (
+          <div className="person-card" key={index}>
+            <img src={data.imgurl} alt={data.name} className="person-image" />
+            <div className="person-info">
+              <a href={data.link} target="_blank" rel="noopener noreferrer" className="person-name">
+                {data.name}
+              </a>
+              <p className="person-title">{data.title}</p>
+            </div>
           </div>
-        </div>
         ))}
       </div>
     );
@@ -116,10 +117,9 @@ export default function Previous(props) {
   return (
     <div className="people-container screen-container" id={props.id || ""}>
       <div className="people-parent">
-        <ScreenHeading title={"Previous Members"} subHeading={""} />
+        <ScreenHeading title={"People"} subHeading={""} />
+        {renderPeople()}
       </div>
-      <div className="gallery">{renderPeople()}</div>
-      <div class="clearfix"></div>
     </div>
   );
   
