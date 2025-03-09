@@ -1,34 +1,102 @@
-.publications-container{
-  margin: 40px auto;
+.publications-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  width: 100%;
+}
+
+.publications-parent {
+  width: 90%;
+  max-width: 1200px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .publication-introduction {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 18px;
-  width: 80%;
-  position: relative;
-  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.publication-content {
-  width: 80%;
-  position: relative;
-  margin: 0 auto;
+.publication-introduction a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.publication-introduction a:hover {
+  text-decoration: underline;
+}
+
+.publications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.publication-card {
+  padding: 15px 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border-left: 6px solid #f5a107;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+.publication-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.12);
 }
 
 .publication-title {
-  font-family: Poppins SemiBold;
-  font-size: 18px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
 }
 
-.publication-autors {
-  font-family: Poppins Regular;
-  font-size: 16px;
+.publication-title:hover {
+  text-decoration: underline;
+}
+
+.publication-authors {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
 }
 
 .publication-journal {
-  font-family: Poppins Regular;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: italic;
+  color: #333;
+}
+
+@media screen and (max-width: 1200px) {
+  .publications-parent {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .publications-parent {
+    width: 98%;
+    padding: 20px;
+  }
+
+  .publication-title {
+    font-size: 1rem;
+  }
+
+  .publication-authors {
+    font-size: 0.95rem;
+  }
+
+  .publication-journal {
+    font-size: 0.95rem;
+  }
 }
