@@ -16,13 +16,34 @@ export default function News(props) {
     <div className="news-container screen-container" id={props.id || ""}>
       <div className="news-parent">
         <ScreenHeading title={"Positions"} subHeading={""} />
+
         <div className="forward">
-        If you want to join TEA, please email to <a href="mailto:xiaoxiao.li@ece.ubc.ca">xiaoxiao.li@ece.ubc.ca</a>, including your CV, transcript, and one of your research papers if applicable. Due to the large amount of emails I receive, I may not be able to respond to each one individually. To help me notice you email, please put **[ILOLLEH]**, written backwards, in your email subject. Please strictly follow the instruction.
+          If you want to join <strong>TEA</strong>, please email  
+          <a href="mailto:xiaoxiao.li@ece.ubc.ca"> xiaoxiao.li@ece.ubc.ca</a>, including your  
+          <strong> CV, transcript,</strong> and <strong>one research paper</strong> (if applicable).  
+          <br /><br />
+          Due to the large volume of emails, I may not be able to respond individually.  
+          To help me notice your email, **please include** <span className="highlight">[ILOLLEH]</span>, written **backwards**, in the subject line.
+          <br /><br />
+          <span className="warning">📌 Please follow these instructions carefully.</span>
         </div>
-        <div className="content">
-        <li><strong> Postdoc</strong>: Posdtoc positions are available with flexible starting date.</li>
-        <li><strong> Graduate Students</strong>: Multiple positions for graduate students are available for 2025 Fall.</li>
-        <li><strong>Intern Students and Visiting Students/Scholars</strong>: All formats of local and remote collaboration are welcomed. For the intern students at UBC, we need to work together through course registration or summer internship programs.</li>
+
+        <div className="positions-container">
+          <div className="position-card">
+            <h3>📍 Postdoc</h3>
+            <p>Postdoc positions are available with flexible starting dates.</p>
+          </div>
+
+          <div className="position-card">
+            <h3>🎓 Graduate Students</h3>
+            <p>Multiple positions available for <strong>Fall 2025</strong>.</p>
+          </div>
+
+          <div className="position-card">
+            <h3>🤝 Interns & Visiting Scholars</h3>
+            <p>Local and remote collaborations are welcome.  
+               <br />UBC students can apply through course registration or summer internship programs.</p>
+          </div>
         </div>
       </div>
     </div>

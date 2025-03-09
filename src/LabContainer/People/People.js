@@ -73,12 +73,6 @@ export default function People(props) {
       title: "PhD (2024 - )",
       link: "www.google.com",
       imgurl: require("../../assets/portrait/pokemon13.png"), 
-    },
-    {
-      name: "Ryan Rezai",
-      title: "UG Waterloo (2023 - 2024)",
-      link: "https://ryanrez.ai/",
-      imgurl: require("../../assets/portrait/pokemon16.jpg"), 
     }
   ];
 
