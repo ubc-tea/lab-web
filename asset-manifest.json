@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4358f7db.css",
-    "main.js": "/static/js/main.07351268.js",
+    "main.js": "/static/js/main.ff21f004.js",
     "static/js/592.fdccbbfb.chunk.js": "/static/js/592.fdccbbfb.chunk.js",
     "static/media/cvpr2023.jpg": "/static/media/cvpr2023.b50527968d12c22522b8.jpg",
     "static/media/tea_group1.jpg": "/static/media/tea_group1.6be313da3db8ef7bf4b3.jpg",
@@ -41,14 +41,16 @@
     "static/media/justin.jpeg": "/static/media/justin.7759a347f5f39803068a.jpeg",
     "static/media/cifar.png": "/static/media/cifar.b33b54a5eb02d73cba8a.png",
     "static/media/pokemon0.png": "/static/media/pokemon0.01a31eda86ce15ba62f2.png",
+    "static/media/right.png": "/static/media/right.f8067476df922c27844f.png",
+    "static/media/left.png": "/static/media/left.a9afaff9327d113957ce.png",
     "static/media/avatar2.jpg": "/static/media/avatar2.05450b6cea510b9ef1e8.jpg",
     "index.html": "/index.html",
     "main.4358f7db.css.map": "/static/css/main.4358f7db.css.map",
-    "main.07351268.js.map": "/static/js/main.07351268.js.map",
+    "main.ff21f004.js.map": "/static/js/main.ff21f004.js.map",
     "592.fdccbbfb.chunk.js.map": "/static/js/592.fdccbbfb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4358f7db.css",
-    "static/js/main.07351268.js"
+    "static/js/main.ff21f004.js"
   ]
 }
