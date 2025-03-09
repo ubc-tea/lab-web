@@ -33,12 +33,6 @@ export default function Research(props) {
     },
     {
       title:
-        "Federted Model Heterogeneous Matryoshka Representation Learning.",
-      description: "This paper introduces FedMRL, a novel approach to model heterogeneous federated learning (MHeteroFL) that enhances knowledge transfer between heterogeneous client models. FedMRL employs a shared auxiliary homogeneous model for adaptive representation fusion and Matryoshka Representation Learning, enabling multi-granular feature extraction. This design improves learning capability while reducing communication and computation costs. Theoretical analysis guarantees convergence, and experiments on benchmark datasets demonstrate up to 8.48% and 24.94% accuracy gains over state-of-the-art baselines.",
-      imgurl: require("../../assets/Research/matryoshka.png"),
-    },
-    {
-      title:
         "Multimodal Medical Data Analysis with Graph Prompt Learning",
       description: "This project introduces MMGPL, a graph prompt learning framework for diagnosing neurological disorders using multimodal medical data. MMGPL reduces irrelevant patches and leverages graph-based prompts to capture structural relationships among brain regions. By integrating GPT-4-generated disease concepts with a Graph Convolutional Network (GCN), MMGPL enhances medical data analysis. Experiments on neurological disorder datasets demonstrate its superior performance and scalability.",
       imgurl: require("../../assets/Research/mmgpl.png"),
