@@ -23,7 +23,7 @@ export default function Research(props) {
     {
       title:
         "FairMedFM: Fairness Benchmarking for Medical Imaging Foundation Models",
-      description: "This paper introduces FairMedFM, a benchmarking framework for evaluating fairness in medical imaging foundation models (FMs). It integrates 17 datasets, 20 FMs, and multiple fairness metrics to analyze biases across classification and segmentation tasks. The study highlights bias prevalence, dataset-specific disparities, and ineffectiveness of existing mitigation strategies. FairMedFM provides an open-source and extensible pipeline, aiming to enhance fairness evaluation and promote equitable AI applications in medical imaging.",
+      description: "FairMedFM, a benchmarking framework for evaluating fairness in medical imaging foundation models (FMs). It integrates 17 datasets, 20 FMs, and multiple fairness metrics to analyze biases across classification and segmentation tasks. The study highlights bias prevalence, dataset-specific disparities, and ineffectiveness of existing mitigation strategies. FairMedFM provides an open-source and extensible pipeline, aiming to enhance fairness evaluation and promote equitable AI applications in medical imaging.",
       imgurl: require("../../assets/Research/fairmedfm.png"),
     },
     {
