@@ -4,13 +4,13 @@ import "./Gallery.css";
 
 export default function Gallery(props) {
     const images = [
-        { src: require("../../assets/Home/group_small.png"), title: "Group Photo" },
-        { src: require("../../assets/Home/group2.jpg"), title: "Conference Photo" },
-        { src: require("../../assets/Home/cvpr2023.jpg"), title: "CVPR 2023" },
-        { src: require("../../assets/Home/tea_group2.jpg"), title: "Workshop Meeting" },
-        { src: require("../../assets/Home/tea_group1.jpg"), title: "Outdoor Group Activity" },
-        { src: require("../../assets/Home/miccai2023-2.jpg"), title: "MICCAI 2023" },
-        { src: require("../../assets/Home/bestflfm_www2024.jpg"), title: "Best Paper Award" }
+        require("../../assets/Home/group_small.png"),
+        require("../../assets/Home/group2.jpg"),
+        require("../../assets/Home/cvpr2023.jpg"),
+        require("../../assets/Home/tea_group2.jpg"),
+        require("../../assets/Home/tea_group1.jpg"),
+        require("../../assets/Home/miccai2023-2.jpg"),
+        require("../../assets/Home/bestflfm_www2024.jpg")
     ];
 
     const [isMobile, setIsMobile] = useState(false);
@@ -28,7 +28,6 @@ export default function Gallery(props) {
         <div className="gal-parent" id={props.id || ""}>
             <ScreenHeading title={"Gallery of TEA Group"} subHeading={""} />
 
-            {/* Carousel View (Only on Desktop) */}
             {!isMobile ? (
                 <div className="gallery-container">
                     <div id="galleryCarousel" className="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
@@ -39,10 +38,10 @@ export default function Gallery(props) {
                         </ol>
 
                         <div className="carousel-inner">
-                            {images.map((image, index) => (
+                            {images.map((src, index) => (
                                 <div key={index} className={`carousel-item ${index === 0 ? "active" : ""}`}>
                                     <div className="carousel-image-wrapper">
-                                        <img className="d-block gallery-img" src={image.src} alt={image.title} />
+                                        <img className="d-block gallery-img" src={src} alt={`Gallery image ${index + 1}`} />
                                     </div>
                                 </div>
                             ))}
@@ -57,11 +56,11 @@ export default function Gallery(props) {
                     </div>
                 </div>
             ) : (
-                // <div className="gallery-grid">
-                //     {images.map((image, index) => (
-                //         <img key={index} src={image.src} alt={image.title} />
-                //     ))}
-                // </div>
+                <div className="gallery-grid">
+                    {images.map((src, index) => (
+                        <img key={index} src={src} alt={`Gallery image ${index + 1}`} />
+                    ))}
+                </div>
             )}
 
             <div className="gallery-footer-space"></div>
