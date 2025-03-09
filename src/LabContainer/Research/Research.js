@@ -78,7 +78,7 @@ export default function Research(props) {
   ];
 
   const renderProjects = () => {
-    return projects.map((project, i) => (
+    return SCREEN_CONSTSANTS.map((project, i) => (
       <div className="research-project" key={i}>
         <div className="project-content">
           <div className="project-image-container">
