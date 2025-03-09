@@ -31,9 +31,9 @@ export default function Gallery(props) {
                                 <div className="carousel-image-wrapper">
                                     <img className="d-block gallery-img" src={image.src} alt={image.title} />
                                 </div>
-                                <div className="carousel-caption">
+                                {/* <div className="carousel-caption">
                                     <h3>{image.title}</h3>
-                                </div>
+                                </div> */}
                             </div>
                         ))}
                     </div>
