@@ -17,13 +17,13 @@ export default function Research(props) {
     {
       title:
         "Can Textual Gradient Work in Federated Learning?",
-      description: "This paper introduces Federated Textual Gradient (FedTextGrad), a novel approach that integrates textual gradient optimization into federated learning (FL). Instead of numerical gradients, FedTextGrad enables FL clients to refine prompts using LLM-generated textual feedback, with aggregation via text summarization. The study highlights key challenges in information retention and proposes an improved summarization method using the Uniform Information Density (UID) principle to enhance prompt effectiveness. Experiments on reasoning tasks validate the feasibility of this approach, expanding FL’s applicability to optimizing LLMs in decentralized settings.",
+      description: "This project introduces Federated Textual Gradient (FedTextGrad), a novel approach integrating textual gradient optimization into federated learning (FL). Instead of numerical gradients, FedTextGrad refines prompts via LLM-generated feedback and text summarization. To address information retention challenges, it employs the Uniform Information Density (UID) principle for improved summarization. Experiments on reasoning tasks validate its feasibility, expanding FL’s role in optimizing LLMs.",
       imgurl: require("../../assets/Research/fedtextgrad.png"),
     },
     {
       title:
         "MMGPL: Multimodal Medical Data Analysis with Graph Prompt Learning",
-      description: "This paper introduces MMGPL, a graph prompt learning framework for diagnosing neurological disorders using multimodal medical data. MMGPL reduces irrelevant patches and leverages graph-based prompts to capture structural relationships among brain regions. By integrating GPT-4-generated disease concepts with a Graph Convolutional Network (GCN), MMGPL enhances medical data analysis. Experiments on neurological disorder datasets demonstrate its superior performance and scalability.",
+      description: "This project introduces MMGPL, a graph prompt learning framework for diagnosing neurological disorders using multimodal medical data. MMGPL reduces irrelevant patches and leverages graph-based prompts to capture structural relationships among brain regions. By integrating GPT-4-generated disease concepts with a Graph Convolutional Network (GCN), MMGPL enhances medical data analysis. Experiments on neurological disorder datasets demonstrate its superior performance and scalability.",
       imgurl: require("../../assets/Research/mmgpl.png"),
     }, 
     {
