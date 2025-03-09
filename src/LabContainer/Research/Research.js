@@ -23,8 +23,8 @@ export default function Research(props) {
     {
       title:
         "MMGPL: Multimodal Medical Data Analysis with Graph Prompt Learning",
-      description: "This paper introduces MMGPL, a novel graph prompt learning framework designed to enhance the diagnosis of neurological disorders using multimodal medical data. Unlike traditional methods, MMGPL effectively reduces the impact of irrelevant patches and leverages graph-based prompts to capture crucial structural relationships among brain regions. The model integrates GPT-4-generated disease concepts with a Graph Convolutional Network (GCN) to refine multimodal medical data analysis. Experimental results on neurological disorder datasets demonstrate MMGPL’s superior performance and scalability, bridging the gap between multimodal large models and real-world medical diagnosis.",
-      imgurl: require("../../assets/Research/fedtextgrad.png"),
+      description: "This paper introduces MMGPL, a graph prompt learning framework for diagnosing neurological disorders using multimodal medical data. MMGPL reduces irrelevant patches and leverages graph-based prompts to capture structural relationships among brain regions. By integrating GPT-4-generated disease concepts with a Graph Convolutional Network (GCN), MMGPL enhances medical data analysis. Experiments on neurological disorder datasets demonstrate its superior performance and scalability.",
+      imgurl: require("../../assets/Research/mmgpl.png"),
     }, 
     {
       title:
