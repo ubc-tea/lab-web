@@ -4,18 +4,18 @@
   justify-content: center;
   align-items: center;
   margin: 50px 0;
+  width: 100%;
 }
 
 .news-parent {
-  max-width: 900px;
   width: 90%;
+  max-width: 1200px;
   background: #ffffff;
   border-radius: 12px;
   padding: 30px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* News List */
 .news-list {
   display: flex;
   flex-direction: column;
@@ -23,55 +23,61 @@
   margin-top: 20px;
 }
 
-/* Individual News Item */
 .news-item {
   display: flex;
   align-items: center;
-  padding: 12px 15px;
+  padding: 15px 20px;
   border-left: 6px solid #f5a107;
   background: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
+  max-width: 100%;
 }
 
-/* Hover Effect */
 .news-item:hover {
   transform: translateX(5px);
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Date Styling */
 .news-date {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: #ff5722;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
-/* Title Styling */
 .news-title {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #333;
   line-height: 1.5;
+  flex: 1;
+}
+
+@media screen and (max-width: 1200px) {
+  .news-parent {
+    width: 95%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .news-parent {
-    width: 95%;
+    width: 98%;
     padding: 20px;
   }
 
   .news-item {
     flex-direction: column;
     align-items: flex-start;
+    padding: 12px 15px;
   }
 
   .news-date {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    margin-bottom: 5px;
   }
 
   .news-title {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 }
