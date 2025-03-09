@@ -3,15 +3,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 50px 0 0 0;
+  margin: 50px 0;
+  width: 100%;
 }
 
 .research-parent {
-  max-width: 1000px;
-  width: 70%;
+  width: 90%;
+  max-width: 1200px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Research Project Block */
 .research-project {
   width: 100%;
   background: #ffffff;
@@ -20,10 +24,9 @@
   padding: 20px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
-  border-left: 6px solid #f5a107; /* Left accent border */
+  border-left: 6px solid #f5a107;
 }
 
-/* Hover effect */
 .research-project:hover {
   transform: translateY(-5px);
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
@@ -36,7 +39,6 @@
   flex-wrap: wrap;
 }
 
-/* Image container ensures fixed size */
 .project-image-container {
   flex: 1;
   display: flex;
@@ -45,15 +47,13 @@
   min-width: 40%;
 }
 
-/* STRICT Image Resizing */
 .project-image {
-  width: 300px;  /* Strict width */
-  height: 200px; /* Strict height */
+  width: 300px;
+  height: 200px;
   border-radius: 10px;
-  object-fit: fill; /* Forces resizing */
+  object-fit: cover;
 }
 
-/* Text section formatting */
 .project-details {
   flex: 1;
   display: flex;
@@ -77,7 +77,6 @@
   line-height: 1.5;
 }
 
-/* Separator bar for distinction */
 .bottom-bar {
   height: 4px;
   width: 50%;
@@ -86,7 +85,6 @@
   border-radius: 2px;
 }
 
-/* Responsive Design */
 @media screen and (max-width: 970px) {
   .project-content {
     flex-direction: column;
@@ -100,7 +98,7 @@
   }
 
   .project-image {
-    width: 300px; /* Strict fixed size even on mobile */
+    width: 300px;
     height: 200px;
     border-radius: 10px 10px 0 0;
   }

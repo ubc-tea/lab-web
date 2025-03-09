@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
@@ -78,15 +78,15 @@ export default function Research(props) {
   ];
 
   const renderProjects = () => {
-    return SCREEN_CONSTSANTS.map((value, i) => (
+    return projects.map((project, i) => (
       <div className="research-project" key={i}>
         <div className="project-content">
           <div className="project-image-container">
-            <img src={value.imgurl} alt="Project" className="project-image" />
+            <img src={project.imgurl} alt={project.title} className="project-image" />
           </div>
           <div className="project-details">
-            <h3 className="project-title">{value.title}</h3>
-            <p className="project-description">{value.description}</p>
+            <h3 className="project-title">{project.title}</h3>
+            <p className="project-description">{project.description}</p>
           </div>
         </div>
       </div>
@@ -96,7 +96,7 @@ export default function Research(props) {
   return (
     <div className="research-container screen-container" id={props.id || ""}>
       <div className="research-parent">
-        <ScreenHeading title={"Research"} subHeading={""} />
+        <ScreenHeading title={"Research Projects"} subHeading={""} />
         {renderProjects()}
       </div>
     </div>
