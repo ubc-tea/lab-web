@@ -7,11 +7,33 @@
   width: 100%;
 }
 
+.gallery-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.gallery-toggle button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #eee;
+  transition: 0.3s;
+}
+
+.gallery-toggle button.active {
+  background: #f5a107;
+  color: white;
+}
+
 .gallery-container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: auto;
-  margin-bottom: 40px;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
@@ -19,10 +41,17 @@
 
 .gallery-img {
   width: 100%;
-  height: 500px;
+  height: 600px;
   object-fit: cover;
   border-radius: 12px;
   transition: all 0.3s ease-in-out;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 8px;
+  bottom: 10px;
 }
 
 .carousel-control-prev, .carousel-control-next {
@@ -37,8 +66,8 @@
 
 .carousel-indicators li {
   background-color: #f5a107;
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
 }
 
@@ -46,13 +75,40 @@
   background-color: #ff6600;
 }
 
-@media only screen and (max-width: 1200px) {
-  .gallery-container {
-      width: 95%;
-  }
-  .gallery-img {
-      height: 400px;
-  }
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  max-width: 1300px;
+}
+
+.grid-item {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: 0.3s ease-in-out;
+}
+
+.grid-item:hover .grid-img {
+  transform: scale(1.05);
+}
+
+.grid-overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {
@@ -60,7 +116,10 @@
       width: 98%;
   }
   .gallery-img {
-      height: 300px;
+      height: 400px;
+  }
+  .grid-img {
+      height: 180px;
   }
 }
 
@@ -69,6 +128,6 @@
       width: 100%;
   }
   .gallery-img {
-      height: 250px;
+      height: 300px;
   }
 }
