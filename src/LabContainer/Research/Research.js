@@ -22,6 +22,12 @@ export default function Research(props) {
     },
     {
       title:
+        "FairMedFM: Fairness Benchmarking for Medical Imaging Foundation Models",
+      description: "This paper introduces FairMedFM, a benchmarking framework for evaluating fairness in medical imaging foundation models (FMs). It integrates 17 datasets, 20 FMs, and multiple fairness metrics to analyze biases across classification and segmentation tasks. The study highlights bias prevalence, dataset-specific disparities, and ineffectiveness of existing mitigation strategies. FairMedFM provides an open-source and extensible pipeline, aiming to enhance fairness evaluation and promote equitable AI applications in medical imaging.",
+      imgurl: require("../../assets/Research/fairmedfm.png"),
+    },
+    {
+      title:
         "Federted Model Heterogeneous Matryoshka Representation Learning.",
       description: "This paper introduces FedMRL, a novel approach to model heterogeneous federated learning (MHeteroFL) that enhances knowledge transfer between heterogeneous client models. FedMRL employs a shared auxiliary homogeneous model for adaptive representation fusion and Matryoshka Representation Learning, enabling multi-granular feature extraction. This design improves learning capability while reducing communication and computation costs. Theoretical analysis guarantees convergence, and experiments on benchmark datasets demonstrate up to 8.48% and 24.94% accuracy gains over state-of-the-art baselines.",
       imgurl: require("../../assets/Research/matryoshka.png"),
