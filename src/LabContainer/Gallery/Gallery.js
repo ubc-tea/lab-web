@@ -17,6 +17,7 @@ export default function Gallery(props) {
         <div className="gal-parent" id={props.id || ""}>
             <ScreenHeading title={"Gallery of TEA Group"} subHeading={""} />
 
+            {/* 🚀 Carousel View */}
             <div className="gallery-container">
                 <div id="galleryCarousel" className="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
                     <ol className="carousel-indicators">
@@ -46,6 +47,8 @@ export default function Gallery(props) {
                     </a>
                 </div>
             </div>
+
+            <div className="gallery-footer-space"></div>
         </div>
     );
 }

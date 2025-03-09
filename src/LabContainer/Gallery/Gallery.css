@@ -1,3 +1,12 @@
+.gal-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  width: 100%;
+}
+
 .gallery-container {
   width: 100%;
   max-width: 1400px;
@@ -18,9 +27,10 @@
 }
 
 .gallery-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 12px;
 }
 
 .carousel-caption {
@@ -72,6 +82,11 @@
       width: 100%;
   }
   .carousel-image-wrapper {
-      height: 300px;
+      height: 350px;
   }
+}
+
+.gallery-footer-space {
+  height: 100px;
+  background: transparent;
 }
