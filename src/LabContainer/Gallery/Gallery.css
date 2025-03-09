@@ -23,13 +23,14 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: #000;
+  background: transparent;
 }
 
 .gallery-img {
+  min-width: 100%;
   max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
   border-radius: 12px;
 }
 
@@ -66,6 +67,9 @@
   .carousel-image-wrapper {
       height: 500px;
   }
+  .gallery-img {
+      object-fit: contain;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -83,6 +87,9 @@
   }
   .carousel-image-wrapper {
       height: 350px;
+  }
+  .gallery-img {
+      object-fit: contain;
   }
 }
 
