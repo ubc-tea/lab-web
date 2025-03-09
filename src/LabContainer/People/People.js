@@ -30,7 +30,7 @@ export default function People(props) {
     {
       name: "Wenlong Deng",
       title: "PhD (2022 - ), co-supervised with Dr. Christos Thrampoulidis at UBC ECE",
-      link: "https://www.linkedin.com/in/wenlongdeng/?originalSubdomain=ch",
+      link: "https://vengdeng.github.io",
       imgurl: require("../../assets/portrait/pokemon2.png"),
     },
     {

@@ -1,75 +1,50 @@
 import React from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
-import "./Gallery.css"
+import "./Gallery.css";
 
 export default function Gallery(props) {
     return (
         <div className="gal-parent" id={props.id || ""}>
             <ScreenHeading title={"Gallery of TEA Group"} subHeading={""} />
-            <div class="window">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/group_small.png")} alt="First slide"/>
+
+            <div className="gallery-container">
+                <div id="galleryCarousel" className="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+                    <ol className="carousel-indicators">
+                        <li data-target="#galleryCarousel" data-slide-to="0" className="active"></li>
+                        <li data-target="#galleryCarousel" data-slide-to="1"></li>
+                        <li data-target="#galleryCarousel" data-slide-to="2"></li>
+                        <li data-target="#galleryCarousel" data-slide-to="3"></li>
+                        <li data-target="#galleryCarousel" data-slide-to="4"></li>
+                        <li data-target="#galleryCarousel" data-slide-to="5"></li>
+                        <li data-target="#galleryCarousel" data-slide-to="6"></li>
+                    </ol>
+
+                    <div className="carousel-inner">
+                        {[
+                            "../../assets/Home/group_small.png",
+                            "../../assets/Home/group2.jpg",
+                            "../../assets/Home/cvpr2023.jpg",
+                            "../../assets/Home/tea_group2.jpg",
+                            "../../assets/Home/tea_group1.jpg",
+                            "../../assets/Home/miccai2023-2.jpg",
+                            "../../assets/Home/bestflfm_www2024.jpg"
+                        ].map((image, index) => (
+                            <div key={index} className={`carousel-item ${index === 0 ? "active" : ""}`}>
+                                <img className="d-block gallery-img" src={require(image)} alt={`Slide ${index + 1}`} />
+                            </div>
+                        ))}
                     </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/group2.jpg")} alt="Second slide"/>
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/cvpr2023.jpg")} alt="Third slide"/>
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/tea_group2.jpg")} alt="Fourth slide"/>
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/tea_group1.jpg")} alt="Fifth slide"/>
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/miccai2023-2.jpg")} alt="Fifth slide"/>
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100 galStyle" src={require("../../assets/Home/bestflfm_www2024.jpg")} alt="Fifth slide"/>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <img width="32" height="32" src={require("../../assets/Home/left.png")} />
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <img width="32" height="32" src={require("../../assets/Home/right.png")} />
-                    <span class="sr-only">Next</span>
-                </a>
+
+                    <a className="carousel-control-prev" href="#galleryCarousel" role="button" data-slide="prev">
+                        <img width="40" height="40" src={require("../../assets/Home/left.png")} alt="Previous" />
+                        <span className="sr-only">Previous</span>
+                    </a>
+                    <a className="carousel-control-next" href="#galleryCarousel" role="button" data-slide="next">
+                        <img width="40" height="40" src={require("../../assets/Home/right.png")} alt="Next" />
+                        <span className="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
         </div>
-    )
+    );
 }
-
-
-
-
-{/* <div className="gal-parent" id={props.id || ""}>
-            <ScreenHeading title={"Gallery of TEA Group"} subHeading={""} />
-            <div class="gal-container">
-                <div>
-                    <img src={require("../../assets/Home/group.JPG")} width="300" height="200" class="items" />
-                </div>
-                <div>
-                    <img src={require("../../assets/Home/group2.jpg")} width="300" height="200" class="items" />
-                </div>
-                <div>
-                    <img src={require("../../assets/Home/cvpr2023.jpg")} width="300" height="200" class="items" />
-                </div> 
-                <div>
-                    <img src={require("../../assets/Home/tea_group2.jpg")} width="300" height="200" class="items" />
-                </div>
-                <div>
-                    <img src={require("../../assets/Home/tea_group1.jpg")} width="300" height="200" class="items" />
-                </div>                 
-            </div>
-        </div> */}
