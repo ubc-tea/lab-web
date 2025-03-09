@@ -31,12 +31,12 @@
 
 .project-content {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-/* Image container ensures proper resizing */
+/* Image container ensures fixed size */
 .project-image-container {
   flex: 1;
   display: flex;
@@ -45,13 +45,12 @@
   min-width: 40%;
 }
 
-/* Prevents image distortion, maintains aspect ratio */
+/* STRICT Image Resizing */
 .project-image {
-  width: 100%;
-  height: auto;
-  max-height: 300px; /* Adjust max-height dynamically */
+  width: 300px;  /* Strict width */
+  height: 200px; /* Strict height */
   border-radius: 10px;
-  object-fit: contain; /* Ensures full image is visible */
+  object-fit: fill; /* Forces resizing */
 }
 
 /* Text section formatting */
@@ -91,19 +90,23 @@
 @media screen and (max-width: 970px) {
   .project-content {
     flex-direction: column;
+    align-items: center;
   }
 
   .project-image-container {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .project-image {
-    width: 100%;
-    height: auto;
+    width: 300px; /* Strict fixed size even on mobile */
+    height: 200px;
     border-radius: 10px 10px 0 0;
   }
 
   .project-details {
     width: 100%;
+    text-align: center;
   }
 }
