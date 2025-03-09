@@ -19,6 +19,12 @@ export default function Research(props) {
         "Can Textual Gradient Work in Federated Learning?",
       description: "This paper introduces Federated Textual Gradient (FedTextGrad), a novel approach that integrates textual gradient optimization into federated learning (FL). Instead of numerical gradients, FedTextGrad enables FL clients to refine prompts using LLM-generated textual feedback, with aggregation via text summarization. The study highlights key challenges in information retention and proposes an improved summarization method using the Uniform Information Density (UID) principle to enhance prompt effectiveness. Experiments on reasoning tasks validate the feasibility of this approach, expanding FL’s applicability to optimizing LLMs in decentralized settings.",
       imgurl: require("../../assets/Research/fedtextgrad.png"),
+    },
+    {
+      title:
+        "MMGPL: Multimodal Medical Data Analysis with Graph Prompt Learning",
+      description: "This paper introduces MMGPL, a novel graph prompt learning framework designed to enhance the diagnosis of neurological disorders using multimodal medical data. Unlike traditional methods, MMGPL effectively reduces the impact of irrelevant patches and leverages graph-based prompts to capture crucial structural relationships among brain regions. The model integrates GPT-4-generated disease concepts with a Graph Convolutional Network (GCN) to refine multimodal medical data analysis. Experimental results on neurological disorder datasets demonstrate MMGPL’s superior performance and scalability, bridging the gap between multimodal large models and real-world medical diagnosis.",
+      imgurl: require("../../assets/Research/fedtextgrad.png"),
     }, 
     {
       title:
