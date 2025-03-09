@@ -2,7 +2,7 @@ import React from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
-import "./Previous.css";
+import "./People.css";
 
 export default function People(props) {
   let fadeInScreenHandler = (screen) => {
@@ -117,7 +117,7 @@ export default function People(props) {
   return (
     <div className="people-container screen-container" id={props.id || ""}>
       <div className="people-parent">
-        <ScreenHeading title={"Previous Members"} subHeading={""} />
+        <ScreenHeading title={"People"} subHeading={""} />
         {renderPeople()}
       </div>
     </div>
