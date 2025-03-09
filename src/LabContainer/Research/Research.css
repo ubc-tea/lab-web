@@ -11,13 +11,22 @@
   width: 70%;
 }
 
+/* Research Project Block */
 .research-project {
   width: 100%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  background: white;
-  border-radius: 10px;
-  margin-bottom: 30px;
-  overflow: hidden;
+  background: #ffffff;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  border-left: 6px solid #f5a107; /* Left accent border */
+}
+
+/* Hover effect for depth */
+.research-project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .project-content {
@@ -27,6 +36,7 @@
   flex-wrap: wrap;
 }
 
+/* Image container ensures uniform size */
 .project-image-container {
   flex: 1;
   display: flex;
@@ -35,13 +45,16 @@
   min-width: 40%;
 }
 
+/* Images scale properly */
 .project-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px 0 0 10px;
+  border-radius: 10px;
+  max-height: 250px; /* Ensures uniform height */
 }
 
+/* Text section formatting */
 .project-details {
   flex: 1;
   display: flex;
@@ -54,7 +67,7 @@
 
 .project-title {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
   color: #333;
   margin-bottom: 10px;
 }
@@ -62,8 +75,19 @@
 .project-description {
   font-size: 1rem;
   color: #666;
+  line-height: 1.5;
 }
 
+/* Separator bar for more distinction */
+.bottom-bar {
+  height: 4px;
+  width: 50%;
+  margin: 15px auto;
+  background-color: #f5a107;
+  border-radius: 2px;
+}
+
+/* Responsive Design */
 @media screen and (max-width: 970px) {
   .project-content {
     flex-direction: column;
