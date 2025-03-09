@@ -8,26 +8,27 @@ export default function LabContainer() {
   const mapAllScreens = () => {
     return TOTAL_SCREENS.map((screen) =>
       screen.component ? (
-        <div className="screen" key={screen.screen_name} id={screen.screen_name}>
-          <screen.component screenName={screen.screen_name} />
-        </div>
+        <screen.component
+          screenName={screen.screen_name}
+          key={screen.screen_name}
+          id={screen.screen_name}
+        />
       ) : (
         <div key={screen.screen_name}></div>
       )
     );
   };
 
-  const [top, setTop] = useState(0);
+  const [top, setTop] = useState(10);
 
   return (
-    <div className="page-container">
-      <Affix offsetTop={top}>
-        <div className="header-container">
-          <Header />
-        </div>
-      </Affix>
-
-      <div className="content-wrapper">{mapAllScreens()}</div>
+    <div className="parent">
+      {/* <div className="header">
+        <Affix offsetTop={top}>
+          <Header></Header>
+        </Affix>
+      </div> */}
+      <div className="lab-container">{mapAllScreens()}</div>
     </div>
   );
 }
