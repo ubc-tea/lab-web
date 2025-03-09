@@ -290,17 +290,17 @@ export default function Publications(props) {
 
   const renderPublications = () => {
     return (
-      <ul>
-        {publications.map((data) => (
-          <li className="publication-content" key={data.id}>
-            <a className="publication-title" href={data.link}>
+      <div className="publications-list">
+        {publications.map((data, index) => (
+          <div className="publication-card" key={index}>
+            <a className="publication-title" href={data.link} target="_blank" rel="noopener noreferrer">
               {data.title}
             </a>
-            <p className="publication-autors">{data.author}</p>
+            <p className="publication-authors">{data.author}</p>
             <p className="publication-journal">{data.journal}</p>
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
     );
   };
 
@@ -317,19 +317,15 @@ export default function Publications(props) {
   // };
 
   return (
-    <div
-      className="publications-container screen-container"
-      id={props.id || ""}
-    >
+    <div className="publications-container screen-container" id={props.id || ""}>
       <div className="publications-parent">
         <ScreenHeading title={"Publications"} subHeading={""} />
         <div className="publication-introduction">
           <p>
             For the complete list, please check &nbsp;
-            <a href="https://scholar.google.com/citations?user=sdENOQ4AAAAJ&hl=en#">
-              google scholar
-            </a>
-            .
+            <a href="https://scholar.google.com/citations?user=sdENOQ4AAAAJ&hl=en#" target="_blank" rel="noopener noreferrer">
+              Google Scholar
+            </a>.
           </p>
         </div>
         {renderPublications()}
