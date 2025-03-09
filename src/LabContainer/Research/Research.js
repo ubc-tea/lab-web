@@ -17,8 +17,14 @@ export default function Research(props) {
     {
       title:
         "Can Textual Gradient Work in Federated Learning?",
-      description: "This project introduces Federated Textual Gradient (FedTextGrad), a novel approach that integrates textual gradient optimization into federated learning (FL). Instead of numerical gradients, FedTextGrad enables FL clients to refine prompts using LLM-generated textual feedback, with aggregation via text summarization. The study highlights key challenges in information retention and proposes an improved summarization method using the Uniform Information Density (UID) principle to enhance prompt effectiveness. Experiments on reasoning tasks validate the feasibility of this approach, expanding FL’s applicability to optimizing LLMs in decentralized settings.",
+      description: "This project introduces Federated Textual Gradient (FedTextGrad), a novel approach that integrates textual gradient optimization into federated learning (FL). Instead of numerical gradients, FedTextGrad enables FL clients to refine prompts using LLM-generated textual feedback, with aggregation via text summarization. The study highlights key challenges in information retention and proposes an improved summarization method using the Uniform Information Density (UID) principle to enhance prompt effectiveness. Experiments on reasoning tasks validate the feasibility of this approach, expanding FL's applicability to optimizing LLMs in decentralized settings.",
       imgurl: require("../../assets/Research/fedtextgrad.png"),
+    },
+    {
+      title:
+        "Federted Model Heterogeneous Matryoshka Representation Learning.",
+      description: "This paper introduces FedMRL, a novel approach to model heterogeneous federated learning (MHeteroFL) that enhances knowledge transfer between heterogeneous client models. FedMRL employs a shared auxiliary homogeneous model for adaptive representation fusion and Matryoshka Representation Learning, enabling multi-granular feature extraction. This design improves learning capability while reducing communication and computation costs. Theoretical analysis guarantees convergence, and experiments on benchmark datasets demonstrate up to 8.48% and 24.94% accuracy gains over state-of-the-art baselines.",
+      imgurl: require("../../assets/Research/matryoshka.png"),
     },
     {
       title:
