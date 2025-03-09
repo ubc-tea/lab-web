@@ -11,7 +11,7 @@ export default function News(props) {
   };
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
-
+    
   const news = [
     {
       title:
@@ -132,14 +132,17 @@ export default function News(props) {
 
   const renderNews = () => {
     return (
-      <ul>
-        {news.map((data) => (
-          <li className="news">
-            {data.title}</li>
+      <div className="news-list">
+        {news.map((data, index) => (
+          <div className="news-item" key={index}>
+            <span className="news-date">{data.title.split("]")[0] + "]"}</span>
+            <span className="news-title">{data.title.split("]")[1]}</span>
+          </div>
         ))}
-      </ul>
+      </div>
     );
   };
+
   return (
     <div className="news-container screen-container" id={props.id || ""}>
       <div className="news-parent">

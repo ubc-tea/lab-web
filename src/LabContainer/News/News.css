@@ -1,14 +1,77 @@
-.news-container{
+.news-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  /* min-height: 800px; */
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
 }
 
-.news {
-    font-family: Poppins SemiBold;
-    font-size: 18px;
-    width: 80%;
-    position: relative;
-    margin: 0 auto;
+.news-parent {
+  max-width: 900px;
+  width: 90%;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* News List */
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Individual News Item */
+.news-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  border-left: 6px solid #f5a107;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.news-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Date Styling */
+.news-date {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ff5722;
+  margin-right: 10px;
+}
+
+/* Title Styling */
+.news-title {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .news-parent {
+    width: 95%;
+    padding: 20px;
   }
+
+  .news-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .news-date {
+    font-size: 0.9rem;
+  }
+
+  .news-title {
+    font-size: 0.95rem;
+  }
+}
