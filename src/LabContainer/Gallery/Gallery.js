@@ -40,7 +40,7 @@ export default function Gallery(props) {
                         <div className="carousel-inner">
                             {images.map((src, index) => (
                                 <div key={index} className={`carousel-item ${index === 0 ? "active" : ""}`}>
-                                    <div className="carousel-image-wrapper">
+                                    <div className="carousel-image-wrapper" style={{ backgroundImage: `url(${src})` }}>
                                         <img className="d-block gallery-img" src={src} alt={`Gallery image ${index + 1}`} />
                                     </div>
                                 </div>
