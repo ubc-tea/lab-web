@@ -1,8 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.e5b26c2f.css",
-    "main.js": "/static/js/main.95c9f82c.js",
+    "main.css": "/static/css/main.d786640f.css",
+    "main.js": "/static/js/main.da817bc6.js",
     "static/js/592.fdccbbfb.chunk.js": "/static/js/592.fdccbbfb.chunk.js",
+    "static/media/cvpr2023.jpg": "/static/media/cvpr2023.b50527968d12c22522b8.jpg",
+    "static/media/tea_group1.jpg": "/static/media/tea_group1.6be313da3db8ef7bf4b3.jpg",
+    "static/media/group_small.png": "/static/media/group_small.8942805e9730b2ab4dac.png",
+    "static/media/group2.jpg": "/static/media/group2.16c990808126bd7e4d65.jpg",
+    "static/media/miccai2023-2.jpg": "/static/media/miccai2023-2.36ef1048a408becbdac7.jpg",
     "static/media/xiaoxiao.jpg": "/static/media/xiaoxiao.b64d1120fbd62ad8c2dd.jpg",
     "static/media/valuator.png": "/static/media/valuator.aae05cdb96a7b2917dbc.png",
     "static/media/bg.png": "/static/media/bg.00658820a8d1606cecff.png",
@@ -10,7 +15,9 @@
     "static/media/fairmedfm.png": "/static/media/fairmedfm.e11e62581aba36dce78a.png",
     "static/media/mmgpl.png": "/static/media/mmgpl.47a89b04b8efbe0232dc.png",
     "static/media/matryoshka.png": "/static/media/matryoshka.6821fed87e5876558826.png",
+    "static/media/bestflfm_www2024.jpg": "/static/media/bestflfm_www2024.93f9ed5de414e57196f7.jpg",
     "static/media/pokemon13.png": "/static/media/pokemon13.af663beb3a5ee2ece82c.png",
+    "static/media/tea_group2.jpg": "/static/media/tea_group2.cb6e7c945a0c307ad8f4.jpg",
     "static/media/mac-health.jpg": "/static/media/mac-health.afb98ff0553357fdb843.jpg",
     "static/media/roche.png": "/static/media/roche.526cbd2dc885838ed542.png",
     "static/media/Poppins-Thin.ttf": "/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -39,12 +46,12 @@
     "static/media/left.png": "/static/media/left.a9afaff9327d113957ce.png",
     "static/media/avatar2.jpg": "/static/media/avatar2.05450b6cea510b9ef1e8.jpg",
     "index.html": "/index.html",
-    "main.e5b26c2f.css.map": "/static/css/main.e5b26c2f.css.map",
-    "main.95c9f82c.js.map": "/static/js/main.95c9f82c.js.map",
+    "main.d786640f.css.map": "/static/css/main.d786640f.css.map",
+    "main.da817bc6.js.map": "/static/js/main.da817bc6.js.map",
     "592.fdccbbfb.chunk.js.map": "/static/js/592.fdccbbfb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5b26c2f.css",
-    "static/js/main.95c9f82c.js"
+    "static/css/main.d786640f.css",
+    "static/js/main.da817bc6.js"
   ]
 }
