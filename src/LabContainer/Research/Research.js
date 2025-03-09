@@ -15,8 +15,13 @@ export default function Research(props) {
 
   const SCREEN_CONSTSANTS = [
     {
+      title: "Data Valuation and Auditing for GenAI",
+      description: "Data valuation plays a crucial role in machine learning. Existing data valuation methods, mainly focused on discriminative models, overlook generative models that have gained attention recently. In generative models, data valuation measures the impact of training data on generated datasets. We formulate the data valuation problem in generative models from a similarity matching perspective to bridge the gaps. Specifically, we introduce GMValuator, , the first training-free and model-agnostic approach to providing data valuation for generation tasks.",
+      imgurl:require("../../assets/Research/valuator.png"),
+    },
+    {
       title:
-        "Can Textual Gradient Work in Federated Learning?",
+        "Collaborative Learning via Textual Gradient on LLM",
       description: "This project introduces Federated Textual Gradient (FedTextGrad), a novel approach that integrates textual gradient optimization into federated learning (FL). Instead of numerical gradients, FedTextGrad enables FL clients to refine prompts using LLM-generated textual feedback, with aggregation via text summarization. The study highlights key challenges in information retention and proposes an improved summarization method using the Uniform Information Density (UID) principle to enhance prompt effectiveness. Experiments on reasoning tasks validate the feasibility of this approach, expanding FL's applicability to optimizing LLMs in decentralized settings.",
       imgurl: require("../../assets/Research/fedtextgrad.png"),
     },
@@ -34,7 +39,7 @@ export default function Research(props) {
     },
     {
       title:
-        "MMGPL: Multimodal Medical Data Analysis with Graph Prompt Learning",
+        "Multimodal Medical Data Analysis with Graph Prompt Learning",
       description: "This project introduces MMGPL, a graph prompt learning framework for diagnosing neurological disorders using multimodal medical data. MMGPL reduces irrelevant patches and leverages graph-based prompts to capture structural relationships among brain regions. By integrating GPT-4-generated disease concepts with a Graph Convolutional Network (GCN), MMGPL enhances medical data analysis. Experiments on neurological disorder datasets demonstrate its superior performance and scalability.",
       imgurl: require("../../assets/Research/mmgpl.png"),
     }, 
@@ -43,11 +48,6 @@ export default function Research(props) {
         "Multi-Agent Collaborative Decision Support System for Healthcare (MAC-Health)",
       description: "Performing diagnosis and helping patients manage treatment require doctors to use complex reasoning and decision-making, which often requires experts to make the decisions collaboratively. In recent years, large language models (LLMs) have achieved significant advancement, prompting the exploration of developing decision support systems for doctors to help improve clinical care. This has resulted in the emergence of a plethora of multi-agent systems (MAS) with foundation model-based agents providing interactive decision support based on queries about patient conditions. In this project, we develop MAC-Health as an AI copilot for doctors or medical school students.",
       imgurl: require("../../assets/Research/mac-health.jpg"),
-    }, 
-    {
-      title: "Data Valuation and Auditing for GenAI",
-      description: "Data valuation plays a crucial role in machine learning. Existing data valuation methods, mainly focused on discriminative models, overlook generative models that have gained attention recently. In generative models, data valuation measures the impact of training data on generated datasets. We formulate the data valuation problem in generative models from a similarity matching perspective to bridge the gaps. Specifically, we introduce GMValuator, , the first training-free and model-agnostic approach to providing data valuation for generation tasks.",
-      imgurl:require("../../assets/Research/valuator.png"),
     },
     // {
     //   title:
