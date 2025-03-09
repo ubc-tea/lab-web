@@ -2,7 +2,7 @@ import React from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
-import "./People.css";
+import "./Previous.css";
 
 export default function People(props) {
   let fadeInScreenHandler = (screen) => {
