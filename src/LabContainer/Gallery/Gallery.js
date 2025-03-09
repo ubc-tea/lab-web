@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import "./Gallery.css";
 
@@ -13,40 +13,56 @@ export default function Gallery(props) {
         { src: require("../../assets/Home/bestflfm_www2024.jpg"), title: "Best Paper Award" }
     ];
 
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 600);
+        };
+        window.addEventListener("resize", handleResize);
+        handleResize();
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     return (
         <div className="gal-parent" id={props.id || ""}>
             <ScreenHeading title={"Gallery of TEA Group"} subHeading={""} />
 
-            {/* 🚀 Carousel View */}
-            <div className="gallery-container">
-                <div id="galleryCarousel" className="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
-                    <ol className="carousel-indicators">
-                        {images.map((_, index) => (
-                            <li key={index} data-target="#galleryCarousel" data-slide-to={index} className={index === 0 ? "active" : ""}></li>
-                        ))}
-                    </ol>
+            {/* Carousel View (Only on Desktop) */}
+            {!isMobile ? (
+                <div className="gallery-container">
+                    <div id="galleryCarousel" className="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+                        <ol className="carousel-indicators">
+                            {images.map((_, index) => (
+                                <li key={index} data-target="#galleryCarousel" data-slide-to={index} className={index === 0 ? "active" : ""}></li>
+                            ))}
+                        </ol>
 
-                    <div className="carousel-inner">
-                        {images.map((image, index) => (
-                            <div key={index} className={`carousel-item ${index === 0 ? "active" : ""}`}>
-                                <div className="carousel-image-wrapper">
-                                    <img className="d-block gallery-img" src={image.src} alt={image.title} />
+                        <div className="carousel-inner">
+                            {images.map((image, index) => (
+                                <div key={index} className={`carousel-item ${index === 0 ? "active" : ""}`}>
+                                    <div className="carousel-image-wrapper">
+                                        <img className="d-block gallery-img" src={image.src} alt={image.title} />
+                                    </div>
                                 </div>
-                                {/* <div className="carousel-caption">
-                                    <h3>{image.title}</h3>
-                                </div> */}
-                            </div>
-                        ))}
-                    </div>
+                            ))}
+                        </div>
 
-                    <a className="carousel-control-prev" href="#galleryCarousel" role="button" data-slide="prev">
-                        <span className="carousel-control-prev-icon"></span>
-                    </a>
-                    <a className="carousel-control-next" href="#galleryCarousel" role="button" data-slide="next">
-                        <span className="carousel-control-next-icon"></span>
-                    </a>
+                        <a className="carousel-control-prev" href="#galleryCarousel" role="button" data-slide="prev">
+                            <span className="carousel-control-prev-icon"></span>
+                        </a>
+                        <a className="carousel-control-next" href="#galleryCarousel" role="button" data-slide="next">
+                            <span className="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
                 </div>
-            </div>
+            ) : (
+                // <div className="gallery-grid">
+                //     {images.map((image, index) => (
+                //         <img key={index} src={image.src} alt={image.title} />
+                //     ))}
+                // </div>
+            )}
 
             <div className="gallery-footer-space"></div>
         </div>
