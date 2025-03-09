@@ -1,23 +1,53 @@
-.ack-parent {
-    align-content: center;
-}
-
-.ack-title {
-    font-family: Poppins Bold;
-    font-size: 30px;
-    position: relative;
-    left: 45%;
-    margin: 5px 0 5px 0;
-}
-
-.items {
-    margin: 50px;
-}
-
 .ack-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 50px 0;
+    width: 100%;
+}
+
+.ack-logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.ack-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease-in-out;
+}
+
+.ack-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+.ack-logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 60px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+    .ack-logos {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 15px;
+    }
+
+    .ack-logo {
+        max-height: 50px;
+    }
 }

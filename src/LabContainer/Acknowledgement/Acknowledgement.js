@@ -1,35 +1,28 @@
 import React from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
-import "./Acknowledgement.css"
+import "./Acknowledgement.css";
 
 export default function Acknowledgement(props) {
-    return (
-        <div className="ack-parent" id={props.id || ""}>
-            <ScreenHeading title={"Acknowledgement"} subHeading={""} />
-            <div class="ack-container">
-                <div>
-                    <img src={require("../../assets/Home/nserc.png")} width="100" height="45" class="items" />
-                </div>
-                <div>
-                    <img src={require("../../assets/Home/compute_canada.png")} width="100" height="55" class="items" />
-                </div>
-                <div>
-                    <img src={require("../../assets/Home/cifar.png")} width="50" height="50" class="items" />
-                </div>
-                <div>
-                    <img src={require("../../assets/Home/nvidia.png")} width="110" height="50" class="items" />
-                </div>
-                <div>
-                    <img src={require("../../assets/Home/roche.png")} width="50" height="55" class="items" />
-                </div>
-                <div>
-                    <img src={require("../../assets/Home/google.png")} width="100" height="50" class="items" />
-                </div>
-                <div>
-                    <img src={require("../../assets/Home/meta.png")} width="100" height="50" class="items" />
-                </div>
+    const sponsors = [
+        { src: require("../../assets/Home/nserc.png"), alt: "NSERC" },
+        { src: require("../../assets/Home/compute_canada.png"), alt: "Compute Canada" },
+        { src: require("../../assets/Home/cifar.png"), alt: "CIFAR" },
+        { src: require("../../assets/Home/nvidia.png"), alt: "NVIDIA" },
+        { src: require("../../assets/Home/roche.png"), alt: "Roche" },
+        { src: require("../../assets/Home/google.png"), alt: "Google" },
+        { src: require("../../assets/Home/meta.png"), alt: "Meta" },
+    ];
 
+    return (
+        <div className="ack-container" id={props.id || ""}>
+            <ScreenHeading title={"Acknowledgement"} subHeading={""} />
+            <div className="ack-logos">
+                {sponsors.map((sponsor, index) => (
+                    <div className="ack-item" key={index}>
+                        <img src={sponsor.src} alt={sponsor.alt} className="ack-logo" />
+                    </div>
+                ))}
             </div>
         </div>
-    )
+    );
 }
