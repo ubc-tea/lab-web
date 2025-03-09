@@ -16,6 +16,12 @@ export default function Research(props) {
   const SCREEN_CONSTSANTS = [
     {
       title:
+        "Can Textual Gradient Work in Federated Learning?",
+      description: "This paper explores the integration of textual gradients into federated learning (FL) through a novel framework called Federated Textual Gradient (FedTextGrad). Unlike traditional FL methods that rely on numerical gradients, FedTextGrad allows FL clients to optimize prompts using textual feedback from large language models (LLMs) and share these updated prompts for aggregation via text summarization. The study identifies key challenges, including effective prompt aggregation and information retention, and proposes an improved summarization method based on the Uniform Information Density (UID) principle to enhance global prompt effectiveness. Extensive experiments on reasoning tasks demonstrate the feasibility of this approach, paving the way for collaborative LLM optimization in decentralized environments.",
+      imgurl: require("../../assets/Research/fedtextgrad.jpg"),
+    }, 
+    {
+      title:
         "Multi-Agent Collaborative Decision Support System for Healthcare (MAC-Health)",
       description: "Performing diagnosis and helping patients manage treatment require doctors to use complex reasoning and decision-making, which often requires experts to make the decisions collaboratively. In recent years, large language models (LLMs) have achieved significant advancement, prompting the exploration of developing decision support systems for doctors to help improve clinical care. This has resulted in the emergence of a plethora of multi-agent systems (MAS) with foundation model-based agents providing interactive decision support based on queries about patient conditions. In this project, we develop MAC-Health as an AI copilot for doctors or medical school students.",
       imgurl: require("../../assets/Research/mac-health.jpg"),
@@ -45,12 +51,6 @@ export default function Research(props) {
       "A major challenge of incremental learning is catastrophic forgetting. To alleviate this problem, prior methodologies save a portion of training data that require perpetual storage, which may introduce privacy issues. Here, we propose a novel data-free class incremental learning framework that first synthesizes data from the model trained on previous classes to generate synthetic data, called Class Impression, which is used to update model with new data. With the assistance with serveral novel losses, our pipeline improves accuracy for class incremental learning.",
       imgurl: require("../../assets/Research/class_impression.png"),
     },
-    // {
-    //   title: "Unsupervised Data Valuation",
-    //   description: 
-    //   "Existing data assessment methods commonly require knowing the labels in advance, which are not feasible to achieve the goal of `knowing which data is valuable beofre training.'To this end, we formulate and propose a novel and efficient data assessment strategy, EXponentiAl Marginal sINgular valuE (EXAMINE) score, to rank the quality of unlabeled medical image data based on their useful latent representations extracted via SSL networks. Our method is designbed with proper theoritical gaurantee.",
-    //   imgurl: require("../../assets/Research/examine.png"),
-    // },
 
     {
       title: "Explaining AI Models with Uncertainty",
