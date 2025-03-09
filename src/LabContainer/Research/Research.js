@@ -79,19 +79,16 @@ export default function Research(props) {
 
   const renderProjects = () => {
     return SCREEN_CONSTSANTS.map((value, i) => (
-      <div className="research-projects">
-        <div className="project-title" key={i}>
-          <span>{value.title}</span>
-          <img
-            src={value.imgurl}
-            alt="No Image"
-            className="project-image"
-          ></img>
+      <div className="research-project" key={i}>
+        <div className="project-content">
+          <div className="project-image-container">
+            <img src={value.imgurl} alt="Project" className="project-image" />
+          </div>
+          <div className="project-details">
+            <h3 className="project-title">{value.title}</h3>
+            <p className="project-description">{value.description}</p>
+          </div>
         </div>
-        <div className="project-details">
-          <span>{value.description}</span>
-        </div>
-        <div className="bottom-bar"></div>
       </div>
     ));
   };
