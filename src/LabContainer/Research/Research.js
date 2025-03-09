@@ -17,7 +17,7 @@ export default function Research(props) {
     {
       title:
         "Can Textual Gradient Work in Federated Learning?",
-      description: "This project introduces Federated Textual Gradient (FedTextGrad), a novel approach integrating textual gradient optimization into federated learning (FL). Instead of numerical gradients, FedTextGrad refines prompts via LLM-generated feedback and text summarization. To address information retention challenges, it employs the Uniform Information Density (UID) principle for improved summarization. Experiments on reasoning tasks validate its feasibility, expanding FL’s role in optimizing LLMs.",
+      description: "This project introduces Federated Textual Gradient (FedTextGrad), a novel approach that integrates textual gradient optimization into federated learning (FL). Instead of numerical gradients, FedTextGrad enables FL clients to refine prompts using LLM-generated textual feedback, with aggregation via text summarization. The study highlights key challenges in information retention and proposes an improved summarization method using the Uniform Information Density (UID) principle to enhance prompt effectiveness. Experiments on reasoning tasks validate the feasibility of this approach, expanding FL’s applicability to optimizing LLMs in decentralized settings.",
       imgurl: require("../../assets/Research/fedtextgrad.png"),
     },
     {
