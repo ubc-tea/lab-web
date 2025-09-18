@@ -56,11 +56,11 @@ export default function People(props) {
       title: "PhD (2024 - )",
       link: "www.google.com",
       imgurl: require("../../assets/portrait/pokemon13.png"), 
-    }
+    },
     {
       name: "Yushu Li",
       title: "PhD (2025 - )",
-      link: "https://www.linkedin.com/in/chun-yin-huang-00a728b3/",
+      link: "www.google.com",
       imgurl: require("../../assets/portrait/pokemon1.png"),
     },
     {
