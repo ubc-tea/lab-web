@@ -22,22 +22,10 @@ export default function People(props) {
       imgurl: require("../../assets/portrait/pokemon0.png"),
     },
     {
-      name: "Chun-Yin Huang",
-      title: "PhD (2021 - )",
-      link: "https://www.linkedin.com/in/chun-yin-huang-00a728b3/",
-      imgurl: require("../../assets/portrait/pokemon1.png"),
-    },
-    {
       name: "Wenlong Deng",
       title: "PhD (2022 - ), co-supervised with Dr. Christos Thrampoulidis at UBC ECE",
       link: "https://vengdeng.github.io",
       imgurl: require("../../assets/portrait/pokemon2.png"),
-    },
-    {
-      name: "Minghui Chen",
-      title: "PhD (2022 - )",
-      link: "https://chenminghui.com/",
-      imgurl: require("../../assets/portrait/pokemon3.png"),
     },
      {
       name: "Beidi Zhao",
@@ -50,13 +38,6 @@ export default function People(props) {
       title: "PhD (2023 - )",
       link: "https://scholar.google.com.tw/citations?user=Uh9kwTIAAAAJ&hl=zh-TW",
       imgurl: require("../../assets/portrait/pokemon12.png"),
-    },
-
-    {
-      name: "Jane Shi",
-      title: "MSc (2023 -)",
-      link: "www.google.com",
-      imgurl: require("../../assets/portrait/pokemon10.png"),
     },
     {
       name: "Ruinan Jin",
@@ -76,6 +57,36 @@ export default function People(props) {
       link: "www.google.com",
       imgurl: require("../../assets/portrait/pokemon13.png"), 
     }
+    {
+      name: "Yushu Li",
+      title: "PhD (2025 - )",
+      link: "https://www.linkedin.com/in/chun-yin-huang-00a728b3/",
+      imgurl: require("../../assets/portrait/pokemon1.png"),
+    },
+    {
+      name: "Xuanqi Zhang",
+      title: "PhD (2025 -)",
+      link: "www.google.com",
+      imgurl: require("../../assets/portrait/pokemon3.png"),
+    },
+    {
+      name: "Siyan Liu",
+      title: "PhD (2025 -)",
+      link: "www.google.com",
+      imgurl: require("../../assets/portrait/pokemon6.png"),
+    },
+    {
+      name: "Xinting Liao",
+      title: "Postdoc (2025 -)",
+      link: "www.google.com",
+      imgurl: require("../../assets/portrait/pokemon7.png"),
+    },
+    {
+      name: "Myeongkyun Kang",
+      title: "Postdoc (2025 -)",
+      link: "www.google.com",
+      imgurl: require("../../assets/portrait/pokemon10.png"),
+    },
   ];
 
   // const renderPeople = () => {

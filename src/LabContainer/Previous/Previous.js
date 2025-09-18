@@ -28,7 +28,7 @@ export default function People(props) {
     },
     {
       name: "Fatemeh Taheri Dezaki",
-      title: "Postdoc, now Machine Learning Scientist at Amazon ",
+      title: "Postdoc (2021-2022), now Machine Learning Scientist at Amazon ",
       link: "www.google.com",
       imgurl: require("../../assets/portrait/avatar1.jpg"),
     },
@@ -40,7 +40,7 @@ export default function People(props) {
     },
     {
       name: "Jane Shi",
-      title: "MSc (2023 - 2026), now ML Associate at Vector Institute",
+      title: "MSc (2023 - 2025), now ML Associate at Vector Institute",
       link: "https://www.linkedin.com/in/congzhen-shi/?originalSubdomain=ca",
       imgurl: require("../../assets/portrait/jane.jpeg"),
     },
@@ -92,7 +92,6 @@ export default function People(props) {
       link: "https://www.linkedin.com/in/ruichen-yao-10299248/",
       imgurl: require("../../assets/portrait/ruichen.jpeg"), 
     },
-
   ];
 
   // const renderPeople = () => {
