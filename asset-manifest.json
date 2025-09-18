@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.987e43f7.css",
-    "main.js": "/static/js/main.37de201f.js",
+    "main.js": "/static/js/main.1be3bbfa.js",
     "static/js/592.fdccbbfb.chunk.js": "/static/js/592.fdccbbfb.chunk.js",
     "static/media/cvpr2023.jpg": "/static/media/cvpr2023.b50527968d12c22522b8.jpg",
     "static/media/tea_group1.jpg": "/static/media/tea_group1.6be313da3db8ef7bf4b3.jpg",
@@ -29,9 +29,11 @@
     "static/media/Poppins-ExtraBold.ttf": "/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/boy.jpeg": "/static/media/boy.8cedae110abe5123825b.jpeg",
     "static/media/sana.jpg": "/static/media/sana.79c1cf668cf3ca0b59d4.jpg",
+    "static/media/jane.jpeg": "/static/media/jane.786c3079713d1b787dab.jpeg",
     "static/media/ruichen.jpeg": "/static/media/ruichen.22bf24e9d4525792b9fc.jpeg",
     "static/media/ailar.png": "/static/media/ailar.a3ed420b317a872e0e82.png",
     "static/media/avatar3.jpg": "/static/media/avatar3.34e3f517bf2154ef3dfc.jpg",
+    "static/media/chunyin.jpeg": "/static/media/chunyin.0d829214a4d16994e69d.jpeg",
     "static/media/meta.png": "/static/media/meta.b55ddcae702fd23d0dfe.png",
     "static/media/nserc.png": "/static/media/nserc.7d26b1db937ef773467d.png",
     "static/media/nvidia.png": "/static/media/nvidia.e6686c90b6151408b492.png",
@@ -44,13 +46,14 @@
     "static/media/right.png": "/static/media/right.f8067476df922c27844f.png",
     "static/media/left.png": "/static/media/left.a9afaff9327d113957ce.png",
     "static/media/avatar2.jpg": "/static/media/avatar2.05450b6cea510b9ef1e8.jpg",
+    "static/media/minghui.jpeg": "/static/media/minghui.6ca5b40e48b6365d4cfd.jpeg",
     "index.html": "/index.html",
     "main.987e43f7.css.map": "/static/css/main.987e43f7.css.map",
-    "main.37de201f.js.map": "/static/js/main.37de201f.js.map",
+    "main.1be3bbfa.js.map": "/static/js/main.1be3bbfa.js.map",
     "592.fdccbbfb.chunk.js.map": "/static/js/592.fdccbbfb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.987e43f7.css",
-    "static/js/main.37de201f.js"
+    "static/js/main.1be3bbfa.js"
   ]
 }
