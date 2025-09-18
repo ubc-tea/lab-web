@@ -38,7 +38,7 @@ export default function Positions(props) {
 
           <div className="position-card">
             <h3>🎓 Graduate Students</h3>
-            <p>Multiple positions available for <strong>Fall 2025</strong>.</p>
+            <p>Multiple positions available for <strong>Fall 2026</strong>.</p>
           </div>
 
           <div className="position-card">
