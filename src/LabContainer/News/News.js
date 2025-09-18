@@ -15,6 +15,10 @@ export default function News(props) {
   const news = [
     {
       title:
+        "[09/2025] Four papers are accepted by NeruIPS 2025.",
+    },
+    {
+      title:
         "[06/2025] Three papers are accepted by MICCAI and ICCV 2025.",
     },
     {
