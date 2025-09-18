@@ -24,7 +24,7 @@ export default function People(props) {
       name: "Chun-Yin Huang",
       title: "PhD (2021 - 2024), now ML Scientist at Synlico Inc.",
       link: "https://www.linkedin.com/in/chun-yin-huang-00a728b3/",
-      imgurl: require("../../assets/portrait/chun-yin.jpeg"),
+      imgurl: require("../../assets/portrait/chunyin.jpeg"),
     },
     {
       name: "Fatemeh Taheri Dezaki",
