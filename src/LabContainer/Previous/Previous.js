@@ -16,15 +16,51 @@ export default function People(props) {
   const people = [
     {
       name: "Sana Ayromlou",
-      title: "MSc (2021 - 2023), now Associate ML Specialist at Vector Institute",
+      title: "MSc (2021 - 2023), now ML Software Engineer at Google",
       link: "https://www.linkedin.com/in/sana-ayromlou/",
       imgurl: require("../../assets/portrait/sana.jpg"),
+    },
+    {
+      name: "Chun-Yin Huang",
+      title: "PhD (2021 - 2024), now ML Scientist at Synlico Inc.",
+      link: "https://www.linkedin.com/in/chun-yin-huang-00a728b3/",
+      imgurl: require("../../assets/portrait/chun-yin.jpeg"),
     },
     {
       name: "Fatemeh Taheri Dezaki",
       title: "Postdoc, now Machine Learning Scientist at Amazon ",
       link: "www.google.com",
       imgurl: require("../../assets/portrait/avatar1.jpg"),
+    },
+    {
+      name: "Justin Yang",
+      title: "MSc (2022 - 2024), now at Vector Institute",
+      link: "https://freddieneverleft.github.io/",
+      imgurl: require("../../assets/portrait/justin.jpeg"),
+    },
+    {
+      name: "Jane Shi",
+      title: "MSc (2023 - 2026), now ML Associate at Vector Institute",
+      link: "https://www.linkedin.com/in/congzhen-shi/?originalSubdomain=ca",
+      imgurl: require("../../assets/portrait/jane.jpeg"),
+    },
+    {
+      name: "Ailar Mahdizadeh",
+      title: "MSc (2022 - 2024), now PhD student at UBC",
+      link: "www.google.com",
+      imgurl: require("../../assets/portrait/ailar.png"),
+    },
+    {
+      name: "SangMook Kim",
+      title: "Postdoc(2023 - 2024), now Asst Prof. at CNU (Korea)",
+      link: "https://scholar.google.com/citations?user=YjpFRuIAAAAJ&hl=ko",
+      imgurl: require("../../assets/portrait/sam.jpeg"), 
+    },
+    {
+      name: "Minghui Chen",
+      title: "PhD (2022 - ), now visiting scholar at Columbia University",
+      link: "https://chenminghui.com/",
+      imgurl: require("../../assets/portrait/minghui.jpeg"),
     },
     {
       name: "Nan Wang",
@@ -56,24 +92,7 @@ export default function People(props) {
       link: "https://www.linkedin.com/in/ruichen-yao-10299248/",
       imgurl: require("../../assets/portrait/ruichen.jpeg"), 
     },
-    {
-      name: "Justin Yang",
-      title: "MSc (2022 - 2024), now at Vector Institute",
-      link: "https://freddieneverleft.github.io/",
-      imgurl: require("../../assets/portrait/justin.jpeg"),
-    },
-    {
-      name: "Ailar Mahdizadeh",
-      title: "MSc (2022 - 2024), now PhD student at UBC",
-      link: "www.google.com",
-      imgurl: require("../../assets/portrait/ailar.png"),
-    },
-    {
-      name: "SangMook Kim",
-      title: "Postdoc(2023 - 2024), now Asst Prof. at CNU (Korea)",
-      link: "https://scholar.google.com/citations?user=YjpFRuIAAAAJ&hl=ko",
-      imgurl: require("../../assets/portrait/sam.jpeg"), 
-    },
+
   ];
 
   // const renderPeople = () => {
