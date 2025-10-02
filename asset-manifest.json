@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.987e43f7.css",
-    "main.js": "/static/js/main.29492cc7.js",
+    "main.js": "/static/js/main.041a3a44.js",
     "static/js/592.fdccbbfb.chunk.js": "/static/js/592.fdccbbfb.chunk.js",
     "static/media/cvpr2023.jpg": "/static/media/cvpr2023.b50527968d12c22522b8.jpg",
     "static/media/tea_group1.jpg": "/static/media/tea_group1.6be313da3db8ef7bf4b3.jpg",
@@ -38,6 +38,7 @@
     "static/media/google.png": "/static/media/google.3083a033fc46281b2084.png",
     "static/media/compute_canada.png": "/static/media/compute_canada.44dee0e49bfa31901344.png",
     "static/media/justin.jpeg": "/static/media/justin.7759a347f5f39803068a.jpeg",
+    "static/media/pokemon14.jpg": "/static/media/pokemon14.17adcff448688d6cdf2e.jpg",
     "static/media/cifar.png": "/static/media/cifar.b33b54a5eb02d73cba8a.png",
     "static/media/pokemon0.png": "/static/media/pokemon0.01a31eda86ce15ba62f2.png",
     "static/media/right.png": "/static/media/right.f8067476df922c27844f.png",
@@ -46,11 +47,11 @@
     "static/media/minghui.jpeg": "/static/media/minghui.6ca5b40e48b6365d4cfd.jpeg",
     "index.html": "/index.html",
     "main.987e43f7.css.map": "/static/css/main.987e43f7.css.map",
-    "main.29492cc7.js.map": "/static/js/main.29492cc7.js.map",
+    "main.041a3a44.js.map": "/static/js/main.041a3a44.js.map",
     "592.fdccbbfb.chunk.js.map": "/static/js/592.fdccbbfb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.987e43f7.css",
-    "static/js/main.29492cc7.js"
+    "static/js/main.041a3a44.js"
   ]
 }
