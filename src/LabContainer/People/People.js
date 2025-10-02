@@ -91,7 +91,7 @@ export default function People(props) {
       name: "Haisheng Fu",
       title: "Postdoc (2025 -)",
       link: "www.google.com",
-      imgurl: require("../../assets/portrait/pokemon14.png"),
+      imgurl: require("../../assets/portrait/pokemon14.jpg"),
     },
   ];
 
