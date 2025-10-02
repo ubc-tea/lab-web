@@ -87,6 +87,12 @@ export default function People(props) {
       link: "www.google.com",
       imgurl: require("../../assets/portrait/pokemon10.png"),
     },
+    {
+      name: "Haisheng Fu",
+      title: "Postdoc (2025 -)",
+      link: "www.google.com",
+      imgurl: require("../../assets/portrait/pokemon14.png"),
+    },
   ];
 
   // const renderPeople = () => {
