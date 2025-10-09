@@ -46,6 +46,29 @@
   color: #ff5722;
 }
 
+.positions-link {
+  display: inline-block;
+  background: #f5a107;
+  color: #001b36;
+  font-weight: 600;
+  padding: 10px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.2s ease;
+}
+
+.positions-link:hover {
+  background: #ffbb33;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+.positions-link:focus {
+  outline: none;
+  border-color: #002145;
+}
+
 .positions-list {
   margin-top: 30px;
   display: flex;

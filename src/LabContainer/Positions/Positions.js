@@ -28,6 +28,26 @@ export default function Positions(props) {
             To help me notice your email, **please include** <span className="highlight">[ILOLLEH]</span>, written **backwards**, in the subject line.
           </p>
           <p className="warning">📌 Please follow these instructions carefully.</p>
+          <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 12 }}>
+            <a
+              className="positions-link"
+              href="/positions-en.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open detailed openings page in English"
+            >
+              View Detailed Openings (EN)
+            </a>
+            <a
+              className="positions-link"
+              href="/positions-zh.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="打开中文招聘页面"
+            >
+              查看中文招聘页面 (中文)
+            </a>
+          </div>
         </div>
 
         <div className="positions-list">
