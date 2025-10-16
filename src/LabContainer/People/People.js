@@ -95,7 +95,7 @@ export default function People(props) {
     },
     {
       name: "Running Yang",
-      title: "Postdoc (2025 -)",
+      title: "MASc (2025 -)",
       link: "www.google.com",
       imgurl: require("../../assets/portrait/pokemon14.jpg"),
     },
