@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeSeek AI Pitch Deck</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        #slides-container {
+    height: 100%; /* Ensure the container takes the full height of its parent */
+    position: relative; /* Ensure proper positioning context for slides */
+}
+
+.slide {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+    width: 100%; /* Ensure slides take full width */
+    height: 100%; /* Ensure slides take full height of the container */
+    overflow-y: auto; /* Allow scrolling if content exceeds height */
+    position: absolute; /* Stack slides absolutely within the container */
+    top: 0;
+    left: 0;
+}
+
+.slide.active {
+    display: flex;
+    opacity: 1;
+    overflow-y: auto; /* Maintain scrolling for active slide */
+}
+
+.fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive deck sizing (16:9), fills window but keeps margin */
+:root {
+    --deck-margin: 2.5vmin; /* safe edge margin */
+}
+#deck {
+    width: min(calc(100vw - 2 * var(--deck-margin)),
+               calc((100vh - 2 * var(--deck-margin)) * 16 / 9));
+    height: min(calc(100vh - 2 * var(--deck-margin)),
+                calc((100vw - 2 * var(--deck-margin)) * 9 / 16));
+}
+
+@media print {
+    body { margin: 0; }
+    #deck {
+        width: 100vw;
+        height: 100vh;
+        box-shadow: none;
+        border-radius: 0;
+    }
+}
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <div id="deck" class="w-full h-full bg-white shadow-2xl rounded-lg overflow-hidden relative">
+        <!-- Slides Container -->
+        <div id="slides-container" class="w-full h-full">
+
+            <!-- Slide 1: Cover -->
+            <div class="slide active w-full h-full p-12 flex-col justify-center items-center text-center bg-cover bg-center" style="background-image: linear-gradient(rgba(20, 30, 48, 0.7), rgba(36, 59, 85, 0.7)), url('https://images.unsplash.com/photo-1582407947304-fd86f028f716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTAwNXwwfDF8c2VhcmNofDEwfHxyZWFsJTIwZXN0YXRlJTIwaG91c2V8ZW58MHx8fHwxNzIyNjkxNTAzfDA&ixlib=rb-4.0.3&q=80&w=1080');">
+                <h1 class="text-6xl font-bold text-white mb-4">HomeSeek AI</h1>
+                <p class="text-2xl text-gray-200">Your Companion for Home Buying Journey.</p>
+                <p class="text-lg text-gray-300 mt-4">Navigate the complex home buying journey with confidence, data, and an expert by your side.</p>
+            </div>
+
+            <!-- Slide 2: The Buyer's Journey is Broken -->
+            <div class="slide w-full h-full p-12 flex-col justify-center">
+                <h2 class="text-sm font-semibold text-indigo-600 uppercase mb-4">The Problem</h2>
+                <h3 class="text-4xl font-bold text-gray-800 mb-8">The Modern Home Buyer's Journey is Overwhelming.</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <p class="text-5xl font-bold text-indigo-700">12</p>
+                        <p class="text-gray-600 mt-2">Homes visited on average before a Canadian buyer makes a purchase. (Source: Real estate industry reports)</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <p class="text-5xl font-bold text-indigo-700">4-6</p>
+                        <p class="text-gray-600 mt-2">Months of working with an agent, with dozens of conversations and emails. (Source: Market analysis)</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <p class="text-5xl font-bold text-indigo-700">Zero</p>
+                        <p class="text-gray-600 mt-2"> No existing integrated tools for buyers to record, organize, compare, and analyze their options effectively.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- INSERTED Slide 3: The User Story -->
+            <div class="slide w-full h-full p-12 flex items-center bg-gray-50">
+                <div class="w-1/2 pr-8">
+                    <h2 class="text-sm font-semibold text-indigo-600 uppercase mb-2">The User Story</h2>
+                    <h3 class="text-4xl font-bold text-gray-800 mb-4">Meet Alex & Sarah</h3>
+                    <p class="text-gray-600 text-lg">Like millions of others, they're searching for their first home. They're excited, but also stressed and disorganized.</p>
+                    <p class="text-gray-500 mt-4">Their weekend is a blur of open houses, scattered notes, and fading memories. "Which house had the big backyard? Was the kitchen in the Maple street house bigger?"</p>
+                </div>
+                <div class="w-1/2">
+                    <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTAwNXwwfDF8c2VhcmNofDEyfHxjb3VwbGUlMjBzdHJlc3NlZHxlbnwwfHx8fDE3MzAxNjY3NDR8MA&ixlib=rb-4.0.3&q=80&w=1080" class="rounded-lg shadow-xl" alt="A stressed couple looking at a laptop, representing the overwhelming nature of home buying.">
+                </div>
+            </div>
+
+            <!-- Slide 3: The Core Pain Points (expanded to fill more of the screen) -->
+            <div class="slide w-full h-full p-12 bg-gray-50">
+                <div class="w-full max-w-screen-2xl mx-auto h-full grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+                    <!-- Left: Text -->
+                    <div>
+                        <h2 class="text-sm font-semibold text-indigo-600 uppercase mb-4">The Pain Points</h2>
+                        <h3 class="text-4xl font-bold text-gray-800 mb-6">Why is it so hard?</h3>
+                        <ul class="space-y-5">
+                            <li class="flex items-start">
+                                <span class="font-bold text-indigo-600 text-2xl mr-4">1</span>
+                                <div><strong class="text-gray-800">Misaligned Interests:</strong> Agents need to close deals. You need the <em>right</em> deal. This fundamental conflict creates a trust gap and pressure.</div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="font-bold text-indigo-600 text-2xl mr-4">2</span>
+                                <div><strong class="text-gray-800">On-Site Amnesia:</strong> In the heat of a visit, it's easy to forget what to ask or what truly matters to you, leading to missed details.</div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="font-bold text-indigo-600 text-2xl mr-4">3</span>
+                                <div><strong class="text-gray-800">Information Chaos:</strong> Juggling notes, photos, and memories from a dozen homes becomes impossible. “Which house had the great backyard again?”</div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="font-bold text-indigo-600 text-2xl mr-4">4</span>
+                                <div><strong class="text-gray-800">Lack of Personal Analytics:</strong> No existing platform truly helps you analyze your own preferences against what you've seen to provide personalized, data-driven recommendations.</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Right: Larger 2x2 image grid -->
+                    <div class="grid grid-cols-2 gap-5">
+                        <img src="https://thefintechtimes.com/wp-content/uploads/2023/09/UK-savings-interest-rates-stagnant-960x640.jpg" alt="On-Site Amnesia" class="rounded-xl shadow object-cover w-full aspect-[16/10]" />
+                        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTAwNXwwfDF8c2VhcmNofDV8fG9wZW4lMjBob3VzZXxlbnwwfHx8fDE3MjI5NTg0MDB8MA&ixlib=rb-4.0.3&q=80&w=400" alt="On-Site Amnesia 2" class="rounded-xl shadow object-cover w-full aspect-[16/10]" />
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTAwNXwwfDF8c2VhcmNofDJ8fG1lc3N5JTIwZGVza3xlbnwwfHx8fDE3MjI2OTU0MjV8MA&ixlib=rb-4.0.3&q=80&w=400" alt="Information Chaos" class="rounded-xl shadow object-cover w-full aspect-[16/10]" />
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTAwNXwwfDF8c2VhcmNofDF8fGRhdGElMjB2aXN1YWxpemF0aW9ufGVufDB8fHx8MTcyMjY5NTQyNXww&ixlib=rb-4.0.3&q=80&w=400" alt="Lack of Personal Analytics" class="rounded-xl shadow object-cover w-full aspect-[16/10]" />
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 4: The Solution -->
+            <div class="slide w-full h-full p-8 flex-col justify-center items-center text-center bg-gray-100">
+                <h2 class="text-sm font-semibold text-indigo-600 uppercase mb-2">The Solution</h2>
+                <h3 class="text-4xl font-bold text-gray-800 mb-4">HomeSeek AI</h3>
+                <p class="text-gray-600 mb-6 text-lg max-w-4xl">An AI-powered co-pilot that organizes your home search, empowers you during visits, and provides personalized, unbiased analysis to help you make the biggest decision of your life.</p>
+                <div class="w-full h-3/5 bg-white rounded-xl shadow-2xl flex p-2 gap-2 border border-gray-200">
+                    <div class="w-1/4 bg-gray-50 rounded-lg p-2 flex flex-col">
+                        <h4 class="font-bold text-xs text-gray-700 mb-1">Visit History & Analytics</h4>
+                        <div class="w-full mb-2 flex gap-2 items-center text-xs text-gray-500">
+                            <div class="w-1/2">
+                                <svg viewBox="0 0 36 36" class="w-full">
+                                    <circle cx="18" cy="18" r="15.9155" fill="none" stroke="#E5E7EB" stroke-width="4"></circle>
+                                    <circle cx="18" cy="18" r="15.9155" fill="none" stroke="#C7D2FE" stroke-width="4" stroke-dasharray="40, 100" transform="rotate(-90 18 18)"></circle>
+                                    <circle cx="18" cy="18" r="15.9155" fill="none" stroke="#A5B4FC" stroke-width="4" stroke-dasharray="35, 100" transform="rotate(54 18 18)"></circle>
+                                    <circle cx="18" cy="18" r="15.9155" fill="none" stroke="#818CF8" stroke-width="4" stroke-dasharray="25, 100" transform="rotate(180 18 18)"></circle>
+                                    <text x="18" y="20" text-anchor="middle" font-size="6" font-weight="bold" fill="#4f46e5">Price</text>
+                                </svg>
+                            </div>
+                            <div class="w-1/2">
+                                <svg viewBox="0 0 100 50" class="w-full">
+                                    <path d="M5 45 Q 25 30 50 20 T 95 10" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round"/>
+                                    <line x1="5" y1="45" x2="95" y2="45" stroke="#E5E7EB" stroke-width="1"/>
+                                    <text x="50" y="50" text-anchor="middle" font-size="8" fill="#6b7280">Visits / Week</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <h4 class="font-bold text-xs text-gray-700 mb-1 border-t pt-1">Previously Viewed</h4>
+                        <div class="overflow-y-auto space-y-2 flex-grow">
+                            <div class="bg-indigo-100 border-2 border-indigo-400 rounded-lg p-2 flex gap-2 cursor-pointer">
+                                <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTAwNXwwfDF8c2VhcmNofDR8fGhvdXNlfGVufDB8fHx8MTcyOTk5MDk5N3ww&ixlib=rb-4.0.3&q=80&w=100" class="rounded w-1/3 object-cover"/>
+                                <div class="text-left w-2/3">
+                                    <p class="text-xs font-bold text-gray-800">123 Maple St</p>
+                                    <p class="text-xs text-gray-600">$1,250,000</p>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded-lg p-2 flex gap-2 cursor-pointer hover:bg-gray-100">
+                                <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTAwNXwwfDF8c2VhcmNofDZ8fGhvdXNlfGVufDB8fHx8MTcyOTk5MDk5N3ww&ixlib=rb-4.0.3&q=80&w=100" class="rounded w-1/3 object-cover"/>
+                                <div class="text-left w-2/3">
+                                    <p class="text-xs font-bold text-gray-800">456 Oak Ave</p>
+                                    <p class="text-xs text-gray-600">$980,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-1/2 bg-white rounded-lg p-2 flex flex-col border border-gray-200">
+                        <div class="flex gap-2 mb-2 pb-2 border-b">
+                             <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTAwNXwwfDF8c2VhcmNofDR8fGhvdXNlfGVufDB8fHx8MTcyOTk5MDk5N3ww&ixlib=rb-4.0.3&q=80&w=100" class="rounded-lg w-1/3 object-cover"/>
+                             <div class="text-left flex-grow">
+                                <h4 class="font-bold text-sm text-gray-800">Now Visiting: 123 Maple St</h4>
+                                <p class="text-xs font-semibold text-gray-700">$1,250,000</p>
+                                <div class="grid grid-cols-2 gap-x-2 text-xs text-gray-500 mt-1">
+                                    <span class="flex items-center gap-1"><b>3</b> Bed</span>
+                                    <span class="flex items-center gap-1"><b>2</b> Bath</span>
+                                    <span class="flex items-center gap-1"><b>1850</b> sqft</span>
+                                    <button class="flex items-center justify-center gap-1 bg-blue-500 text-white py-0.5 rounded-md hover:bg-blue-600">
+                                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" /></svg>
+                                        Navigate
+                                    </button>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="grid grid-cols-3 gap-2 text-center text-xs mb-2">
+                            <div><p class="font-bold text-green-600">92</p><p class="text-gray-500">Walk Score</p></div>
+                            <div><p class="font-bold text-green-600">88</p><p class="text-gray-500">School Score</p></div>
+                            <div><p class="font-bold text-green-600">95</p><p class="text-gray-500">Transit Score</p></div>
+                        </div>
+                        <div class="flex text-center text-xs border-b border-t border-gray-200">
+                            <button class="flex-1 p-1 font-semibold text-indigo-600 border-b-2 border-indigo-600">Notes</button>
+                            <button class="flex-1 p-1 text-gray-500">Photos</button>
+                            <button class="flex-1 p-1 text-gray-500">Videos</button>
+                        </div>
+                        <div class="flex-grow overflow-y-auto pt-2 text-left text-xs">
+                            <ul class="list-disc list-inside text-gray-700 space-y-1">
+                                <li>Love the natural light in the kitchen.</li>
+                                <li>Backyard needs some work.</li>
+                            </ul>
+                        </div>
+                        <div class="flex items-center mt-2 p-1 bg-gray-50 rounded-lg border">
+                            <input type="text" placeholder="Type or hold mic to record..." class="flex-grow bg-transparent text-xs p-1 focus:outline-none"/>
+                            <button class="p-1 text-gray-500 hover:text-indigo-600">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4zm4 10.93A7.001 7.001 0 0017 8a1 1 0 10-2 0A5 5 0 017 8a1 1 0 10-2 0 7.001 7.001 0 006 6.93V17H9a1 1 0 100 2h6a1 1 0 100-2h-2v-2.07z" clip-rule="evenodd" /></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="w-1/4 flex flex-col gap-2">
+                        <div class="h-1/2 bg-gray-50 rounded-lg p-2 flex flex-col">
+                             <h4 class="font-bold text-sm text-gray-700 mb-2">Co-pilot Reminders</h4>
+                             <div class="text-left text-xs space-y-1 text-gray-700">
+                                <label class="flex items-center"><input type="checkbox" checked class="mr-2 h-3 w-3"/>Check foundation for cracks.</label>
+                                <label class="flex items-center"><input type="checkbox" checked class="mr-2 h-3 w-3"/>Ask about roof age.</label>
+                                <label class="flex items-center"><input type="checkbox" class="mr-2 h-3 w-3"/>Measure master bedroom.</label>
+                             </div>
+                        </div>
+                        <div class="h-1/2 bg-gray-50 rounded-lg p-2 flex flex-col">
+                             <h4 class="font-bold text-sm text-gray-700 mb-2">Chat with HomeSeek AI</h4>
+                             <div class="flex-grow text-xs text-left space-y-2 overflow-y-auto">
+                                <div class="bg-indigo-500 text-white p-1.5 rounded-lg self-end max-w-xs ml-auto">Show me homes with a big kitchen.</div>
+                                <div class="bg-gray-200 text-gray-800 p-1.5 rounded-lg self-start max-w-xs">Based on your notes, "123 Maple St" and "789 Pine Ln" have kitchens you rated highly.</div>
+                             </div>
+                             <div class="flex mt-2">
+                                <input type="text" placeholder="Ask anything..." class="w-full text-xs p-1 rounded-l border border-gray-300"/>
+                                <button class="bg-indigo-600 text-white text-xs px-2 rounded-r">Send</button>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: How it Works: Pre-Visit -->
+            <div class="slide w-full h-full p-12 flex-col justify-center items-center bg-indigo-50">
+                <h2 class="text-sm font-semibold text-indigo-600 uppercase mb-4">How It Works (1/3)</h2>
+                <h3 class="text-4xl font-bold text-gray-800 mb-8">Before Visit: Plan Your Visit</h3>
+                <div class="flex justify-around w-full max-w-4xl text-center">
+                    <div class="w-1/2 px-4">
+                        <div class="bg-white rounded-full h-24 w-24 flex items-center justify-center mx-auto mb-4 shadow-lg">
+                            <svg class="w-12 h-12 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l5.447 2.724A1 1 0 0021 16.382V5.618a1 1 0 00-1.447-.894L15 7m-6 3l6-3m0 0l-6 3m6-3v10"></path></svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-2">Optimized Route Planning</h4>
+                        <p class="text-gray-600">Automatically creates the most efficient tour route using Google Maps.</p>
+                    </div>
+                    <div class="w-1/2 px-4">
+                        <div class="bg-white rounded-full h-24 w-24 flex items-center justify-center mx-auto mb-4 shadow-lg">
+                           <svg class="w-12 h-12 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-2">Personalized Question Bank</h4>
+                        <p class="text-gray-600">Generates a custom checklist of questions for each home based on your preferences.</p>
+                        <p class="text-gray-500 text-sm mt-2">e.g., Based on your stated preferences like "love natural light," the AI generates a custom checklist for each property.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6: How it Works: During Visit -->
+            <div class="slide w-full h-full p-12 flex-col justify-center items-center bg-indigo-50">
+                <h2 class="text-sm font-semibold text-indigo-600 uppercase mb-4">How It Works (2/3)</h2>
+                <h3 class="text-4xl font-bold text-gray-800 mb-8">During Visit: Capture Everything On-Site</h3>
+                <div class="flex justify-around w-full max-w-4xl text-center">
+                    <div class="w-1/2 px-4">
+                        <div class="bg-white rounded-full h-24 w-24 flex items-center justify-center mx-auto mb-4 shadow-lg">
+                            <svg class="w-12 h-12 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-2">Intelligent Reminders</h4>
+                        <p class="text-gray-600">GPS-aware prompts remind you what to ask and look for at each property.</p>
+                        <p class="text-gray-500 text-sm mt-2">e.g., "You're at 123 Main St. Remember to check the basement for water damage and measure the living room.”</p>
+                    </div>
+                    <div class="w-1/2 px-4">
+                        <div class="bg-white rounded-full h-24 w-24 flex items-center justify-center mx-auto mb-4 shadow-lg">
+                           <svg class="w-12 h-12 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-2">Multimedia Note-Taking</h4>
+                        <p class="text-gray-600">Instantly capture photos, voice notes, and videos, all automatically tagged to the home.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7: How it Works: Post-Visit -->
+            <div class="slide w-full h-full p-12 flex-col justify-center items-center bg-indigo-50">
+                <h2 class="text-sm font-semibold text-indigo-600 uppercase mb-4">How It Works (3/3)</h2>
+                <h3 class="text-4xl font-bold text-gray-800 mb-8">After Visit: Analyze & Decide with Confidence</h3>
+                <div class="flex justify-around w-full max-w-4xl text-center">
+                    <div class="w-1/2 px-4">
+                        <div class="bg-white rounded-full h-24 w-24 flex items-center justify-center mx-auto mb-4 shadow-lg">
+                            <svg class="w-12 h-12 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 13v-1m4 1v-3m4 3V8M8 21l4-4 4 4M3 4h18M4 4h16v12a2 2 0 01-2 2H6a2 2 0 01-2-2V4z"></path></svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-2">Personalized Database</h4>
+                        <p class="text-gray-600">Compare homes side-by-side with all your notes, photos, and data in one clean interface.</p>
+                    </div>
+                    <div class="w-1/2 px-4">
+                        <div class="bg-white rounded-full h-24 w-24 flex items-center justify-center mx-auto mb-4 shadow-lg">
+                           <svg class="w-12 h-12 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-2">Conversational AI Analysis</h4>
+                        <p class="text-gray-600">Chat with your data to get instant, intelligent answers and personalized recommendations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8: Technology: Contextual LLMs -->
+            <div class="slide w-full h-full p-12 flex-col justify-center items-center bg-gray-50">
+                 <h2 class="text-sm font-semibold text-indigo-600 uppercase mb-2">Deep Tech (1/4)</h2>
+                 <h3 class="text-3xl font-bold text-gray-800 mb-6">Your Search History, Supercharged by AI</h3>
+                 <p class="text-center text-gray-600 max-w-4xl mb-6 text-base">Our Retrieval-Augmented Generation (RAG) model transforms your visit history into a private knowledge base, giving you hyper-personalized answers you can't get anywhere else.</p>
+                 <div class="w-full max-w-4xl flex justify-between items-center text-center text-xs text-gray-700">
+                    <div class="w-1/4">
+                        <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTAwNXwwfDF8c2VhcmNofDEyfHxob21lJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzMwMDAxMTEyfDA&ixlib=rb-4.0.3&q=80&w=200" class="w-24 h-24 object-cover rounded-full mx-auto shadow-lg border-4 border-white"/>
+                        <h4 class="font-bold mt-2">On-Site Data Capture</h4>
+                        <p class="text-gray-500">Record notes, voice memos, and photos during your visit.</p>
+                    </div>
+                    <svg class="w-8 h-8 text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    <div class="w-1/4">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTAwNXwwfDF8c2VhcmNofDE0fHxzZXJ2ZXJ8ZW58MHx8fHwxNzMwMDAxMjM3fDA&ixlib=rb-4.0.3&q=80&w=200" class="w-24 h-24 object-cover rounded-full mx-auto shadow-lg border-4 border-white"/>
+                        <h4 class="font-bold mt-2">Personalized Database</h4>
+                        <p class="text-gray-500">Data is transcribed, indexed, and stored securely.</p>
+                    </div>
+                    <svg class="w-8 h-8 text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    <div class="w-1/4">
+                        <img src="https://images.unsplash.com/photo-1677756119517-756a188d2d94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTAwNXwwfDF8c2VhcmNofDEyfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlfGVufDB8fHx8MTcyOTk5MjA4OXww&ixlib=rb-4.0.3&q=80&w=200" class="w-24 h-24 object-cover rounded-full mx-auto shadow-lg border-4 border-white"/>
+                        <h4 class="font-bold mt-2">RAG-Powered LLM</h4>
+                        <p class="text-gray-500">The AI retrieves context from your personal database.</p>
+                    </div>
+                    <svg class="w-8 h-8 text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    <div class="w-1/4">
+                         <div class="w-24 h-24 flex items-center justify-center rounded-full mx-auto shadow-lg border-4 border-white bg-indigo-50">
+                            <svg class="w-12 h-12 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+                         </div>
+                        <h4 class="font-bold mt-2">Conversational Q&A</h4>
+                        <p class="text-gray-500">Ask subjective questions and get personalized answers.</p>
+                    </div>
+                 </div>
+            </div>
+
+            <!-- Slide 9: Technology: Privacy -->
+            <div class="slide w-full h-full p-12 flex-col justify-center items-center bg-gray-50">
+                <h2 class="text-sm font-semibold text-indigo-600 uppercase mb-2">Deep Tech (2/4)</h2>
+                <h3 class="text-3xl font-bold text-gray-800 mb-8">Privacy & Safeguarded Data Storage</h3>
+                <div class="flex justify-around w-full max-w-4xl text-center">
+                    <div class="w-1/3 px-4">
+                         <div class="w-24 h-24 flex items-center justify-center rounded-full mx-auto shadow-lg border-4 border-white bg-indigo-50">
+                            <svg class="w-12 h-12 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                         </div>
+                        <h4 class="text-lg font-bold text-gray-800 mb-2 mt-4">End-to-End Encryption</h4>
+                        <p class="text-gray-600 text-sm">Your private notes, photos, and conversations are encrypted on your device and remain encrypted in the cloud.</p>
+                    </div>
+                    <div class="w-1/3 px-4">
+                         <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTAwNXwwfDF8c2VhcmNofDEwfHx1c2VyJTIwaW50ZXJmYWNlfGVufDB8fHx8MTcyOTk5Mzc2NHww&ixlib=rb-4.0.3&q=80&w=200" class="w-24 h-24 object-cover rounded-full mx-auto shadow-lg border-4 border-white"/>
+                        <h4 class="text-lg font-bold text-gray-800 mb-2 mt-4">User-Controlled Data</h4>
+                        <p class="text-gray-600 text-sm">You own your data. We provide simple tools to manage or permanently delete your entire visit history at any time.</p>
+                    </div>
+                    <div class="w-1/3 px-4">
+                        <div class="w-24 h-24 flex items-center justify-center rounded-full mx-auto shadow-lg border-4 border-white bg-indigo-50">
+                            <svg class="w-12 h-12 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
+                        </div>
+                        <h4 class="text-lg font-bold text-gray-800 mb-2 mt-4">Secure Infrastructure</h4>
+                        <p class="text-gray-600 text-sm">Built on trusted, industry-leading cloud platforms with robust, multi-layered security protocols.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 10: Technology: Recommendation -->
+            <div class="slide w-full h-full p-12 flex-col justify-center items-center bg-gray-50">
+                <h2 class="text-sm font-semibold text-indigo-600 uppercase mb-2">Deep Tech (3/4)</h2>
+                <h3 class="text-3xl font-bold text-gray-800 mb-6">Smart Recommendation Engine</h3>
+                <p class="text-center text-gray-600 max-w-4xl mb-8 text-base">Our AI proactively learns your unique preferences through conversation, then uses a multi-stage process to find homes that match your nuanced needs—far beyond simple filters.</p>
+                 <div class="w-full max-w-5xl relative flex flex-col items-center">
+                    <div class="flex items-start justify-around w-full">
+                        <div class="text-center w-32">
+                            <div class="bg-white p-3 rounded-lg shadow-lg border border-gray-200 h-24 flex flex-col justify-center">
+                                <h4 class="font-bold text-sm text-gray-800">User Data</h4>
+                                <p class="text-xs text-gray-500 mt-1">(Notes, Chat)</p>
+                            </div>
+                        </div>
+                        <div class="w-12 text-center pt-8"><svg class="w-8 h-8 text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></div>
+                        <div class="text-center w-32">
+                           <div class="bg-white p-3 rounded-lg shadow-lg border border-gray-200 h-24 flex flex-col justify-center">
+                                <h4 class="font-bold text-sm text-gray-800">LLM Summary</h4>
+                                <p class="text-xs text-gray-500 mt-1">(Preferences)</p>
+                            </div>
+                        </div>
+                        <div class="w-12 text-center pt-8"><svg class="w-8 h-8 text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></div>
+                        <div class="text-center w-32">
+                           <div class="bg-white p-3 rounded-lg shadow-lg border border-gray-200 h-24 flex flex-col justify-center">
+                                <h4 class="font-bold text-sm text-gray-800">Embedding Match</h4>
+                                <p class="text-xs text-gray-500 mt-1">(Semantic Search)</p>
+                            </div>
+                        </div>
+                        <div class="w-12 text-center pt-8"><svg class="w-8 h-8 text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></div>
+                        <div class="text-center w-32">
+                           <div class="bg-white p-3 rounded-lg shadow-lg border border-gray-200 h-24 flex flex-col justify-center">
+                                <h4 class="font-bold text-sm text-gray-800">Keyword Filter</h4>
+                                <p class="text-xs text-gray-500 mt-1">(Refinement)</p>
+                            </div>
+                        </div>
+                         <div class="w-12 text-center pt-8"><svg class="w-8 h-8 text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></div>
+                        <div class="text-center w-32">
+                           <div class="bg-white p-3 rounded-lg shadow-lg border border-gray-200 h-24 flex flex-col justify-center">
+                                <h4 class="font-bold text-sm text-gray-800">Recommendations</h4>
+                                <p class="text-xs text-gray-500 mt-1">(Ranked List)</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="w-full mt-2 relative" style="height: 50px;">
+                        <svg width="100%" height="100%" viewBox="0 0 600 50" preserveAspectRatio="none">
+                             <defs>
+                                <marker id="arrowhead-feedback-correct" markerWidth="5" markerHeight="4" refX="0" refY="2" orient="auto-start-reverse">
+                                    <polygon points="0 0, 5 2, 0 4" fill="#A5B4FC" />
+                                </marker>
+                            </defs>
+                             <path d="M550 10 V 30 H 50 V 10" stroke="#A5B4FC" stroke-width="2" stroke-dasharray="4 4" fill="none" marker-end="url(#arrowhead-feedback-correct)"/>
+                        </svg>
+                        <p class="absolute w-full text-center text-sm font-semibold text-indigo-600" style="bottom: 0px;">Conversational Refinement & Feedback Loop</p>
+                     </div>
+                 </div>
+            </div>
+
+            <!-- Slide 11: Deep Tech (4/4) — CLEAR FLOW -->
+            <div class="slide w-full h-full p-6 md:p-8 bg-gray-50 flex flex-col items中心 justify-center relative">
+            <h2 class="text-sm font-semibold text-indigo-600 uppercase mb-2">Deep Tech (4/4)</h2>
+            <h3 class="text-3xl font-bold text-gray-800 mb-4 text-center">HomeSeek Architecture: From Signals → Decisions</h3>
+
+            <!-- MAIN WRAP -->
+            <div class="w-full max-w-6xl h-full flex flex-col gap-4 relative z-20">
+
+                <!-- TOP: 3-COLUMN LAYOUT (Inputs → Intelligence → Outputs) -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+                <!-- INPUTS -->
+                <div class="bg-white rounded-xl shadow-md border border-gray-200 p-4">
+                    <div class="flex items-center justify-between mb-2">
+                    <div class="inline-flex items-center gap-2">
+                        <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-indigo-600 text-white text-[10px] font-bold">1</span>
+                        <span class="text-[11px] font-semibold uppercase tracking-wide text-indigo-700">Signals</span>
+                    </div>
+                    <span class="text-[11px] text-gray-500">Realtime & Batch</span>
+                    </div>
+                    <ul class="text-xs md:text-sm text-gray-700 space-y-2">
+                    <li class="flex items-start gap-2"><span class="mt-1 w-1.5 h-1.5 rounded-full bg-indigo-500"></span> Browse events, filters, favorites</li>
+                    <li class="flex items-start gap-2"><span class="mt-1 w-1.5 h-1.5 rounded-full bg-indigo-500"></span> Visit media: notes, photos, audio, video</li>
+                    <li class="flex items-start gap-2"><span class="mt-1 w-1.5 h-1.5 rounded-full bg-indigo-500"></span> Chat prompts (preferences, constraints)</li>
+                    <li class="flex items-start gap-2"><span class="mt-1 w-1.5 h-1.5 rounded-full bg-indigo-500"></span> Housing DB: listings, market stats, comps</li>
+                    </ul>
+
+                    <!-- FOUNDATION DATA -->
+                    <div class="mt-3 grid grid-cols-3 gap-2">
+                    <div class="bg-indigo-50 border border-indigo-100 rounded-md p-2 text-center">
+                        <p class="text-[10px] font-semibold text-indigo-700 uppercase">Visit Media</p>
+                        <p class="text-[10px] text-gray-600">S3 / Blob</p>
+                    </div>
+                    <div class="bg-indigo-50 border border-indigo-100 rounded-md p-2 text-center">
+                        <p class="text-[10px] font-semibold text-indigo-700 uppercase">Chat + Prefs</p>
+                        <p class="text-[10px] text-gray-600">Logs / Vectors</p>
+                    </div>
+                    <div class="bg-indigo-50 border border-indigo-100 rounded-md p-2 text-center">
+                        <p class="text-[10px] font-semibold text-indigo-700 uppercase">Housing DB</p>
+                        <p class="text-[10px] text-gray-600">SQL + Vector</p>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- INTELLIGENCE / PIPELINE -->
+                <div class="bg-white rounded-xl shadow-md border-2 border-indigo-300 p-4">
+                    <div class="flex items-center justify-between mb-2">
+                    <div class="inline-flex items-center gap-2">
+                        <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-indigo-600 text-white text-[10px] font-bold">2</span>
+                        <span class="text-[11px] font-semibold uppercase tracking-wide text-indigo-700">Intelligence Pipeline</span>
+                    </div>
+                    <span class="text-[11px] text-gray-500">Latency: ~250–800ms</span>
+                    </div>
+
+                    <!-- PIPE STAGES -->
+                    <div class="space-y-2">
+                    <!-- STAGE A -->
+                    <div class="rounded-lg border border-gray-200 p-3">
+                        <div class="flex items-center justify-between">
+                        <p class="text-sm font-semibold text-gray-800">Multimodal Ingest & Index</p>
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 text-gray-600">GPU/CPU</span>
+                        </div>
+                        <p class="text-xs text-gray-600 mt-1">ASR (audio), OCR (images), EXIF; chunking; embeddings.</p>
+                        <div class="mt-2 flex flex-wrap gap-1">
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-50 text-indigo-700">Whisper/ASR</span>
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-50 text-indigo-700">CLIP/ViT</span>
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-50 text-indigo-700">OpenAI/Instructor</span>
+                        </div>
+                    </div>
+
+                    <!-- ARROW -->
+                    <div class="flex justify-center -my-1">
+                        <svg class="w-8 h-8 text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m0 0l-4-4m4 4l-4 4"/></svg>
+                    </div>
+
+                    <!-- STAGE B -->
+                    <div class="rounded-lg border border-gray-200 p-3">
+                        <div class="flex items-center justify-between">
+                        <p class="text-sm font-semibold text-gray-800">Context Retrieval (RAG)</p>
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 text-gray-600">P95 ~150ms</span>
+                        </div>
+                        <p class="text-xs text-gray-600 mt-1">Hybrid search (BM25 + Vector); metadata filters; fresh-cache.</p>
+                        <div class="mt-2 flex flex-wrap gap-1">
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-50 text-indigo-700">FAISS/pgvector</span>
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-50 text-indigo-700">Cohere Rerank</span>
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-50 text-indigo-700">TTL Cache</span>
+                        </div>
+                    </div>
+
+                    <!-- ARROW -->
+                    <div class="flex justify-center -my-1">
+                        <svg class="w-8 h-8 text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m0 0l-4-4m4 4l-4 4"/></svg>
+                    </div>
+
+                    <!-- STAGE C -->
+                    <div class="rounded-lg border border-gray-200 p-3">
+                        <div class="flex items-center justify-between">
+                        <p class="text-sm font-semibold text-gray-800">Agent Orchestration</p>
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 text-gray-600">Deterministic Graph</span>
+                        </div>
+                        <p class="text-xs text-gray-600 mt-1">Tool routing → planning → verification; guardrails & evals.</p>
+                        <div class="mt-2 flex flex-wrap gap-1">
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-50 text-indigo-700">LangGraph/MCP</span>
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-50 text-indigo-700">JSON Schemas</span>
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-50 text-indigo-700">Self-Checks</span>
+                        </div>
+                    </div>
+
+                    <!-- ARROW -->
+                    <div class="flex justify-center -my-1">
+                        <svg class="w-8 h-8 text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m0 0l-4-4m4 4l-4 4"/></svg>
+                    </div>
+
+                    <!-- STAGE D -->
+                    <div class="rounded-lg border border-gray-200 p-3">
+                        <div class="flex items-center justify-between">
+                        <p class="text-sm font-semibold text-gray-800">Ranking & Decisioning</p>
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 text-gray-600">Explore/Exploit</span>
+                        </div>
+                        <p class="text-xs text-gray-600 mt-1">Re-rank by fit (price, layout, commute); feedback loop updates profile.</p>
+                        <div class="mt-2 flex flex-wrap gap-1">
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-50 text-indigo-700">ReRank</span>
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-50 text-indigo-700">Bandits</span>
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-50 text-indigo-700">Preference Vectors</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- OUTPUTS -->
+                <div class="bg-white rounded-xl shadow-md border border-gray-200 p-4">
+                    <div class="flex items-center justify-between mb-2">
+                    <div class="inline-flex items-center gap-2">
+                        <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-indigo-600 text-white text-[10px] font-bold">3</span>
+                        <span class="text-[11px] font-semibold uppercase tracking-wide text-indigo-700">User Outcomes</span>
+                    </div>
+                    <span class="text-[11px] text-gray-500">Real-time UX</span>
+                    </div>
+                    <ul class="text-xs md:text-sm text-gray-700 space-y-2">
+                    <li class="flex items-start gap-2"><span class="mt-1 w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Ranked recommendations & “why” explanations</li>
+                    <li class="flex items-start gap-2"><span class="mt-1 w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Conversational Q&A grounded in your visits</li>
+                    <li class="flex items-start gap-2"><span class="mt-1 w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Side-by-side comparisons & next-best actions</li>
+                    </ul>
+
+                    <div class="mt-3 grid grid-cols-2 gap-2">
+                    <div class="bg-emerald-50 border border-emerald-100 rounded-md p-2 text-center">
+                        <p class="text-[10px] font-semibold text-emerald-700 uppercase">P95 Latency</p>
+                        <p class="text-[12px] font-bold text-emerald-800">≤ 800ms</p>
+                    </div>
+                    <div class="bg-emerald-50 border border-emerald-100 rounded-md p-2 text-center">
+                        <p class="text-[10px] font-semibold text-emerald-700 uppercase">Grounding</p>
+                        <p class="text-[12px] font-bold text-emerald-800">RAG + Re-rank</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <!-- MIDDLE STRIP: SECURITY & PRIVACY -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                <div class="bg-gray-100 border border-gray-200 rounded-lg p-3">
+                    <p class="text-[11px] font-semibold text-gray-700 uppercase">Privacy</p>
+                    <p class="text-xs text-gray-600">User-owned data, deletion APIs, least-privilege access.</p>
+                </div>
+                <div class="bg-gray-100 border border-gray-200 rounded-lg p-3">
+                    <p class="text-[11px] font-semibold text-gray-700 uppercase">Security</p>
+                    <p class="text-xs text-gray-600">E2E encryption in transit + at rest; KMS-managed keys.</p>
+                </div>
+                <div class="bg-gray-100 border border-gray-200 rounded-lg p-3">
+                    <p class="text-[11px] font-semibold text-gray-700 uppercase">Safety & Evals</p>
+                    <p class="text-xs text-gray-600">Prompt guardrails, red-team tests, unit/e2e RAG evals.</p>
+                </div>
+                </div>
+
+                <!-- BOTTOM: STACK CHIPS (kept commented) -->
+            </div>
+
+            <!-- (Optional decorative SVG layer preserved if needed) -->
+            <svg class="absolute inset-0 w-full h-full pointer-events-none z-10" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid meet"></svg>
+            </div>
+
+            <!-- NEW Slide 12: Achievements + Demo Image -->
+            <div class="slide w-full h-full p-10 bg-white flex-col justify-center">
+                <h2 class="text-sm font-semibold text-indigo-600 uppercase mb-2 text-center">What We’ve Achieved</h2>
+                <h3 class="text-3xl md:text-4xl font-bold text-gray-800 mb-8 text-center">Traction & Live Demo Preview</h3>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start max-w-screen-xl mx-auto">
+                    <!-- Achievements list -->
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3">
+                            <span class="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-emerald-700 text-xs font-bold">1</span>
+                            <p class="text-gray-700"><span class="font-semibold">Private Image and Discussion database:</span> record the buyer's visiting experience.</p>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-emerald-700 text-xs font-bold">2</span>
+                            <p class="text-gray-700"><span class="font-semibold">Customized Q&A:</span> RAG over personal visiting record and housing information.</p>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-emerald-700 text-xs font-bold">3</span>
+                            <p class="text-gray-700"><span class="font-semibold">Customized Recommendation:</span> Photos + voice notes auto-transcribed (Whisper) and indexed for recall.</p>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-emerald-700 text-xs font-bold">4</span>
+                            <p class="text-gray-700"><span class="font-semibold">Mobile Prototype:</span> Building the IOS and Android App currently.</p>
+                        </div>
+                    </div>
+
+                    <!-- Demo Image (responsive SVG of chat-based agent) -->
+                    <div class="bg-gray-50 border border-gray-200 rounded-2xl shadow-lg p-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <p class="text-sm font-semibold text-gray-800">Demo Preview — Home Seek AI</p>
+                            <span class="text-xs text-gray-500">Interactive concept</span>
+                        </div>
+                        <div class="w-full">
+                            <svg viewBox="0 0 640 420" class="w-full h-auto" role="img" aria-label="Chat demo with buyer and HomeSeek AI">
+                                <!-- Phone body -->
+                                <defs>
+                                    <linearGradient id="phone" x1="0" y1="0" x2="1" y2="1">
+                                        <stop offset="0%" stop-color="#eef2ff"/>
+                                        <stop offset="100%" stop-color="#e5e7eb"/>
+                                    </linearGradient>
+                                    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+                                        <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#00000022"/>
+                                    </filter>
+                                </defs>
+                                <g transform="translate(120,10)">
+                                    <rect x="0" y="0" rx="28" ry="28" width="400" height="400" fill="url(#phone)" stroke="#d1d5db" filter="url(#shadow)"/>
+                                    <!-- Notch / top bar -->
+                                    <rect x="140" y="10" width="120" height="8" rx="4" fill="#9ca3af"/>
+                                    <!-- Screen -->
+                                    <rect x="12" y="28" width="376" height="360" rx="20" fill="#ffffff" stroke="#e5e7eb"/>
+
+                                    <!-- Header -->
+                                    <g transform="translate(24,44)">
+                                        <circle cx="14" cy="14" r="10" fill="#4f46e5"/>
+                                        <text x="34" y="18" font-size="14" font-weight="700" fill="#111827">HomeSeek AI</text>
+                                        <text x="34" y="34" font-size="10" fill="#6b7280">Online · grounded on your visits</text>
+                                    </g>
+
+                                    <!-- Messages -->
+                                    <!-- Buyer message -->
+                                    <g transform="translate(24,84)">
+                                        <rect x="120" y="0" rx="12" ry="12" width="220" height="52" fill="#e5e7eb"/>
+                                        <text x="132" y="20" font-size="12" fill="#111827">Buyer:</text>
+                                        <text x="132" y="36" font-size="12" fill="#111827">Show 3-bed homes with big kitchens</text>
+                                    </g>
+
+                                    <!-- AI response 1 -->
+                                    <g transform="translate(24,150)">
+                                        <rect x="0" y="0" rx="12" ry="12" width="290" height="70" fill="#eef2ff" stroke="#c7d2fe"/>
+                                        <text x="12" y="22" font-size="12" fill="#111827">HomeSeek AI:</text>
+                                        <text x="12" y="38" font-size="12" fill="#111827">Based on your notes, 123 Maple St &</text>
+                                        <text x="12" y="54" font-size="12" fill="#111827">789 Pine Ln match your preferences.</text>
+                                    </g>
+
+                                    <!-- Cards preview -->
+                                    <g transform="translate(24,232)">
+                                        <rect x="0" y="0" width="110" height="78" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+                                        <rect x="0" y="0" width="110" height="48" rx="10" fill="#c7d2fe"/>
+                                        <text x="8" y="64" font-size="11" fill="#111827">123 Maple St</text>
+                                        <text x="8" y="76" font-size="10" fill="#6b7280">$1.25M · 3bd</text>
+
+                                        <rect x="122" y="0" width="110" height="78" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+                                        <rect x="122" y="0" width="110" height="48" rx="10" fill="#a5b4fc"/>
+                                        <text x="130" y="64" font-size="11" fill="#111827">789 Pine Ln</text>
+                                        <text x="130" y="76" font-size="10" fill="#6b7280">$1.05M · 3bd</text>
+                                    </g>
+
+                                    <!-- Buyer follow-up -->
+                                    <g transform="translate(24,324)">
+                                        <rect x="160" y="0" rx="12" ry="12" width="180" height="40" fill="#e5e7eb"/>
+                                        <text x="172" y="24" font-size="12" fill="#111827">Which has the best sunlight?</text>
+                                    </g>
+
+                                    <!-- AI short answer -->
+                                    <g transform="translate(24,324)">
+                                        <rect x="0" y="-50" rx="12" ry="12" width="240" height="38" fill="#eef2ff" stroke="#c7d2fe"/>
+                                        <text x="12" y="-28" font-size="12" fill="#111827">Maple St — south-facing kitchen ☀️</text>
+                                    </g>
+
+                                    <!-- Input bar -->
+                                    <g transform="translate(24,364)">
+                                        <rect x="0" y="0" width="300" height="28" rx="14" fill="#f3f4f6" stroke="#e5e7eb"/>
+                                        <text x="12" y="19" font-size="11" fill="#9ca3af">Ask anything…</text>
+                                        <rect x="308" y="0" width="80" height="28" rx="14" fill="#4f46e5"/>
+                                        <text x="336" y="19" font-size="11" fill="#ffffff">Send</text>
+                                    </g>
+                                </g>
+
+                                <!-- Caption -->
+                                <text x="320" y="410" text-anchor="middle" font-size="12" fill="#6b7280">
+                                    Chat-based agent grounded in your visits, photos & notes
+                                </text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 14: Market Opportunity -->
+            <div class="slide w-full h-full p-12 flex-col justify-center">
+                <h2 class="text-sm font-semibold text-indigo-600 uppercase mb-4 text-center">Market Opportunity</h2>
+                <h3 class="text-4xl font-bold text-gray-800 mb-8 text-center">Empowering Millions of Buyers</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="bg-indigo-50 p-6 rounded-lg border-l-4 border-indigo-500">
+                        <p class="text-5xl font-bold text-indigo-700">600k+</p>
+                        <p class="text-gray-600 mt-2">Homes sold annually in Canada, representing millions of individual buyer journeys. (Source: CREA)</p>
+                    </div>
+                    <div class="bg-indigo-50 p-6 rounded-lg border-l-4 border-indigo-500">
+                        <p class="text-5xl font-bold text-indigo-700">90%</p>
+                        <p class="text-gray-600 mt-2">Of buyers now use the internet in their home search, showing a demand for digital tools. (Source: NAR)</p>
+                    </div>
+                    <div class="bg-indigo-50 p-6 rounded-lg border-l-4 border-indigo-500">
+                        <p class="text-5xl font-bold text-indigo-700">$2.3 B</p>
+                        <p class="text-gray-600 mt-2">Total addressable market for buyer-centric real estate software and services in North America.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide X: Market Potential (compact) -->
+            <div class="slide w-full h-full overflow-hidden bg-white">
+                <div class="w-full h-full px-6 py-8 md:px-10 md:py-10 flex flex-col items-center">
+                    <h2 class="text-xs md:text-sm font-semibold text-indigo-600 uppercase tracking-wide mb-1">Market Potential</h2>
+                    <h3 class="text-2xl md:text-4xl font-bold text-gray-800 mb-5 text-center leading-tight">Where Seek Homes Wins First</h3>
+
+                    <!-- Top stat cards -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3 w-full max-w-screen-lg mb-5">
+                    <div class="bg-indigo-50 rounded-xl border border-indigo-100 p-4 md:p-5 min-w-0">
+                        <p class="text-[10px] md:text-xs uppercase tracking-wide text-indigo-700 font-semibold">Brokerage Market (Annual)</p>
+                        <div class="flex items-end gap-2 mt-1.5">
+                        <p class="text-3xl md:text-4xl font-extrabold text-indigo-800">$225B</p>
+                        <p class="text-[10px] md:text-xs text-indigo-700">(US $206B + CA $19B)</p>
+                        </div>
+                    </div>
+                    <div class="bg-indigo-50 rounded-xl border border-indigo-100 p-4 md:p-5 min-w-0">
+                        <p class="text-[10px] md:text-xs uppercase tracking-wide text-indigo-700 font-semibold">PropTech Market</p>
+                        <div class="flex items-end gap-2 mt-1.5">
+                        <p class="text-3xl md:text-4xl font-extrabold text-indigo-800">$16B+</p>
+                        <p class="text-[10px] md:text-xs text-indigo-700">North America</p>
+                        </div>
+                    </div>
+                    <div class="bg-indigo-50 rounded-xl border border-indigo-100 p-4 md:p-5 min-w-0">
+                        <p class="text-[10px] md:text-xs uppercase tracking-wide text-indigo-700 font-semibold">Digital Buyers</p>
+                        <div class="flex items-end gap-2 mt-1.5">
+                        <p class="text-3xl md:text-4xl font-extrabold text-indigo-800">90%</p>
+                        <p class="text-[10px] md:text-xs text-indigo-700">start online</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <!-- Visuals: TAM / SAM / SOM bars + donut -->
+                    <div class="w-full max-w-screen-lg grid grid-cols-1 lg:grid-cols-2 gap-4 items-stretch">
+                    <!-- Bar chart -->
+                    <div class="bg-white border border-gray-200 rounded-2xl shadow p-4 md:p-5 min-w-0">
+                        <div class="flex items-center justify-between mb-2">
+                        <p class="font-semibold text-gray-800 text-sm md:text-base">TAM → SAM → SOM (Year 3)</p>
+                        <p class="text-[10px] md:text-xs text-gray-500">Illustrative based on adoption scenarios</p>
+                        </div>
+                        <svg viewBox="0 0 520 220" class="w-full h-48 md:h-56 block"
+                            preserveAspectRatio="xMidYMid meet">
+                        <!-- axes -->
+                        <line x1="60" y1="190" x2="500" y2="190" stroke="#E5E7EB" stroke-width="1"/>
+                        <line x1="60" y1="30" x2="60" y2="190" stroke="#E5E7EB" stroke-width="1"/>
+                        <!-- labels -->
+                        <text x="60" y="205" font-size="9" fill="#6B7280">0</text>
+                        <text x="150" y="205" font-size="9" fill="#6B7280">50B</text>
+                        <text x="240" y="205" font-size="9" fill="#6B7280">100B</text>
+                        <text x="330" y="205" font-size="9" fill="#6B7280">150B</text>
+                        <text x="420" y="205" font-size="9" fill="#6B7280">200B</text>
+                        <text x="490" y="205" font-size="9" fill="#6B7280">225B</text>
+
+                        <!-- bars -->
+                        <!-- TAM: $225B -->
+                        <rect x="60" y="40" width="430" height="32" fill="#EEF2FF" stroke="#C7D2FE"/>
+                        <text x="65" y="60" font-size="11" fill="#4F46E5" font-weight="600">TAM (US+CA Brokerage)</text>
+                        <text x="460" y="60" font-size="11" fill="#4F46E5" text-anchor="end">$225B</text>
+
+                        <!-- SAM: ~$12B -->
+                        <rect x="60" y="90" width="230" height="32" fill="#C7D2FE" />
+                        <text x="65" y="110" font-size="11" fill="#3730A3" font-weight="600">SAM (Buyer tools &amp; AI)</text>
+                        <text x="288" y="110" font-size="11" fill="#3730A3" text-anchor="end">~$12B</text>
+
+                        <!-- SOM: ~$144M -->
+                        <rect x="60" y="140" width="90" height="32" fill="#818CF8" />
+                        <text x="65" y="160" font-size="11" fill="#1F2937" font-weight="600">SOM (Yr3 target)</text>
+                        <text x="155" y="160" font-size="11" fill="#1F2937" text-anchor="end">~$144M</text>
+                        </svg>
+                        <p class="text-[10px] md:text-[11px] text-gray-500 mt-2 leading-snug">
+                        Assumptions: 8–10% of brokerage value attributed to buyer enablement software &amp; AI services; Yr3 capture assumes 1.2% penetration via freemium + B2B2C agent partnerships.
+                        </p>
+                    </div>
+
+                    <!-- Donut: Revenue mix -->
+                    <div class="bg-white border border-gray-200 rounded-2xl shadow p-4 md:p-5 min-w-0">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm md:text-base">Illustrative Year-3 Revenue Mix</p>
+                        <div class="w-full flex justify-center">
+                        <svg viewBox="0 0 220 220" class="w-56 md:w-64 h-56 md:h-64"
+                            preserveAspectRatio="xMidYMid meet">
+                            <defs>
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#A5B4FC" />
+                                <stop offset="100%" style="stop-color:#6366F1" />
+                            </linearGradient>
+                            </defs>
+                            <circle cx="110" cy="110" r="90" fill="none" stroke="#E5E7EB" stroke-width="22"/>
+                            <!-- segments -->
+                            <circle cx="110" cy="110" r="90" fill="none" stroke="url(#grad1)" stroke-width="22" stroke-dasharray="220 565" transform="rotate(-90 110 110)"/>
+                            <circle cx="110" cy="110" r="90" fill="none" stroke="#C7D2FE" stroke-width="22" stroke-dasharray="170 615" transform="rotate(35 110 110)"/>
+                            <circle cx="110" cy="110" r="90" fill="none" stroke="#818CF8" stroke-width="22" stroke-dasharray="110 675" transform="rotate(120 110 110)"/>
+                            <text x="110" y="114" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">$144M</text>
+                            <text x="110" y="132" text-anchor="middle" font-size="10" fill="#6B7280">Yr3 SOM</text>
+                        </svg>
+                        </div>
+
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-2 text-[11px] md:text-xs mt-3">
+                        <div class="flex items-center gap-2">
+                            <span class="inline-block w-3 h-3 rounded-full" style="background:#6366F1"></span>
+                            <p class="leading-snug">Subscriptions (Pro + Teams) — 39%</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="inline-block w-3 h-3 rounded-full" style="background:#C7D2FE"></span>
+                            <p class="leading-snug">B2B Partnerships (Brokerages) — 30%</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="inline-block w-3 h-3 rounded-full" style="background:#818CF8"></span>
+                            <p class="leading-snug">Transaction Services &amp; Premium Data — 31%</p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <!-- Footnotes -->
+                    <div class="text-[10px] md:text-[11px] text-gray-500 mt-5 text-center max-w-prose">
+                    Sources: [1] US brokerage market ≈ $206B; [2] Canada ≈ $19B; [3] NA PropTech ≈ $16B. Figures indicative; detailed model available on request.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 15: Business Model (commented) -->
+            <!-- ... -->
+            <!-- Slide 16: The Team (commented) -->
+            <!-- ... -->
+
+            <!-- NEW FINAL SLIDE: The Team -->
+            <div class="slide w-full h-full p-12 flex-col justify-center items-center bg-white">
+                <h2 class="text-sm font-semibold text-indigo-600 uppercase mb-2 text-center">The Team</h2>
+                <h3 class="text-3xl md:text-4xl font-bold text-gray-800 mb-8 text-center">Builders Behind HomeSeek</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto w-full">
+                    <!-- Xiaoxiao Li -->
+                    <div class="bg-white border border-gray-200 rounded-2xl shadow p-6 flex flex-col items-center text-center">
+                        <div class="w-16 h-16 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-700 font-bold text-xl mb-3">XL</div>
+                        <p class="font-semibold text-gray-900">Xiaoxiao Li</p>
+                        <p class="text-sm text-gray-600">Co-founder and CEO</p>
+                    </div>
+                    <!-- Chunhua Wu -->
+                    <div class="bg-white border border-gray-200 rounded-2xl shadow p-6 flex flex-col items-center text-center">
+                        <div class="w-16 h-16 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-700 font-bold text-xl mb-3">CW</div>
+                        <p class="font-semibold text-gray-900">Chunhua Wu</p>
+                        <p class="text-sm text-gray-600">Advisory Board Member</p>
+                    </div>
+                    <!-- Qingyun Wang -->
+                    <div class="bg-white border border-gray-200 rounded-2xl shadow p-6 flex flex-col items-center text-center">
+                        <div class="w-16 h-16 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-700 font-bold text-xl mb-3">QW</div>
+                        <p class="font-semibold text-gray-900">Qingyun Wang</p>
+                        <p class="text-sm text-gray-600">Technical Staff</p>
+                    </div>
+                    <!-- Ruinan Jin -->
+                    <div class="bg-white border border-gray-200 rounded-2xl shadow p-6 flex flex-col items-center text-center">
+                        <div class="w-16 h-16 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-700 font-bold text-xl mb-3">RJ</div>
+                        <p class="font-semibold text-gray-900">Ruinan Jin</p>
+                        <p class="text-sm text-gray-600">Co-founder and CTO</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Navigation -->
+        <div class="absolute bottom-4 left-4 text-sm text-gray-400" id="slide-counter">1 / 17</div>
+
+        <!-- Hover-to-reveal navigation zones -->
+        <div class="absolute inset-y-0 left-0 w-24 flex items-center z-10 opacity-0 hover:opacity-100 transition">
+            <button id="prev" class="ml-4 bg-black bg-opacity-25 text-white p-2 rounded-full hover:bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-white">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+            </button>
+        </div>
+        <div class="absolute inset-y-0 right-0 w-24 flex items-center justify-end z-10 opacity-0 hover:opacity-100 transition">
+            <button id="next" class="mr-4 bg-black bg-opacity-25 text-white p-2 rounded-full hover:bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-white">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Get all necessary elements from the DOM
+        const slides = document.querySelectorAll('.slide');
+        const prevButton = document.getElementById('prev');
+        const nextButton = document.getElementById('next');
+        const slideCounter = document.getElementById('slide-counter');
+        
+        let currentSlide = 0;
+        const totalSlides = slides.length;
+
+        function showSlide(slideIndex) {
+            slides.forEach(slide => {
+                slide.classList.remove('active', 'fade-in');
+            });
+
+            const targetSlide = slides[slideIndex];
+            if (targetSlide) {
+                targetSlide.classList.add('active', 'fade-in');
+            }
+            
+            slideCounter.textContent = `${slideIndex + 1} / ${totalSlides}`;
+        }
+
+        nextButton.addEventListener('click', () => {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            showSlide(currentSlide);
+        });
+
+        prevButton.addEventListener('click', () => {
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            showSlide(currentSlide);
+        });
+        
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') {
+                nextButton.click();
+            } else if (e.key === 'ArrowLeft') {
+                prevButton.click();
+            }
+        });
+
+        const safeBlur = (btn) => {
+            if (!btn) return;
+            btn.addEventListener('mouseup', () => btn.blur(), { passive: true });
+            btn.addEventListener('touchend', () => btn.blur(), { passive: true });
+        };
+        safeBlur(nextButton);
+        safeBlur(prevButton);
+
+        showSlide(currentSlide);
+    </script>
+
+</body>
+</html>
