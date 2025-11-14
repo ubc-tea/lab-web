@@ -15,7 +15,7 @@ export default function News(props) {
   const news = [
     {
       title:
-        "[10/2025] Honored to receive the Gemini Academic Program Award—thank you to Google for the support.",
+        "[10/2025] Honored to receive the Gemini Academic Program Award. Thank you to Google for the support.",
     },
     {
       title:
