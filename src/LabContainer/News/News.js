@@ -15,6 +15,10 @@ export default function News(props) {
   const news = [
     {
       title:
+        "[010/2025] We received Amazon Research Award and Gemini Academic Program Award.",
+    },
+    {
+      title:
         "[09/2025] Four papers are accepted by NeurIPS 2025.",
     },
     {
