@@ -14,8 +14,8 @@ export default function News(props) {
     
   const news = [
     {title:
-      "NVIDIA Academic Grant"
-    }
+      "[12/2025] Honored to receive the NVIDIA Academic Grant. Thank you to NVIDIA for the support."
+    },
     {
       title:
         "[10/2025] Honored to receive the Gemini Academic Program Award. Thank you to Google for the support.",
