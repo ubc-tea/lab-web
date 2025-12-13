@@ -13,6 +13,9 @@ export default function News(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
     
   const news = [
+    {title:
+      "NVIDIA Academic Grant"
+    }
     {
       title:
         "[10/2025] Honored to receive the Gemini Academic Program Award. Thank you to Google for the support.",
