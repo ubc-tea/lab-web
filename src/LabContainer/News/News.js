@@ -13,6 +13,10 @@ export default function News(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
     
   const news = [
+    {
+      title:
+        "[01/2026] Two papers are accepted by ICLR 2026.",
+    },
     {title:
       "[12/2025] Honored to receive the NVIDIA Academic Grant. Thank you to NVIDIA for the support."
     },
