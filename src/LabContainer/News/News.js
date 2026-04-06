@@ -19,7 +19,7 @@ export default function News(props) {
     },
     {
       title:
-        "[03/2025] Honored to receive the Amazon Research Award. Thank you to Amazon for the support.",
+        "[03/2026] Honored to receive the Amazon Research Award. Thank you to Amazon for the support.",
     },
     {
       title:
