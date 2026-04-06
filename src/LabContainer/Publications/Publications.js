@@ -13,6 +13,28 @@ export default function Publications(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const publications = [
+
+                  {
+    title:
+     "Efficient Forward-Only Data Valuation for Pretrained LLMs and VLMs",
+    author: "Deng, W., Zhang, J., Zeng, Q., Thrampoulidis, C., Gong, B., & Li, X. ",
+    journal: "ACL 2026",
+    link: "https://arxiv.org/abs/2508.10180"
+  },
+                    {
+    title:
+     "Textual equilibrium propagation for deep compound AI systems",
+    author: "Chen, M., Deng, W., Zou, J., Yu, H., & Li, X. ",
+    journal: "ICLR 2026",
+    link: "https://arxiv.org/pdf/2601.21064"
+  },
+                    {
+    title:
+     "Token hidden reward: Steering exploration–exploitation in group relative deep reinforcement learning",
+    author: "Deng, W., Ren, Y., Li, Y., Gong, B., Sutherland, D. J., Li, X.*, & Thrampoulidis, C. *.  ",
+    journal: "ICLR 2026",
+    link: "https://arxiv.org/pdf/2510.03669"
+  },
                 {
     title:
      "S4M: S4 for multivariate time series forecasting with Missing values",
