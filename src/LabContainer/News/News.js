@@ -15,7 +15,19 @@ export default function News(props) {
   const news = [
     {
       title:
-        "[01/2026] Two papers are accepted by ICLR 2026.",
+        "[04/2026] One paper (Data Valuation) is accepted by ACL 2026.",
+    },
+    {
+      title:
+        "[03/2025] Honored to receive the Amazon Research Award. Thank you to Amazon for the support.",
+    },
+    {
+      title:
+        "[02/2026] One paper is accepted by Medical Image Analysis.",
+    },
+    {
+      title:
+        "[01/2026] Two papers (RL / Agent Optimization) are accepted by ICLR 2026.",
     },
     {title:
       "[12/2025] Honored to receive the NVIDIA Academic Grant. Thank you to NVIDIA for the support."
@@ -80,22 +92,22 @@ export default function News(props) {
       title:
         "[04/2024] Five papers are accepted by IJCAI 2024!",
     },
-    {
-      title:
-        "[02/2024] Our paper on federated learning with prompt tuning accepted by CVPR 2024. Congrats, Wenlong!",
-    },
-    {
-      title:
-        "[02/2024] Our paper on label efficient WSI analysis is accepted by Meidical Image Analysis!",
-    },
-    { 
-      title:
-        "[01/2024] Our paper on Heterogenous Federated Learning accepted by ICLR 2024!",
-    },
-    {
-      title:
-        "[12/2023] Our paper on backdoor attack on VLM is accepted by SaTML 2024.",
-    },
+    // {
+    //   title:
+    //     "[02/2024] Our paper on federated learning with prompt tuning accepted by CVPR 2024. Congrats, Wenlong!",
+    // },
+    // {
+    //   title:
+    //     "[02/2024] Our paper on label efficient WSI analysis is accepted by Meidical Image Analysis!",
+    // },
+    // { 
+    //   title:
+    //     "[01/2024] Our paper on Heterogenous Federated Learning accepted by ICLR 2024!",
+    // },
+    // {
+    //   title:
+    //     "[12/2023] Our paper on backdoor attack on VLM is accepted by SaTML 2024.",
+    // },
     // {
     //   title:
     //     "[09/2023] Ruinan's paper is accepted by Meidical Image Analysis!",
