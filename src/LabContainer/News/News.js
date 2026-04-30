@@ -15,6 +15,10 @@ export default function News(props) {
   const news = [
     {
       title:
+        "[04/2026] Four papers are accepted by ICML 2026.",
+    },
+    {
+      title:
         "[04/2026] One paper (Data Valuation) is accepted by ACL 2026.",
     },
     {
